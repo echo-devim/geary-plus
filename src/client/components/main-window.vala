@@ -194,6 +194,7 @@ public class MainWindow : Gtk.ApplicationWindow, Geary.BaseInterface {
         // below. However, it should work in the only case where this
         // currently used, that is when a user clicks on a
         // notification for new mail in the current folder.
+
         show_folder(folder);
         Geary.App.Conversation? conversation =
             this.conversations.get_by_email_identifier(id);

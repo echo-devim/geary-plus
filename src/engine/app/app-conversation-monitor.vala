@@ -40,6 +40,8 @@
  */
 public class Geary.App.ConversationMonitor : BaseObject {
 
+    private AntiSpam antispam_filter = new AntiSpam();
+
     /**
      * The fields Conversations require to thread emails together.
      *
@@ -672,18 +674,37 @@ public class Geary.App.ConversationMonitor : BaseObject {
         Gee.HashSet<RFC822.MessageID> new_message_ids = new Gee.HashSet<RFC822.MessageID>();
         foreach (Geary.Email email in emails) {
             if (!job.emails.has_key(email.id)) {
-                job.emails.set(email.id, email);
+                // Apply antispam filter only if we are not in the 'deleted' folder
+                if ((this.base_folder.special_folder_type != Geary.SpecialFolderType.TRASH) && (antispam_filter.is_spam(email))) {
+                    Logging.debug(Logging.Flag.CONVERSATIONS, "%s marked as spam\n", email.subject.to_searchable_string());
 
-                // Expand conversations whose messages have ancestors, and aren't marked
-                // for deletion.
-                Geary.EmailFlags? flags = email.email_flags;
-                bool marked_for_deletion = (flags != null) ? flags.is_deleted() : false;
+                    // Remove the e-mail from the remote server (IMAP)
+                    if (antispam_filter.action == "trash") {
+                        Geary.FolderSupport.Move? supports_move = this.base_folder as Geary.FolderSupport.Move;
+                        Geary.FolderPath trash_path = (yield this.base_folder.account.get_required_special_folder_async(
+                            Geary.SpecialFolderType.TRASH, null)).path;
+                        yield supports_move.move_email_async(Collection.single(email.id), trash_path, null);
+                    } else if (antispam_filter.action == "delete") {
+                        Geary.FolderSupport.Remove remove_support = this.base_folder as Geary.FolderSupport.Remove;
+                        yield remove_support.remove_email_async(
+                            Collection.single(email.id), null
+                        );
+                    }
 
-                Gee.Set<RFC822.MessageID>? ancestors = email.get_ancestors();
-                if (ancestors != null && !marked_for_deletion) {
-                    Geary.traverse<RFC822.MessageID>(ancestors)
-                        .filter(id => !new_message_ids.contains(id))
-                        .add_all_to(new_message_ids);
+                } else {
+                    job.emails.set(email.id, email);
+
+                    // Expand conversations whose messages have ancestors, and aren't marked
+                    // for deletion.
+                    Geary.EmailFlags? flags = email.email_flags;
+                    bool marked_for_deletion = (flags != null) ? flags.is_deleted() : false;
+
+                    Gee.Set<RFC822.MessageID>? ancestors = email.get_ancestors();
+                    if (ancestors != null && !marked_for_deletion) {
+                        Geary.traverse<RFC822.MessageID>(ancestors)
+                            .filter(id => !new_message_ids.contains(id))
+                            .add_all_to(new_message_ids);
+                    }
                 }
             }
         }

@@ -44,6 +44,7 @@ geary_engine_vala_sources = files(
   'api/geary-special-folder-type.vala',
 
   'app/app-conversation.vala',
+  'app/app-antispam.vala',
   'app/app-conversation-monitor.vala',
   'app/app-draft-manager.vala',
   'app/app-email-store.vala',
