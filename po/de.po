@@ -1,0 +1,3425 @@
+# po/geary.pot
+# PO message string template file for Geary email client
+# Copyright 2016 Software Freedom Conservancy Inc.
+# This file is distributed under the GNU LGPL, version 2.1.
+#
+# Translators:
+# Alexander Wilms <f.alexander.wilms@gmail.com>, 2012-2013
+# Batch10s <Batch10s@googlemail.com>, 2013
+# genix <genix@arctoz.de>, 2012
+# sycoso <jannis.friedmann@telamitto.org>, 2012
+# joey4712, 2013
+# noxan <noxan@byteweaver.net>, 2013
+# rageltus <rageltus@gmail.com>, 2012
+# Benjamin Steinwender <b@stbe.at>, 2014.
+# Wolfgang Stöggl <c72578@yahoo.de>, 2016.
+# Tim Sabsch <tim@sabsch.com>, 2019.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2016-2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: geary master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/geary/issues\n"
+"POT-Creation-Date: 2019-03-11 08:07+0000\n"
+"PO-Revision-Date: 2019-03-11 14:03+0100\n"
+"Last-Translator: Tim Sabsch <tim@sabsch.com>\n"
+"Language-Team: Deutsch <translation-team-de@lists.sourceforge.net>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: desktop/geary-attach.contract.desktop.in:3
+msgid "Send by email"
+msgstr "Als E-Mail versenden"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: desktop/geary-attach.contract.desktop.in:5
+msgid "mail-send"
+msgstr "mail-send"
+
+#: desktop/geary-attach.contract.desktop.in:6
+msgid "Send files using Geary"
+msgstr "Dateien mit Geary versenden"
+
+#. Translators: The application name
+#: desktop/geary-autostart.desktop.in:3
+#: desktop/org.gnome.Geary.appdata.xml.in:11
+#: desktop/org.gnome.Geary.desktop.in:3
+#: src/client/accounts/accounts-editor-servers-pane.vala:555
+msgid "Geary"
+msgstr "Geary"
+
+#: desktop/geary-autostart.desktop.in:4 desktop/org.gnome.Geary.desktop.in:4
+msgid "Email"
+msgstr "E-Mail"
+
+#. Translators: The application's summary / tagline
+#: desktop/geary-autostart.desktop.in:5
+#: desktop/org.gnome.Geary.appdata.xml.in:15
+#: desktop/org.gnome.Geary.desktop.in:5
+#: src/client/application/geary-application.vala:23
+msgid "Send and receive email"
+msgstr "Senden und empfangen"
+
+#. Translators: These are desktop search terms. Do not translate semicolons, end line with a semicolon.
+#: desktop/geary-autostart.desktop.in:7
+msgid "Email;E-mail;Mail;"
+msgstr "Email;E-Mail;Mail;"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: desktop/geary-autostart.desktop.in:9 desktop/org.gnome.Geary.desktop.in:9
+msgid "org.gnome.Geary"
+msgstr "org.gnome.Geary"
+
+#. Translators: The development team's name
+#: desktop/org.gnome.Geary.appdata.xml.in:13
+msgid "Geary Development Team"
+msgstr "Geary-Entwicklerteam"
+
+#: desktop/org.gnome.Geary.appdata.xml.in:17
+msgid ""
+"Geary is an email application built around conversations, for the GNOME 3 "
+"desktop. It allows you to read, find and send email with a straightforward, "
+"modern interface."
+msgstr ""
+"Geary ist ein E-Mail-Programm für GNOME 3 mit Fokus auf Konversationen. Es "
+"ermöglicht das einfache Lesen, Finden und Schreiben von E-Mails in einer "
+"übersichtlichen und modernen Benutzeroberfläche."
+
+#: desktop/org.gnome.Geary.appdata.xml.in:22
+msgid ""
+"Conversations allow you to read a complete discussion without having to find "
+"and click from message to message."
+msgstr ""
+"Konversationen ermöglichen das Lesen eines gesamten Diskussionsstrangs, ohne "
+"Nachrichten einzeln suchen zu müssen."
+
+#: desktop/org.gnome.Geary.appdata.xml.in:26
+msgid "Geary’s features include:"
+msgstr "Funktionen von Geary umfassen:"
+
+#: desktop/org.gnome.Geary.appdata.xml.in:28
+msgid "Quick email account setup"
+msgstr "Schnelle Konto-Einrichtung"
+
+#: desktop/org.gnome.Geary.appdata.xml.in:29
+msgid "Shows related messages together in conversations"
+msgstr "Verwandte Nachrichten gebündelt in Konversationen anzeigen"
+
+#: desktop/org.gnome.Geary.appdata.xml.in:30
+msgid "Fast, full text and keyword search"
+msgstr "Schnelle Volltext- und Schlüsselwortsuche"
+
+#: desktop/org.gnome.Geary.appdata.xml.in:31
+msgid "Full-featured HTML and plain text message composer"
+msgstr "Voll ausgestatteter HTML- und Klartext-Nachrichteneditor"
+
+#: desktop/org.gnome.Geary.appdata.xml.in:32
+msgid "Desktop notification of new mail"
+msgstr "Benachrichtigung bei neuer E-Mail"
+
+#: desktop/org.gnome.Geary.appdata.xml.in:33
+msgid "Compatible with GMail, Yahoo! Mail, Outlook.com and other IMAP servers"
+msgstr ""
+"Kompatibel mit GMail, Yahoo! Mail, Outlook.com und weiteren IMAP-Servern"
+
+#. Translators: A screenshot description.
+#: desktop/org.gnome.Geary.appdata.xml.in:47
+msgid "Geary displaying a conversation"
+msgstr "Geary zeigt eine Konversationsvorschau an"
+
+#. Translators: A screenshot description.
+#: desktop/org.gnome.Geary.appdata.xml.in:52
+msgid "Geary showing the rich text composer"
+msgstr "Geary zeigt den Editor für formatierten Text"
+
+#. Translators: These are desktop search terms. Do not translate semicolons, end line with a semicolon.
+#: desktop/org.gnome.Geary.desktop.in:7
+msgid "Mail;E-mail;IMAP;GMail;Yahoo;Hotmail;Outlook;"
+msgstr "Mail;E-Mail;IMAP;GMail;Yahoo;Hotmail;Outlook;"
+
+#: desktop/org.gnome.Geary.desktop.in:21
+msgid "Compose Message"
+msgstr "Nachricht verfassen"
+
+#: desktop/org.gnome.Geary.gschema.xml:8
+msgid "Maximize window"
+msgstr "Fenster maximieren"
+
+#: desktop/org.gnome.Geary.gschema.xml:9
+msgid "True if the application window is maximized, false otherwise."
+msgstr "Legt fest, ob das Anwendungsfenster maximiert werden soll."
+
+#: desktop/org.gnome.Geary.gschema.xml:14
+msgid "Width of window"
+msgstr "Breite des Fensters"
+
+#: desktop/org.gnome.Geary.gschema.xml:15
+msgid "The last recorded width of the application window."
+msgstr "Die zuletzt gespeicherte Breite des Anwendungsfensters."
+
+#: desktop/org.gnome.Geary.gschema.xml:20
+msgid "Height of window"
+msgstr "Höhe des Fensters"
+
+#: desktop/org.gnome.Geary.gschema.xml:21
+msgid "The last recorded height of the application window."
+msgstr "Die zuletzt gespeicherte Höhe des Anwendungsfensters."
+
+#: desktop/org.gnome.Geary.gschema.xml:26
+msgid "Position of folder list pane"
+msgstr "Position der Ordnerliste"
+
+#: desktop/org.gnome.Geary.gschema.xml:27
+msgid "Position of the folder list Paned grabber."
+msgstr "Position des Teilfensters mit der Ordnerliste."
+
+#: desktop/org.gnome.Geary.gschema.xml:32
+msgid "Position of folder list pane when horizontal"
+msgstr "Position der Ordnerliste im horizontalen Modus"
+
+#: desktop/org.gnome.Geary.gschema.xml:33
+msgid ""
+"Position of the folder list Paned grabber in the horizontal orientation."
+msgstr ""
+"Position des Teilfensters mit der Ordnerliste in horizontaler Ausrichtung."
+
+#: desktop/org.gnome.Geary.gschema.xml:38
+msgid "Position of folder list pane when vertical"
+msgstr "Position der Ordnerliste im vertikalen Modus"
+
+#: desktop/org.gnome.Geary.gschema.xml:39
+msgid "Position of the folder list Paned grabber in the vertical orientation."
+msgstr ""
+"Position des Teilfensters mit der Ordnerliste in vertikaler Ausrichtung."
+
+#: desktop/org.gnome.Geary.gschema.xml:44
+msgid "Orientation of the folder list pane"
+msgstr "Ausrichtung der Ordnerliste"
+
+#: desktop/org.gnome.Geary.gschema.xml:45
+msgid "True if the folder list Paned is in the horizontal orientation."
+msgstr "Horizontale Ausrichtung des Ordnerliste-Teilfensters."
+
+#: desktop/org.gnome.Geary.gschema.xml:50
+msgid "Position of message list pane"
+msgstr "Position der Nachrichtenliste"
+
+#: desktop/org.gnome.Geary.gschema.xml:51
+msgid "Position of the message list Paned grabber."
+msgstr "Position des Teilfensters mit der Nachrichtenliste."
+
+#: desktop/org.gnome.Geary.gschema.xml:56
+msgid "Autoselect next message"
+msgstr "Automatisch die nächste Nachricht wählen"
+
+#: desktop/org.gnome.Geary.gschema.xml:57
+msgid "True if we should autoselect the next available conversation."
+msgstr ""
+"Legt fest, ob die nächste verfügbare Konversation automatisch ausgewählt "
+"werden soll."
+
+#: desktop/org.gnome.Geary.gschema.xml:62
+msgid "Display message previews"
+msgstr "Nachrichtenvorschauen anzeigen"
+
+#: desktop/org.gnome.Geary.gschema.xml:63
+msgid "True if we should display a short preview of each message."
+msgstr ""
+"Legt fest, ob eine kurze Vorschau jeder Nachricht angezeigt werden soll."
+
+#: desktop/org.gnome.Geary.gschema.xml:68
+msgid "Languages that shall be used in the spell checker"
+msgstr "Sprachen, die in der Rechtschreibprüfung verwendet werden sollen"
+
+#: desktop/org.gnome.Geary.gschema.xml:69
+msgid "List of the languages to use in the spell checker."
+msgstr ""
+"Liste der Sprachen, die in der Rechtschreibprüfung verwendet werden sollen."
+
+#: desktop/org.gnome.Geary.gschema.xml:74
+msgid "Languages that are displayed in the spell checker popover"
+msgstr ""
+"Sprachen, die im Einblendmenü der Rechtschreibprüfung angezeigt werden sollen"
+
+#: desktop/org.gnome.Geary.gschema.xml:75
+msgid ""
+"List of languages that are always displayed in the popover of the spell "
+"checker."
+msgstr ""
+"Liste der Sprachen, die immer im Einblendmenü der Rechtschreibprüfung "
+"angezeigt werden sollen."
+
+#: desktop/org.gnome.Geary.gschema.xml:80
+msgid "Enable notification sounds"
+msgstr "Benachrichtigungstöne aktivieren"
+
+#: desktop/org.gnome.Geary.gschema.xml:81
+msgid "True to play sounds for notifications and sending."
+msgstr ""
+"Legt fest, ob Klänge für Benachrichtigungen und beim Senden abgespielt "
+"werden sollen."
+
+#: desktop/org.gnome.Geary.gschema.xml:86
+msgid "Show notifications for new mail"
+msgstr "Benachrichtigung bei neuen Nachrichten anzeigen"
+
+#: desktop/org.gnome.Geary.gschema.xml:87
+msgid "True to show notification bubbles."
+msgstr "Legt fest, ob Benachrichtigungen angezeigt werden sollen."
+
+#: desktop/org.gnome.Geary.gschema.xml:92
+msgid "Notify of new mail at startup"
+msgstr "Beim Start über neue Nachrichten benachrichtigen"
+
+#: desktop/org.gnome.Geary.gschema.xml:93
+msgid "True to notify of new mail at startup."
+msgstr ""
+"Legt fest, ob beim Start Benachrichtigungen bei neuen Nachrichten angezeigt "
+"werden sollen."
+
+#: desktop/org.gnome.Geary.gschema.xml:98
+msgid "Ask when opening an attachment"
+msgstr "Fragen, wenn ein Anhang geöffnet wird"
+
+#: desktop/org.gnome.Geary.gschema.xml:99
+msgid "True to ask when opening an attachment."
+msgstr "Legt fest, ob nachgefragt werden soll, wenn ein Anhang geöffnet wird."
+
+#: desktop/org.gnome.Geary.gschema.xml:104
+msgid "Whether to compose emails in HTML"
+msgstr "Nachrichten in HTML verfassen"
+
+#: desktop/org.gnome.Geary.gschema.xml:105
+msgid "True to compose emails in HTML; false for plain text."
+msgstr "Legt fest, ob Nachrichten in HTML verfasst werden sollen."
+
+#: desktop/org.gnome.Geary.gschema.xml:110
+msgid "Advisory strategy for full-text searching"
+msgstr "Strategie für Volltextsuche"
+
+#: desktop/org.gnome.Geary.gschema.xml:111
+msgid ""
+"Acceptable values are “exact”, “conservative”, “aggressive”, and “horizon”."
+msgstr ""
+"Zulässige Werte sind »exact«, »conservative«, »aggressive« und »horizon«."
+
+#: desktop/org.gnome.Geary.gschema.xml:116
+msgid "Zoom of conversation viewer"
+msgstr "Vergrößerungsstufe der Konversationsansicht"
+
+#: desktop/org.gnome.Geary.gschema.xml:117
+msgid "The zoom to apply on the conservation view."
+msgstr "Der auf die Konversationsansicht anzuwendende Vergrößerungsstufe."
+
+#: desktop/org.gnome.Geary.gschema.xml:122
+msgid "Size of detached composer window"
+msgstr "Größe des abgekoppelten Verfassen-Fensters"
+
+#: desktop/org.gnome.Geary.gschema.xml:123
+msgid "The last recorded size of the detached composer window."
+msgstr "Die zuletzt gespeicherte Größe des abgekoppelten Verfassen-Fensters."
+
+#: desktop/org.gnome.Geary.gschema.xml:128
+msgid "Whether we migrated the old settings"
+msgstr "Alte Einstellungen migrieren"
+
+#: desktop/org.gnome.Geary.gschema.xml:129
+msgid ""
+"False to check for the old “org.yorba.geary”-schema and copy its values."
+msgstr ""
+"Wenn nicht aktiviert, wird nach dem alten Schema »org.yorba.geary« geschaut "
+"und dessen Werte übernommen."
+
+#. Translators: In-app notification label, when
+#. the app had a problem pinning an otherwise
+#. untrusted TLS certificate
+#: src/client/accounts/accounts-editor.vala:203
+msgid "Failed to store certificate"
+msgstr "Zertifikat konnte nicht gespeichert werden"
+
+#. Translators: Label for adding an email account
+#. account for a generic IMAP service provider.
+#: src/client/accounts/accounts-editor-add-pane.vala:109
+msgid "All others"
+msgstr "Alle übrigen"
+
+#. Translators: In-app notification label
+#: src/client/accounts/accounts-editor-add-pane.vala:196
+#: src/client/accounts/accounts-editor-servers-pane.vala:316
+msgid "Check your receiving login and password"
+msgstr "Prüfen Sie Ihren Benutzernamen und Passwort zum Empfangen"
+
+#. Translators: In-app notification label
+#: src/client/accounts/accounts-editor-add-pane.vala:211
+#: src/client/accounts/accounts-editor-servers-pane.vala:329
+msgid "Check your receiving server details"
+msgstr "Prüfen Sie die Serverdetails zum Empfangen"
+
+#. Translators: In-app notification label
+#. There was an SMTP auth error, but IMAP already
+#. succeeded, so the user probably needs to
+#. specify custom creds here
+#. Translators: In-app notification label
+#: src/client/accounts/accounts-editor-add-pane.vala:233
+#: src/client/accounts/accounts-editor-servers-pane.vala:350
+msgid "Check your sending login and password"
+msgstr "Prüfen Sie Ihren Benutzernamen und Passwort zum Senden"
+
+#. Translators: In-app notification label
+#: src/client/accounts/accounts-editor-add-pane.vala:247
+#: src/client/accounts/accounts-editor-servers-pane.vala:363
+msgid "Check your sending server details"
+msgstr "Prüfen Sie die Serverdetails zum Senden"
+
+#. Translators: In-app notification label
+#: src/client/accounts/accounts-editor-add-pane.vala:262
+msgid "Check your email address and password"
+msgstr "Prüfen Sie Ihre E-Mail-Adresse und Ihr Passwort"
+
+#. Translators: In-app notification label
+#: src/client/accounts/accounts-editor-add-pane.vala:273
+msgid "Could not connect, check your network"
+msgstr "Verbindung konnte nicht hergestellt werden, prüfen Sie Ihr Netzwerk"
+
+#. Translators: In-app notification label for a
+#. generic error creating an account
+#: src/client/accounts/accounts-editor-add-pane.vala:286
+msgid "An unexpected problem occurred"
+msgstr "Ein unerwartetes Problem ist aufgetreten"
+
+#. Translators: In-app notification label, the
+#. string substitution is a more detailed reason.
+#: src/client/accounts/accounts-editor-add-pane.vala:304
+#, c-format
+msgid "Account not created: %s"
+msgstr "Konto wurde nicht erstellt: %s"
+
+#. Translators: Label for the person's actual name when adding
+#. an account
+#: src/client/accounts/accounts-editor-add-pane.vala:551
+msgid "Your name"
+msgstr "Ihr Name"
+
+#. Translators: Label used for the address part of an
+#. email address when editing a user's sender address
+#. preferences for an account.
+#: src/client/accounts/accounts-editor-add-pane.vala:568
+#: src/client/accounts/accounts-editor-edit-pane.vala:501
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#. Translators: Placeholder for the default sender address
+#. when adding an account
+#. Translators: This is used as a placeholder for the
+#. address part of an email address when editing a user's
+#. sender address preferences for an account.
+#: src/client/accounts/accounts-editor-add-pane.vala:571
+#: src/client/accounts/accounts-editor-edit-pane.vala:469
+msgid "person@example.com"
+msgstr "name@beispiel.de"
+
+#. Translators: Label for an IMAP/SMTP service login/user name
+#. when adding an account
+#. Translators: Label for the user's login name for an
+#. IMAP, SMTP, etc service
+#: src/client/accounts/accounts-editor-add-pane.vala:585
+#: src/client/accounts/accounts-editor-servers-pane.vala:880
+msgid "Login name"
+msgstr "Benutzername"
+
+#. Translators: Label for the user's password for an IMAP,
+#. SMTP, etc service
+#: src/client/accounts/accounts-editor-add-pane.vala:599
+#: src/client/accounts/accounts-editor-servers-pane.vala:999
+#: ui/password-dialog.glade:108
+msgid "Password"
+msgstr "Passwort"
+
+#. Translators: Label for the IMAP server hostname when
+#. adding an account.
+#. Translators: This label describes the host name or IP
+#. address and port used by an account's IMAP service.
+#: src/client/accounts/accounts-editor-add-pane.vala:621
+#: src/client/accounts/accounts-editor-servers-pane.vala:727
+msgid "IMAP server"
+msgstr "IMAP-Server"
+
+#. Translators: Placeholder for the IMAP server hostname
+#. when adding an account.
+#: src/client/accounts/accounts-editor-add-pane.vala:624
+msgid "imap.example.com"
+msgstr "imap.example.com"
+
+#. Translators: Label for the SMTP server hostname when
+#. adding an account.
+#. Translators: This label describes the host name or IP
+#. address and port used by an account's SMTP service.
+#: src/client/accounts/accounts-editor-add-pane.vala:630
+#: src/client/accounts/accounts-editor-servers-pane.vala:733
+msgid "SMTP server"
+msgstr "SMTP-Server"
+
+#. Translators: Placeholder for the SMTP server hostname
+#. when adding an account.
+#: src/client/accounts/accounts-editor-add-pane.vala:633
+msgid "smtp.example.com"
+msgstr "smtp.example.com"
+
+#. Translators: Label in the account editor for the user's
+#. custom name for an account.
+#: src/client/accounts/accounts-editor-edit-pane.vala:278
+#: ui/accounts_editor_remove_pane.ui:123
+msgid "Account name"
+msgstr "Kontoname"
+
+#. Translators: Tooltip used to undo changing
+#. the name of an account. The string
+#. substitution is the old name of the
+#. account.
+#: src/client/accounts/accounts-editor-edit-pane.vala:312
+#, c-format
+msgid "Change account name back to “%s”"
+msgstr "Ändern Sie den Kontonamen zurück zu »%s«"
+
+#. Translators: Tooltip for adding a new email sender/from
+#. address's address to an account
+#: src/client/accounts/accounts-editor-edit-pane.vala:336
+msgid "Add a new sender email address"
+msgstr "Eine neue E-Mail-Adresse zum Senden hinzufügen"
+
+#. Translators: Label used to indicate the user has
+#. provided no display name for one of their sender
+#. email addresses in their account settings.
+#: src/client/accounts/accounts-editor-edit-pane.vala:417
+msgid "Name not set"
+msgstr "Name ist nicht gesetzt"
+
+#. Translators: This is used as a placeholder for the
+#. display name for an email address when editing a user's
+#. sender address preferences for an account.
+#: src/client/accounts/accounts-editor-edit-pane.vala:456
+msgid "Sender Name"
+msgstr "Absendername"
+
+#: src/client/accounts/accounts-editor-edit-pane.vala:479
+msgid "Remove"
+msgstr "Entfernen"
+
+#. Translators: Label used for the display name part of an
+#. email address when editing a user's sender address
+#. preferences for an account.
+#: src/client/accounts/accounts-editor-edit-pane.vala:494
+msgid "Sender name"
+msgstr "Absendername"
+
+#. Translators: Label used as the undo tooltip after adding an
+#. new sender email address to an account. The string
+#. substitution is the email address added.
+#: src/client/accounts/accounts-editor-edit-pane.vala:561
+#, c-format
+msgid "Remove “%s”"
+msgstr "»%s« entfernen"
+
+#. Translators: Label used as the undo tooltip after editing a
+#. sender address for an account. The string substitution is
+#. the email address edited.
+#: src/client/accounts/accounts-editor-edit-pane.vala:601
+#, c-format
+msgid "Undo changes to “%s”"
+msgstr "Änderungen rückgängig machen zu »%s«"
+
+#. Translators: Label used as the undo tooltip after removing
+#. a sender address from an account. The string substitution
+#. is the email address edited.
+#: src/client/accounts/accounts-editor-edit-pane.vala:688
+#, c-format
+msgid "Add “%s” back"
+msgstr "»%s« wieder hinzufügen"
+
+#. Translators: Label used as the undo tooltip after removing
+#. a sender address from an account. The string substitution
+#. is the email address edited.
+#: src/client/accounts/accounts-editor-edit-pane.vala:730
+msgid "Undo signature changes"
+msgstr "Änderungen an der Signatur rückgängig machen"
+
+#. Translators: This label describes the account
+#. preference for the length of time (weeks, months or
+#. years) that past email should be downloaded.
+#: src/client/accounts/accounts-editor-edit-pane.vala:778
+msgid "Download mail"
+msgstr "E-Mail herunterladen"
+
+#. Translators: Tooltip for undoing a change
+#. to the length of time that past email
+#. should be downloaded for an account. The
+#. string substitution is the duration,
+#. e.g. "1 month back".
+#: src/client/accounts/accounts-editor-edit-pane.vala:810
+#, c-format
+msgid "Change download period back to: %s"
+msgstr "Download-Länge zurücksetzen auf: %s"
+
+#: src/client/accounts/accounts-editor-edit-pane.vala:831
+msgid "Everything"
+msgstr "Alles"
+
+#: src/client/accounts/accounts-editor-edit-pane.vala:835
+msgid "2 weeks back"
+msgstr "2 Wochen zurück"
+
+#: src/client/accounts/accounts-editor-edit-pane.vala:839
+msgid "1 month back"
+msgstr "1 Monat zurück"
+
+#: src/client/accounts/accounts-editor-edit-pane.vala:843
+msgid "3 months back"
+msgstr "3 Monate zurück"
+
+#: src/client/accounts/accounts-editor-edit-pane.vala:847
+msgid "6 months back"
+msgstr "6 Monate zurück"
+
+#: src/client/accounts/accounts-editor-edit-pane.vala:851
+msgid "1 year back"
+msgstr "1 Jahr zurück"
+
+#: src/client/accounts/accounts-editor-edit-pane.vala:855
+msgid "2 years back"
+msgstr "2 Jahre zurück"
+
+#: src/client/accounts/accounts-editor-edit-pane.vala:859
+msgid "4 years back"
+msgstr "4 Jahre zurück"
+
+#: src/client/accounts/accounts-editor-edit-pane.vala:865
+#, c-format
+msgid "%d day back"
+msgid_plural "%d days back"
+msgstr[0] "%d Tag zurück"
+msgstr[1] "%d Tage zurück"
+
+#: src/client/accounts/accounts-editor-list-pane.vala:243
+msgid "Undo"
+msgstr "Rückgängig machen"
+
+#: src/client/accounts/accounts-editor-list-pane.vala:251
+msgid "Redo"
+msgstr "Wiederholen"
+
+#: src/client/accounts/accounts-editor-list-pane.vala:345
+#: src/client/accounts/accounts-editor-list-pane.vala:433
+#: src/client/accounts/accounts-editor-row.vala:278
+msgid "Gmail"
+msgstr "Gmail"
+
+#: src/client/accounts/accounts-editor-list-pane.vala:349
+#: src/client/accounts/accounts-editor-list-pane.vala:437
+#: src/client/accounts/accounts-editor-row.vala:282
+msgid "Outlook.com"
+msgstr "Outlook.com"
+
+#: src/client/accounts/accounts-editor-list-pane.vala:353
+#: src/client/accounts/accounts-editor-list-pane.vala:441
+#: src/client/accounts/accounts-editor-row.vala:286
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#. Translators: Tooltip for accounts that have been
+#. loaded but disabled by the user.
+#: src/client/accounts/accounts-editor-list-pane.vala:371
+msgid "This account has been disabled"
+msgstr "Dieses Konto wurde deaktiviert"
+
+#. Translators: Tooltip for accounts that have been
+#. loaded but because of some error are not able to be
+#. used.
+#: src/client/accounts/accounts-editor-list-pane.vala:380
+msgid "This account has encountered a problem and is unavailable"
+msgstr ""
+"Bei diesem Konto ist ein Fehler aufgetreten und es ist daher nicht verfügbar"
+
+#. Translators: Label for adding a generic email account
+#: src/client/accounts/accounts-editor-list-pane.vala:430
+msgid "Other email providers"
+msgstr "Andere E-Mail-Anbieter"
+
+#. Translators: Notification shown after removing an
+#. account. The string substitution is the name of the
+#. account.
+#: src/client/accounts/accounts-editor-list-pane.vala:547
+#, c-format
+msgid "Account “%s” removed"
+msgstr "Konto »%s« wurde entfernt"
+
+#. Translators: Notification shown after removing an account
+#. is undone. The string substitution is the name of the
+#. account.
+#: src/client/accounts/accounts-editor-list-pane.vala:554
+#, c-format
+msgid "Account “%s” restored"
+msgstr "Konto »%s« wurde wiederhergestellt"
+
+#. Translators: Tooltip for dragging list items
+#: src/client/accounts/accounts-editor-row.vala:49
+msgid "Drag to move this item"
+msgstr "Klicken Sie auf das Objekt und ziehen Sie es, um es zu bewegen"
+
+#. Translators: Label describes the service provider
+#. hosting the email account, e.g. Gmail, Yahoo, or some
+#. other generic IMAP service.
+#: src/client/accounts/accounts-editor-row.vala:294
+msgid "Service provider"
+msgstr "Anbieter"
+
+#. Translators: This label describes what form of transport
+#. security (TLS, StartTLS, etc) used by an account's IMAP or SMTP
+#. service.
+#: src/client/accounts/accounts-editor-row.vala:467
+msgid "Connection security"
+msgstr "Sicherheit der Verbindung"
+
+#. Translators: Label used when no auth scheme is used
+#. by an account's IMAP or SMTP service.
+#: src/client/accounts/accounts-editor-row.vala:478
+#: src/client/accounts/accounts-editor-servers-pane.vala:752
+#: src/client/accounts/accounts-editor-servers-pane.vala:964
+#: src/engine/api/geary-special-folder-type.vala:58
+msgid "None"
+msgstr "Nichts"
+
+#: src/client/accounts/accounts-editor-row.vala:485
+msgid "StartTLS"
+msgstr "StartTLS"
+
+#: src/client/accounts/accounts-editor-row.vala:492
+msgid "TLS"
+msgstr "TLS"
+
+#. Translators: Label for source of SMTP authentication
+#. credentials (none, use IMAP, custom) when adding a new
+#. account
+#. Button label for retrying when a login error has occurred
+#: src/client/accounts/accounts-editor-row.vala:533 ui/main-window.ui:455
+msgid "Login"
+msgstr "Anmelden"
+
+#. Translators: ComboBox value for source of SMTP
+#. authentication credentials (none) when adding a new
+#. account
+#: src/client/accounts/accounts-editor-row.vala:540
+msgid "No login needed"
+msgstr "Keine Anmeldung erforderlich"
+
+#. Translators: ComboBox value for source of SMTP
+#. authentication credentials (use IMAP) when adding a new
+#. account
+#: src/client/accounts/accounts-editor-row.vala:548
+msgid "Use same login as receiving"
+msgstr "Dieselben Anmeldedaten zum Empfangen verwenden"
+
+#. Translators: ComboBox value for source of SMTP
+#. authentication credentials (custom) when adding a new
+#. account
+#: src/client/accounts/accounts-editor-row.vala:556
+msgid "Use a different login"
+msgstr "Andere Anmeldedaten verwenden"
+
+#. Translators: In-app notification label, the
+#. string substitution is a more detailed reason.
+#: src/client/accounts/accounts-editor-servers-pane.vala:377
+#, c-format
+msgid "Account not updated: %s"
+msgstr "Konto wurde nicht aktualisiert: %s"
+
+#. Translators: This label describes the program that
+#. created the account, e.g. an SSO service like GOA, or
+#. locally by Geary.
+#: src/client/accounts/accounts-editor-servers-pane.vala:540
+msgid "Account source"
+msgstr "Kontoquelle"
+
+#: src/client/accounts/accounts-editor-servers-pane.vala:552
+msgid "GNOME Online Accounts"
+msgstr "GNOME Online-Konten"
+
+#. Translators: This label describes an account
+#. preference.
+#: src/client/accounts/accounts-editor-servers-pane.vala:611
+msgid "Save drafts on server"
+msgstr "Entwürfe auf dem Server speichern"
+
+#. Translators: This label describes an account
+#. preference.
+#: src/client/accounts/accounts-editor-servers-pane.vala:666
+msgid "Save sent email on server"
+msgstr "Gesendete E-Mails auf dem Server speichern"
+
+#. Add a suffix for OAuth2 auth so people know they
+#. shouldn't expect to be prompted for a password
+#. Translators: Label used when an account's IMAP or
+#. SMTP service uses OAuth2. The string replacement is
+#. the service's login name.
+#: src/client/accounts/accounts-editor-servers-pane.vala:950
+#, c-format
+msgid "%s using OAuth2"
+msgstr "%s mittels OAuth2"
+
+#: src/client/accounts/accounts-editor-servers-pane.vala:960
+msgid "Use receiving server login"
+msgstr "Server-Anmeldedaten zum Empfangen verwenden"
+
+#: src/client/application/geary-application.vala:24
+msgid "Copyright 2016 Software Freedom Conservancy Inc."
+msgstr "Copyright 2016 Software Freedom Conservancy Inc."
+
+#: src/client/application/geary-application.vala:25
+msgid "Copyright 2016-2019 Geary Development Team."
+msgstr "Copyright 2016-2019 Geary-Entwicklerteam."
+
+#: src/client/application/geary-application.vala:27
+msgid "Visit the Geary web site"
+msgstr "Geary-Webseite besuchen"
+
+#: src/client/application/geary-application.vala:454
+#, c-format
+msgid "About %s"
+msgstr "Info zu %s"
+
+#. Translators: add your name and email address to receive
+#. credit in the About dialog For example: Yamada Taro
+#. <yamada.taro@example.com>
+#: src/client/application/geary-application.vala:458
+msgid "translator-credits"
+msgstr ""
+"Benjamin Steinwender <b@stbe.at>\n"
+"Wolfgang Stöggl <c72578@yahoo.de>\n"
+"Mario Blättermann <mario.blaettermann@gmail.com>\n"
+"Tim Sabsch <tim@sabsch.com>"
+
+#: src/client/application/geary-args.vala:10
+msgid "Start Geary with hidden main window"
+msgstr "Geary mit verborgenem Hauptfenster starten"
+
+#: src/client/application/geary-args.vala:11
+msgid "Output debugging information"
+msgstr "Debuginformationen ausgeben"
+
+#: src/client/application/geary-args.vala:12
+msgid "Log conversation monitoring"
+msgstr "Gesprächsmonitoring protokollieren"
+
+#: src/client/application/geary-args.vala:13
+msgid "Log network deserialization"
+msgstr "Netzwerkdeserialisierung protokollieren"
+
+#: src/client/application/geary-args.vala:14
+msgid "Log network activity"
+msgstr "Netzwerkaktivitäten protokollieren"
+
+#. / The IMAP replay queue is how changes on the server are replicated on the client.
+#. / It could also be called the IMAP events queue.
+#: src/client/application/geary-args.vala:17
+msgid "Log IMAP replay queue"
+msgstr "IMAP-Ereigniswarteschlange protokollieren"
+
+#. / Serialization is how commands and responses are converted into a stream of bytes for
+#. / network transmission
+#: src/client/application/geary-args.vala:20
+msgid "Log network serialization"
+msgstr "Netzwerkserialisierung protokollieren"
+
+#: src/client/application/geary-args.vala:21
+msgid "Log periodic activity"
+msgstr "Regelmäßige Aktivitäten protokollieren"
+
+#: src/client/application/geary-args.vala:22
+msgid "Log database queries (generates lots of messages)"
+msgstr ""
+"Datenbankabfragen protokollieren (dabei werden sehr viele Einträge erzeugt)"
+
+#. / "Normalization" can also be called "synchronization"
+#: src/client/application/geary-args.vala:24
+msgid "Log folder normalization"
+msgstr "Ordnerabgleich protokollieren"
+
+#: src/client/application/geary-args.vala:25
+msgid "Allow inspection of WebView"
+msgstr "Untersuchung der Webansicht erlauben"
+
+#: src/client/application/geary-args.vala:26
+msgid "Revoke all server certificates with TLS warnings"
+msgstr "Alle Server-Zertifikate mit TLS-Warnungen widerrufen"
+
+#: src/client/application/geary-args.vala:27
+msgid "Perform a graceful quit"
+msgstr "Ordnungsgemäß beenden"
+
+#: src/client/application/geary-args.vala:28
+msgid "Display program version"
+msgstr "Programmversion anzeigen"
+
+#. This gives a command-line hint on how to open new composer windows with mailto:
+#: src/client/application/geary-args.vala:53
+#, c-format
+msgid "Use %s to open a new composer window"
+msgstr "Benutzen Sie %s, um ein neues »Verfassen«-Fenster zu öffnen"
+
+#: src/client/application/geary-args.vala:56
+msgid "Please report comments, suggestions and bugs to:"
+msgstr "Bitte melden Sie Kommentare, Vorschläge und Fehler an:"
+
+#. i18n: Command line arguments are invalid
+#: src/client/application/geary-args.vala:63
+#, c-format
+msgid "Failed to parse command line options: %s\n"
+msgstr "Die Befehlszeilenargumente konnten nicht interpretiert werden: %s\n"
+
+#: src/client/application/geary-args.vala:74
+#, c-format
+msgid "Unrecognized command line option “%s”\n"
+msgstr "Unbekanntes Befehlszeilenargument »%s«\n"
+
+#. Translators: File name used in save chooser when saving
+#. attachments that do not otherwise have a name.
+#: src/client/application/geary-controller.vala:58
+msgid "Untitled"
+msgstr "Unbenannt"
+
+#: src/client/application/geary-controller.vala:954
+msgid "Labels"
+msgstr "Beschriftungen"
+
+#. give the user two options: reset the Account local store, or exit Geary.  A third
+#. could be done to leave the Account in an unopened state, but we don't currently
+#. have provisions for that.
+#: src/client/application/geary-controller.vala:967
+#, c-format
+msgid "Unable to open the database for %s"
+msgstr "Die Datenbank für %s konnte nicht geöffnet werden"
+
+#: src/client/application/geary-controller.vala:968
+#, c-format
+msgid ""
+"There was an error opening the local mail database for this account. This is "
+"possibly due to corruption of the database file in this directory:\n"
+"\n"
+"%s\n"
+"\n"
+"Geary can rebuild the database and re-synchronize with the server or exit.\n"
+"\n"
+"Rebuilding the database will destroy all local email and its attachments. "
+"<b>The mail on the your server will not be affected.</b>"
+msgstr ""
+"Beim Öffnen der lokalen E-Mail-Datenbank trat ein Fehler auf. Die Ursache "
+"ist möglicherweise die Beschädigung der Datenbankdatei in diesem Ordner:\n"
+"\n"
+"%s\n"
+"\n"
+"Geary kann die Datenbank wiederherstellen und mit dem Server abgleichen oder "
+"sich beenden.\n"
+"\n"
+"Beim Wiederherstellen der Datenbank gehen alle lokalen E-Mails und die "
+"dazugehörigen Anhänge verloren. <b>E-Mails auf Ihrem Server werden nicht "
+"betroffen sein.</b>"
+
+#: src/client/application/geary-controller.vala:970
+msgid "_Rebuild"
+msgstr "_Wiederherstellen"
+
+#: src/client/application/geary-controller.vala:970
+msgid "E_xit"
+msgstr "B_eenden"
+
+#: src/client/application/geary-controller.vala:979
+#, c-format
+msgid "Unable to rebuild database for “%s”"
+msgstr "Die Datenbank für »%s« konnte nicht wiederhergestellt werden"
+
+#: src/client/application/geary-controller.vala:980
+#, c-format
+msgid ""
+"Error during rebuild:\n"
+"\n"
+"%s"
+msgstr ""
+"Fehler bei der Wiederherstellung:\n"
+"\n"
+"%s"
+
+#: src/client/application/geary-controller.vala:1835
+msgid "Undo move (Ctrl+Z)"
+msgstr "Verschieben rückgängig machen (Strg+Z)"
+
+#: src/client/application/geary-controller.vala:1845
+msgid "Are you sure you want to open these attachments?"
+msgstr "Möchten Sie wirklich diese Anhänge öffnen?"
+
+#: src/client/application/geary-controller.vala:1846
+msgid ""
+"Attachments may cause damage to your system if opened.  Only open files from "
+"trusted sources."
+msgstr ""
+"Anhänge können Ihr System beschädigen, wenn diese geöffnet werden. Öffnen "
+"Sie nur Dateien aus vertrauenswürdigen Quellen."
+
+#: src/client/application/geary-controller.vala:1847
+msgid "Don’t _ask me again"
+msgstr "Nicht _noch einmal fragen"
+
+#. Translators: Dialog primary label when prompting to
+#. overwrite a file. The string substitution is the file'sx
+#. name.
+#: src/client/application/geary-controller.vala:1976
+#, c-format
+msgid "A file named “%s” already exists.  Do you want to replace it?"
+msgstr "Die Datei »%s« existiert schon. Möchten Sie diese ersetzen?"
+
+#. Translators: Dialog secondary label when prompting to
+#. overwrite a file. The string substitution is the parent
+#. folder's name.
+#: src/client/application/geary-controller.vala:1983
+#, c-format
+msgid ""
+"The file already exists in “%s”.  Replacing it will overwrite its contents."
+msgstr ""
+"Die Datei existiert bereits in »%s«. Beim Ersetzen wird die Datei "
+"überschrieben."
+
+#: src/client/application/geary-controller.vala:1987
+msgid "_Replace"
+msgstr "_Ersetzen"
+
+#: src/client/application/geary-controller.vala:2263
+msgid "Close the draft message?"
+msgid_plural "Close all draft messages?"
+msgstr[0] "Nachrichtenentwurf schließen?"
+msgstr[1] "Alle Nachrichtenentwürfe schließen?"
+
+#: src/client/application/geary-controller.vala:2389
+#, c-format
+msgid "Empty all email from your %s folder?"
+msgstr "Alle E-Mails aus dem Ordner %s löschen?"
+
+#: src/client/application/geary-controller.vala:2390
+msgid "This removes the email from Geary and your email server."
+msgstr "Dies wird die E-Mail aus Geary und von Ihrem E-Mail-Server löschen."
+
+#: src/client/application/geary-controller.vala:2391
+msgid "This cannot be undone."
+msgstr "Dies kann nicht rückgängig gemacht werden."
+
+#: src/client/application/geary-controller.vala:2392
+#, c-format
+msgid "Empty %s"
+msgstr "%s leeren"
+
+#: src/client/application/geary-controller.vala:2409
+#, c-format
+msgid "Error emptying %s"
+msgstr "Fehler beim Leeren von %s"
+
+#: src/client/application/geary-controller.vala:2441
+msgid "Do you want to permanently delete this message?"
+msgid_plural "Do you want to permanently delete these messages?"
+msgstr[0] "Möchten Sie diese Nachricht dauerhaft löschen?"
+msgstr[1] "Möchten Sie diese Nachrichten dauerhaft löschen?"
+
+#: src/client/application/geary-controller.vala:2443
+msgid "Delete"
+msgstr "Löschen"
+
+#: src/client/application/geary-controller.vala:2457
+msgid "Undo trash (Ctrl+Z)"
+msgstr "Papierkorb rückgängig (Strg+Z)"
+
+#: src/client/application/geary-controller.vala:2507
+msgid "Undo archive (Ctrl+Z)"
+msgstr "Archivieren rückgängig (Strg+Z)"
+
+#: src/client/application/geary-controller.vala:2552
+msgid "Undo (Ctrl+Z)"
+msgstr "Rückgängig (Strg+Z)"
+
+#. Translators: The label for an in-app notification. The
+#. string substitution is a list of recipients of the email.
+#: src/client/application/geary-controller.vala:2633
+#, c-format
+msgid "Successfully sent mail to %s."
+msgstr "Nachricht an %s wurde erfolgreich gesendet."
+
+#: src/client/application/geary-controller.vala:2715
+msgid "Failed to open default text editor."
+msgstr "Der Standard-Texteditor konnte nicht geöffnet werden."
+
+#. Translators: Tooltip used when an entry requires a valid
+#. email address to be entered, but one is not provided.
+#: src/client/components/components-validator.vala:378
+msgid "An email address is required"
+msgstr "Es wird eine E-Mail-Adresse benötigt"
+
+#. Translators: Tooltip used when an entry requires a valid
+#. email address to be entered, but the address is invalid.
+#: src/client/components/components-validator.vala:382
+msgid "Not a valid email address"
+msgstr "Ungültige E-Mail-Adresse"
+
+#. Translators: Tooltip used when an entry requires a valid,
+#. resolvable server name to be entered, but one is not
+#. provided.
+#: src/client/components/components-validator.vala:428
+msgid "A server name is required"
+msgstr "Es wird ein Servername benötigt"
+
+#. Translators: Tooltip used when an entry requires a valid
+#. server name to be entered, but it was unable to be
+#. looked-up in the DNS.
+#: src/client/components/components-validator.vala:433
+msgid "Could not look up server name"
+msgstr "Servername konnte nicht abgefragt werden"
+
+#: src/client/components/main-toolbar.vala:151
+msgid "Mark conversation"
+msgid_plural "Mark conversations"
+msgstr[0] "Konversation markieren"
+msgstr[1] "Konversationen markieren"
+
+#: src/client/components/main-toolbar.vala:156
+msgid "Add label to conversation"
+msgid_plural "Add label to conversations"
+msgstr[0] "Konversation eine Beschriftung zuweisen"
+msgstr[1] "Konversationen eine Beschriftung zuweisen"
+
+#: src/client/components/main-toolbar.vala:161
+msgid "Move conversation"
+msgid_plural "Move conversations"
+msgstr[0] "Konversation verschieben"
+msgstr[1] "Konversationen verschieben"
+
+#: src/client/components/main-toolbar.vala:166
+msgid "Archive conversation (A)"
+msgid_plural "Archive conversations (A)"
+msgstr[0] "Konversation archivieren (A)"
+msgstr[1] "Konversationen archivieren (A)"
+
+#: src/client/components/main-toolbar.vala:175
+msgid "Move conversation to Trash (Delete, Backspace)"
+msgid_plural "Move conversations to Trash (Delete, Backspace)"
+msgstr[0] "Konversation in den Papierkorb verschieben (Entf, Rücktaste)"
+msgstr[1] "Konversationen in den Papierkorb verschieben (Entf, Rücktaste)"
+
+#: src/client/components/main-toolbar.vala:183
+msgid "Delete conversation (Shift+Delete)"
+msgid_plural "Delete conversations (Shift+Delete)"
+msgstr[0] "Konversation löschen (Umschalt+Entf)"
+msgstr[1] "Konversationen löschen (Umschalt+Entf)"
+
+#: src/client/components/main-window.vala:503
+#, c-format
+msgid "%s (%d)"
+msgstr "%s (%d)"
+
+#. Translators: String substitution is the account name
+#: src/client/components/main-window-info-bar.vala:47
+#, c-format
+msgid "Problem connecting to incoming server for %s"
+msgstr "Fehler bei der Verbindung mit dem Eingangsserver für %s"
+
+#. Translators: String substitution is the server name
+#: src/client/components/main-window-info-bar.vala:49
+#: src/client/components/main-window-info-bar.vala:58
+#, c-format
+msgid ""
+"Could not connect to %s, check your Internet access and the server name and "
+"try again"
+msgstr ""
+"Verbindung zu %s war nicht möglich, überprüfen Sie Ihre Internetverbindung "
+"und den Servernamen und versuchen Sie es erneut"
+
+#. Translators: Tooltip label for Retry button
+#. Button tooltip for retrying an account problem
+#: src/client/components/main-window-info-bar.vala:51
+#: src/client/components/main-window-info-bar.vala:60
+#: src/client/components/main-window-info-bar.vala:69
+#: src/client/components/main-window-info-bar.vala:78
+#: src/client/components/main-window-info-bar.vala:87
+#: src/client/components/main-window-info-bar.vala:96
+#: src/client/components/main-window-info-bar.vala:136 ui/main-window.ui:265
+msgid "Try reconnecting"
+msgstr "Erneuter Verbindungsversuch"
+
+#. Translators: String substitution is the account name
+#: src/client/components/main-window-info-bar.vala:56
+#, c-format
+msgid "Problem connecting to outgoing server for %s"
+msgstr "Fehler bei der Verbindung mit dem Ausgangsserver für %s"
+
+#. Translators: String substitution is the account name
+#: src/client/components/main-window-info-bar.vala:65
+#: src/client/components/main-window-info-bar.vala:83
+#, c-format
+msgid "Problem communicating with incoming server for %s"
+msgstr "Problem bei der Kommunikation mit dem Eingangsserver für %s"
+
+#. Translators: String substitution is the server name
+#: src/client/components/main-window-info-bar.vala:67
+#: src/client/components/main-window-info-bar.vala:76
+#, c-format
+msgid "Network error talking to %s, check your Internet access and try again"
+msgstr ""
+"Netzwerkfehler bei der Kommunikation mit %s, bitte überprüfen Sie Ihre "
+"Internetverbindung und versuchen Sie es erneut"
+
+#. Translators: String substitution is the account name
+#: src/client/components/main-window-info-bar.vala:74
+#: src/client/components/main-window-info-bar.vala:91
+msgid "Problem communicating with outgoing mail server"
+msgstr "Problem bei der Kommunikation mit dem Ausgangsserver"
+
+#. Translators: String substitution is the server name
+#: src/client/components/main-window-info-bar.vala:85
+#, c-format
+msgid ""
+"Geary did not understand a message from %s or vice versa, please file a bug "
+"report"
+msgstr ""
+"Geary verstand eine Meldung von %s nicht oder umgekehrt, bitte erstellen Sie "
+"einen Fehlerbericht"
+
+#. Translators: First string substitution is the server
+#. name, second is the account name
+#: src/client/components/main-window-info-bar.vala:94
+#, c-format
+msgid ""
+"Could not communicate with %s for %s, check the server name and try again in "
+"a moment"
+msgstr ""
+"Kommunikation mit %s für %s war nicht möglich, überprüfen Sie den "
+"Servernamen und versuchen Sie es in Kürze erneut"
+
+#. Translators: String substitution is the account name
+#: src/client/components/main-window-info-bar.vala:101
+#, c-format
+msgid "Incoming mail server password required for %s"
+msgstr "Serverpasswort für %s ist für eingehende Nachrichten erforderlich"
+
+#: src/client/components/main-window-info-bar.vala:102
+msgid "Messages cannot be received without the correct password."
+msgstr "Nachrichten können nicht ohne das korrekte Passwort abgerufen werden."
+
+#. Translators: Tooltip label for Retry button
+#: src/client/components/main-window-info-bar.vala:104
+msgid "Retry receiving email, you will be prompted for a password"
+msgstr ""
+"Erneut versuchen, Nachrichten abzurufen, Sie werden nach einem Passwort "
+"gefragt"
+
+#. Translators: String substitution is the account name
+#: src/client/components/main-window-info-bar.vala:109
+#, c-format
+msgid "Outgoing mail server password required for %s"
+msgstr "Serverpasswort für %s ist für ausgehende Nachrichten erforderlich"
+
+#: src/client/components/main-window-info-bar.vala:110
+msgid "Messages cannot be sent without the correct password."
+msgstr "Nachrichten können nicht ohne das korrekte Passwort versendet werden."
+
+#. Translators: Tooltip label for Retry button
+#: src/client/components/main-window-info-bar.vala:112
+msgid "Retry sending queued messages, you will be prompted for a password"
+msgstr ""
+"Erneut versuchen, in der Warteschlange befindliche Nachrichten zu versenden, "
+"Sie werden nach einem Passwort gefragt"
+
+#. Translators: String substitution is the account name
+#: src/client/components/main-window-info-bar.vala:117
+#, c-format
+msgid "Incoming mail server security is not trusted for %s"
+msgstr ""
+"Den Sicherheitseinstellungen des Servers für eingehende E-Mails von %s wird "
+"nicht vertraut"
+
+#: src/client/components/main-window-info-bar.vala:118
+msgid "Messages will not be received until checked."
+msgstr "Nachrichten werden nicht abgerufen, bis sie geprüft wurden."
+
+#. Translators: Tooltip label for Retry button
+#: src/client/components/main-window-info-bar.vala:120
+#: src/client/components/main-window-info-bar.vala:128
+msgid "Check security details"
+msgstr "Sicherheitsdetails prüfen"
+
+#. Translators: String substitution is the account name
+#: src/client/components/main-window-info-bar.vala:125
+#, c-format
+msgid "Outgoing mail server security is not trusted for %s"
+msgstr ""
+"Den Sicherheitseinstellungen des Servers für ausgehende E-Mails von %s wird "
+"nicht vertraut"
+
+#: src/client/components/main-window-info-bar.vala:126
+msgid "Messages cannot be sent until checked."
+msgstr "Nachrichten können nicht versendet werden, bevor sie geprüft wurden."
+
+#. Translators: String substitution is the account name
+#: src/client/components/main-window-info-bar.vala:133
+#, c-format
+msgid "A problem occurred checking mail for %s"
+msgstr "Ein Problem ist beim Prüfen auf neue Nachrichten für %s aufgetreten"
+
+#: src/client/components/main-window-info-bar.vala:134
+#: src/client/components/main-window-info-bar.vala:142
+msgid "Something went wrong, please file a bug report if the problem persists"
+msgstr ""
+"Etwas ging schief, bitte senden Sie einen Fehlerbericht, wenn das Problem "
+"weiterhin besteht"
+
+#. Translators: String substitution is the account name
+#: src/client/components/main-window-info-bar.vala:141
+#, c-format
+msgid "A problem occurred sending mail for %s"
+msgstr "Ein Problem ist beim Senden von Nachrichten für %s aufgetreten"
+
+#. Translators: Tooltip label for Retry button
+#: src/client/components/main-window-info-bar.vala:144
+msgid "Retry sending queued messages"
+msgstr "Versuchen, Nachrichten in der Warteschlange erneut zu senden"
+
+#: src/client/components/main-window-info-bar.vala:155
+msgid "A database problem has occurred"
+msgstr "Ein Datenbankproblem ist aufgetreten"
+
+#. Translators: String substitution is the account name
+#: src/client/components/main-window-info-bar.vala:157
+#, c-format
+msgid "Messages for %s must be downloaded again."
+msgstr "Nachrichten für %s müssen erneut heruntergeladen werden."
+
+#: src/client/components/main-window-info-bar.vala:170
+msgid "Geary has encountered a problem"
+msgstr "Geary ist auf ein Problem gestoßen"
+
+#: src/client/components/main-window-info-bar.vala:171
+msgid ""
+"Please check the technical details and report the problem if it persists."
+msgstr ""
+"Bitte überprüfen Sie die technischen Details und melden Sie den Fehler, "
+"falls das Problem weiterhin besteht."
+
+#: src/client/components/main-window-info-bar.vala:179
+msgid "_Details"
+msgstr "_Details"
+
+#. Button tooltip for displaying technical details about an account problem
+#: src/client/components/main-window-info-bar.vala:180 ui/main-window.ui:250
+msgid "View technical details about the error"
+msgstr "Technische Details zum Fehler anzeigen"
+
+#: src/client/components/main-window-info-bar.vala:184
+msgid "_Retry"
+msgstr "_Wiederholen"
+
+#: src/client/components/search-bar.vala:8
+#: src/client/folder-list/folder-list-search-branch.vala:38
+#: src/engine/api/geary-special-folder-type.vala:51
+msgid "Search"
+msgstr "Suchen"
+
+#. Search entry.
+#: src/client/components/search-bar.vala:23
+msgid "Search all mail in account for keywords (Ctrl+S)"
+msgstr "Alle E-Mails dieses Kontos nach Stichworten durchsuchen (Strg+S)"
+
+#: src/client/components/search-bar.vala:101
+#, c-format
+msgid "Indexing %s account"
+msgstr "%s-Konto wird indiziert"
+
+#: src/client/components/search-bar.vala:112
+#: src/client/folder-list/folder-list-search-branch.vala:39
+#, c-format
+msgid "Search %s account"
+msgstr "%s-Konto durchsuchen"
+
+#. / Displayed in the space-limited status bar while a message is in the process of being sent.
+#: src/client/components/status-bar.vala:26
+msgid "Sending…"
+msgstr "Wird gesendet …"
+
+#. / Displayed in the space-limited status bar when a message fails to be sent due to error.
+#: src/client/components/status-bar.vala:29
+msgid "Error sending email"
+msgstr "Fehler beim Senden der E-Mail"
+
+#. Displayed in the space-limited status bar when a message fails to be uploaded
+#. to Sent Mail after being sent.
+#: src/client/components/status-bar.vala:33
+msgid "Error saving sent mail"
+msgstr "Fehler beim Speichern der gesendeten E-Mail"
+
+#: src/client/components/stock.vala:18
+msgid "_OK"
+msgstr "_OK"
+
+#: src/client/components/stock.vala:19 ui/password-dialog.glade:196
+msgid "_Cancel"
+msgstr "_Abbrechen"
+
+#: src/client/components/stock.vala:21
+msgid "_About"
+msgstr "_Info"
+
+#: src/client/components/stock.vala:22
+msgid "_Add"
+msgstr "_Hinzufügen"
+
+#: src/client/components/stock.vala:23
+msgid "_Close"
+msgstr "_Schließen"
+
+#: src/client/components/stock.vala:24
+msgid "_Discard"
+msgstr "_Verwerfen"
+
+#: src/client/components/stock.vala:25 ui/main-toolbar-menus.ui:56
+msgid "_Help"
+msgstr "_Hilfe"
+
+#: src/client/components/stock.vala:26 ui/conversation-email-menus.ui:77
+msgid "_Open"
+msgstr "_Öffnen"
+
+#: src/client/components/stock.vala:27 ui/main-toolbar-menus.ui:46
+msgid "_Preferences"
+msgstr "_Einstellungen"
+
+#. Translators: Menu item to print a single, specific message
+#: src/client/components/stock.vala:28 ui/conversation-email-menus.ui:64
+msgid "_Print…"
+msgstr "_Drucken …"
+
+#: src/client/components/stock.vala:29
+msgid "_Quit"
+msgstr "_Beenden"
+
+#: src/client/components/stock.vala:30
+msgid "_Remove"
+msgstr "_Entfernen"
+
+#: src/client/components/stock.vala:31 ui/conversation-email-menus.ui:83
+msgid "_Save"
+msgstr "_Speichern"
+
+#: src/client/components/stock.vala:32
+msgid "_Keep"
+msgstr "_Behalten"
+
+#: src/client/composer/composer-link-popover.vala:149
+msgid "Link URL is not correctly formatted, e.g. http://example.com"
+msgstr ""
+"Die Adresse des Verweises ist nicht korrekt formatiert, z.B. http://example."
+"com"
+
+#: src/client/composer/composer-link-popover.vala:156
+msgid "Invalid link URL"
+msgstr "Ungültige Verweisadresse"
+
+#: src/client/composer/composer-link-popover.vala:156
+msgid "Invalid email address"
+msgstr "Ungültige E-Mail-Adresse"
+
+#: src/client/composer/composer-widget.vala:158
+msgid "Saved"
+msgstr "Gespeichert"
+
+#: src/client/composer/composer-widget.vala:159
+msgid "Saving"
+msgstr "Wird gespeichert"
+
+#: src/client/composer/composer-widget.vala:160
+msgid "Error saving"
+msgstr "Fehler beim Speichern"
+
+#: src/client/composer/composer-widget.vala:161
+msgid "Press Backspace to delete quote"
+msgstr "Rücktaste drücken, um die Einrückung zu entfernen"
+
+#. Translators: This is list of keywords, separated by pipe ("|")
+#. characters, that suggest an attachment; since this is full-word
+#. checking, include all variants of each word.  No spaces are
+#. allowed.
+#: src/client/composer/composer-widget.vala:170
+msgid ""
+"attach|attaching|attaches|attachment|attachments|attached|enclose|enclosed|"
+"enclosing|encloses|enclosure|enclosures"
+msgstr ""
+"Anhang|Anhänge|angehängt|anhängen|Wiedervorlage|Beilage|beilegen|Anlage|"
+"anbei|beigefügt|anhängend"
+
+#. Translators: This dialog text is displayed to the
+#. user when closing a composer where the options are
+#. Keep, Discard or Cancel.
+#: src/client/composer/composer-widget.vala:1130
+msgid "Do you want to keep or discard this draft message?"
+msgstr "Möchten Sie diesen Nachrichtenentwurf behalten oder verwerfen?"
+
+#. Translators: This dialog text is displayed to the
+#. user when closing a composer where the options are
+#. only Discard or Cancel.
+#: src/client/composer/composer-widget.vala:1158
+msgid "Do you want to discard this draft message?"
+msgstr "Möchten Sie diesen Nachrichtenentwurf verwerfen?"
+
+#: src/client/composer/composer-widget.vala:1275
+msgid "Send message with an empty subject and body?"
+msgstr "Nachricht ohne Betreff und Inhalt senden?"
+
+#: src/client/composer/composer-widget.vala:1277
+msgid "Send message with an empty subject?"
+msgstr "Nachricht ohne Betreff senden?"
+
+#: src/client/composer/composer-widget.vala:1279
+msgid "Send message with an empty body?"
+msgstr "Nachricht ohne Inhalt senden?"
+
+#: src/client/composer/composer-widget.vala:1283
+msgid "Send message without an attachment?"
+msgstr "Nachricht ohne Anhang senden?"
+
+#: src/client/composer/composer-widget.vala:1588
+#, c-format
+msgid "“%s” already attached for delivery."
+msgstr "»%s« ist bereits als Anhang ausgewählt worden."
+
+#. / In the composer, the filename followed by its filesize, i.e. "notes.txt (1.12KB)"
+#. Translators: The first argument will be a
+#. description of the document type, the second will
+#. be a human-friendly size string. For example:
+#. Document (100.9MB)
+#: src/client/composer/composer-widget.vala:1596
+#: src/client/conversation-viewer/conversation-email.vala:173
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: src/client/composer/composer-widget.vala:1633
+#, c-format
+msgid "“%s” could not be found."
+msgstr "»%s« konnte nicht gefunden werden."
+
+#: src/client/composer/composer-widget.vala:1639
+#, c-format
+msgid "“%s” is a folder."
+msgstr "»%s« ist ein Ordner."
+
+#: src/client/composer/composer-widget.vala:1645
+#, c-format
+msgid "“%s” is an empty file."
+msgstr "»%s« ist eine leere Datei."
+
+#: src/client/composer/composer-widget.vala:1658
+#, c-format
+msgid "“%s” could not be opened for reading."
+msgstr "»%s« konnte nicht zum Lesen geöffnet werden."
+
+#: src/client/composer/composer-widget.vala:1666
+msgid "Cannot add attachment"
+msgstr "Anhang kann nicht hinzugefügt werden"
+
+#. Translators: Human-readable version of the RFC 822 To header
+#: src/client/composer/composer-widget.vala:1716
+#: src/client/conversation-viewer/conversation-email.vala:981
+#: src/engine/rfc822/rfc822-utils.vala:298 ui/conversation-message.ui:312
+msgid "To:"
+msgstr "An:"
+
+#. Translators: Human-readable version of the RFC 822 CC header
+#: src/client/composer/composer-widget.vala:1722
+#: src/client/conversation-viewer/conversation-email.vala:986
+#: src/engine/rfc822/rfc822-utils.vala:303 ui/conversation-message.ui:357
+msgid "Cc:"
+msgstr "Kopie:"
+
+#. Translators: Human-readable version of the RFC 822 BCC header
+#: src/client/composer/composer-widget.vala:1728
+#: src/client/conversation-viewer/conversation-email.vala:991
+#: ui/conversation-message.ui:402
+msgid "Bcc:"
+msgstr "Blindkopie:"
+
+#. Translators: Human-readable version of the RFC 822 Reply-To header
+#: src/client/composer/composer-widget.vala:1734
+msgid "Reply-To: "
+msgstr "Antwort an: "
+
+#: src/client/composer/composer-widget.vala:1874
+msgid "Select Color"
+msgstr "Farbe auswählen"
+
+#. Displayed in the From dropdown to indicate an
+#. "alternate email address" for an account.  The first
+#. printf argument will be the alternate email address,
+#. and the second will be the account's primary email
+#. address.
+#: src/client/composer/composer-widget.vala:2064
+#, c-format
+msgid "%1$s via %2$s"
+msgstr "%1$s über %2$s"
+
+#. Composer label (with mnemonic underscore) for the account selector
+#. when choosing what address to send a message from.
+#: src/client/composer/composer-widget.vala:2125
+msgid "_From:"
+msgstr "_Von:"
+
+#. Translators: This is the name of the file chooser filter
+#. when inserting an image in the composer.
+#: src/client/composer/composer-widget.vala:2357
+msgid "Images"
+msgstr "Bilder"
+
+#: src/client/composer/composer-window.vala:14
+msgid "New Message"
+msgstr "Neue Nachricht"
+
+#: src/client/composer/spell-check-popover.vala:117
+msgid "Remove this language from the preferred list"
+msgstr "Diese Sprache aus der Liste der bevorzugten Sprachen entfernen"
+
+#: src/client/composer/spell-check-popover.vala:121
+msgid "Add this language to the preferred list"
+msgstr "Diese Sprache zur Liste der bevorzugten Sprachen hinzufügen"
+
+#: src/client/composer/spell-check-popover.vala:217
+msgid "Search for more languages"
+msgstr "Nach weiteren Sprachen suchen"
+
+#: src/client/conversation-list/conversation-list-view.vala:283
+msgid "Delete conversation"
+msgstr "Konversation löschen"
+
+#: src/client/conversation-list/conversation-list-view.vala:286
+#: ui/main-toolbar-menus.ui:5
+msgid "Mark as _Read"
+msgstr "Als _gelesen markieren"
+
+#: src/client/conversation-list/conversation-list-view.vala:289
+#: ui/main-toolbar-menus.ui:9
+msgid "Mark as _Unread"
+msgstr "Als _ungelesen markieren"
+
+#: src/client/conversation-list/conversation-list-view.vala:292
+#: ui/main-toolbar-menus.ui:17
+msgid "U_nstar"
+msgstr "_Stern entfernen"
+
+#: src/client/conversation-list/conversation-list-view.vala:294
+#: ui/main-toolbar-menus.ui:13
+msgid "_Star"
+msgstr "_Stern"
+
+#. Translators: Menu item to reply to a specific message.
+#: src/client/conversation-list/conversation-list-view.vala:297
+#: ui/conversation-email-menus.ui:9
+msgid "_Reply"
+msgstr "_Antworten"
+
+#: src/client/conversation-list/conversation-list-view.vala:298
+msgid "R_eply All"
+msgstr "Allen _antworten"
+
+#. Translators: Menu item to forward a specific message.
+#: src/client/conversation-list/conversation-list-view.vala:299
+#: ui/conversation-email-menus.ui:21
+msgid "_Forward"
+msgstr "_Weiterleiten"
+
+#: src/client/conversation-list/formatted-conversation-data.vala:11
+msgid "Me"
+msgstr "Ich"
+
+#. Translators: This is the file type displayed for
+#. attachments with unknown file types.
+#: src/client/conversation-viewer/conversation-email.vala:159
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#. Translators: Human-readable version of the RFC 822 From header
+#: src/client/conversation-viewer/conversation-email.vala:976
+#: src/engine/rfc822/rfc822-utils.vala:289
+msgid "From:"
+msgstr "Von:"
+
+#. Translators: Human-readable version of the RFC 822 Date header
+#: src/client/conversation-viewer/conversation-email.vala:996
+#: src/engine/rfc822/rfc822-utils.vala:294
+msgid "Date:"
+msgstr "Datum:"
+
+#. Translators: Human-readable version of the RFC 822 Subject header
+#: src/client/conversation-viewer/conversation-email.vala:1001
+#: src/engine/rfc822/rfc822-utils.vala:292
+msgid "Subject:"
+msgstr "Betreff:"
+
+#: src/client/conversation-viewer/conversation-message.vala:65
+msgid "This email address may have been forged"
+msgstr "Diese E-Mail-Adresse könnte gefälscht sein"
+
+#. Compact headers
+#. Translators: This is displayed in place of the from address
+#. when the message has no from address.
+#: src/client/conversation-viewer/conversation-message.vala:394
+msgid "No sender"
+msgstr "Kein Absender"
+
+#. Translators: This separates multiple 'from'
+#. addresses in the compact header for a message.
+#: src/client/conversation-viewer/conversation-message.vala:766
+msgid ", "
+msgstr ", "
+
+#. Translators: This string is used as the HTML IMG ALT
+#. attribute value when displaying an inline image in an email
+#. that did not specify a file name. E.g. <IMG ALT="Image" ...
+#: src/client/conversation-viewer/conversation-message.vala:869
+msgid "Image"
+msgstr "Bild"
+
+#. Translators: Title label for placeholder when no
+#. conversations have been selected.
+#: src/client/conversation-viewer/conversation-viewer.vala:81
+msgid "No conversations selected"
+msgstr "Keine Konversationen ausgewählt"
+
+#. Translators: Sub-title label for placeholder when no
+#. conversations have been selected.
+#: src/client/conversation-viewer/conversation-viewer.vala:85
+msgid "Selecting a conversation from the list will display it here"
+msgstr ""
+"Wenn Sie eine Konversation aus der Liste auswählen, wird diese hier angezeigt"
+
+#. Translators: Title label for placeholder when multiple
+#. conversations have been selected.
+#: src/client/conversation-viewer/conversation-viewer.vala:94
+msgid "Multiple conversations selected"
+msgstr "Mehrere Konversationen ausgewählt"
+
+#. Translators: Sub-title label for placeholder when multiple
+#. conversations have been selected.
+#: src/client/conversation-viewer/conversation-viewer.vala:98
+msgid "Choosing an action will apply to all selected conversations"
+msgstr "Eine Aktion wird auf alle ausgewählten Nachrichten angewandt"
+
+#. Translators: Title label for placeholder when no
+#. conversations have exist in a folder.
+#. Translators: Title label for placeholder when no
+#. conversations have been found in a search.
+#: src/client/conversation-viewer/conversation-viewer.vala:107
+#: src/client/conversation-viewer/conversation-viewer.vala:120
+msgid "No conversations found"
+msgstr "Keine Konversationen gefunden"
+
+#. Translators: Sub-title label for placeholder when no
+#. conversations have exist in a folder.
+#: src/client/conversation-viewer/conversation-viewer.vala:111
+msgid "This folder does not contain any conversations"
+msgstr "Dieser Ordner enthält keine Konversationen"
+
+#. Translators: Sub-title label for placeholder when no
+#. conversations have been found in a search.
+#: src/client/conversation-viewer/conversation-viewer.vala:124
+msgid "Your search returned no results, try refining your search terms"
+msgstr ""
+"Ihre Suche hat keine Treffer ergeben, versuchen Sie es mit anderen "
+"Suchbegriffen erneut"
+
+#: src/client/dialogs/attachment-dialog.vala:25
+msgid "Choose a file"
+msgstr "Datei auswählen"
+
+#: src/client/dialogs/attachment-dialog.vala:25
+msgid "_Attach"
+msgstr "_Anhängen"
+
+#: src/client/dialogs/certificate-warning-dialog.vala:36
+#, c-format
+msgid "Untrusted Connection: %s"
+msgstr "Nicht vertrauenswürdige Verbindung: %s"
+
+#: src/client/dialogs/certificate-warning-dialog.vala:38
+#, c-format
+msgid "The identity of the %s mail server at %s:%u could not be verified."
+msgstr ""
+"Die Identität des %s E-Mail-Servers an der Adresse %s:%u konnte nicht "
+"verifiziert werden."
+
+#: src/client/dialogs/certificate-warning-dialog.vala:48
+msgid ""
+"Selecting “Trust This Server” or “Always Trust This Server” may cause your "
+"username and password to be transmitted insecurely."
+msgstr ""
+"Wenn Sie »Diesem Server vertrauen« oder »Diesem Server immer vertrauen« "
+"auswählen, ist es möglich, dass Ihr Benutzername und Passwort auf unsichere "
+"Art übertragen werden."
+
+#: src/client/dialogs/certificate-warning-dialog.vala:56
+msgid ""
+"Selecting “Don’t Trust This Server” will cause Geary not to access this "
+"server."
+msgstr ""
+"Wenn Sie »Diesem Server nicht vertrauen« auswählen, wird Geary nicht auf "
+"diesen Server zugreifen."
+
+#: src/client/dialogs/certificate-warning-dialog.vala:58
+msgid "Geary will not add or update this email account."
+msgstr "Geary wird dieses E-Mail-Konto nicht hinzufügen oder aktualisieren."
+
+#: src/client/dialogs/certificate-warning-dialog.vala:63
+msgid ""
+"Selecting “Don’t Trust This Server” will cause Geary to stop accessing this "
+"account."
+msgstr ""
+"Wenn Sie »Diesem Server nicht vertrauen« auswählen, wird Geary nicht auf "
+"dieses Konto zugreifen."
+
+#: src/client/dialogs/certificate-warning-dialog.vala:69
+msgid ""
+"Contact your system administrator or email service provider if you have any "
+"question about these issues."
+msgstr ""
+"Kontaktieren Sie Ihren Systemadministrator oder E-Mail-Provider, falls Sie "
+"irgendwelche Fragen zu diesen Problemen haben."
+
+#: src/client/dialogs/certificate-warning-dialog.vala:76
+msgid "The server’s certificate is not signed by a known authority"
+msgstr ""
+"Das Server-Zertifikat wurde von keiner bekannten Zertifizierungsstelle "
+"signiert"
+
+#: src/client/dialogs/certificate-warning-dialog.vala:79
+msgid "The server’s identity does not match the identity in the certificate"
+msgstr ""
+"Die Identität des Servers stimmt nicht mit der Identität im Zertifikat "
+"überein"
+
+#: src/client/dialogs/certificate-warning-dialog.vala:82
+msgid "The server’s certificate has expired"
+msgstr "Das Zertifikat des Servers ist abgelaufen"
+
+#: src/client/dialogs/certificate-warning-dialog.vala:85
+msgid "The server’s certificate has not been activated"
+msgstr "Das Zertifikat des Servers wurde nicht aktiviert"
+
+#: src/client/dialogs/certificate-warning-dialog.vala:88
+msgid "The server’s certificate has been revoked and is now invalid"
+msgstr "Das Zertifikat des Servers wurde widerrufen und ist jetzt ungültig"
+
+#: src/client/dialogs/certificate-warning-dialog.vala:91
+msgid "The server’s certificate is considered insecure"
+msgstr "Das Zertifikat des Servers wird als unsicher erachtet"
+
+#: src/client/dialogs/certificate-warning-dialog.vala:94
+msgid "An error has occurred processing the server’s certificate"
+msgstr ""
+"Ein Fehler ist während der Bearbeitung des Server-Zertifikats aufgetreten"
+
+#. We can't keep these in the glade file, because Gnome doesn't want markup in translatable
+#. strings, and Glade doesn't support the "larger" size attribute. See this bug report for
+#. details: https://bugzilla.gnome.org/show_bug.cgi?id=679006
+#: src/client/dialogs/password-dialog.vala:16
+msgid "Geary requires your email password to continue"
+msgstr "Geary benötigt Ihr E-Mail-Passwort, um fortzufahren"
+
+#. Label displaying total number of email messages in a folder
+#: src/client/folder-list/folder-list-folder-entry.vala:32
+#, c-format
+msgid "%d message"
+msgid_plural "%d messages"
+msgstr[0] "%d Nachricht"
+msgstr[1] "%d Nachrichten"
+
+#. / Label displaying number of unread email messages in a folder
+#: src/client/folder-list/folder-list-folder-entry.vala:39
+#, c-format
+msgid "%d unread"
+msgid_plural "%d unread"
+msgstr[0] "%d ungelesen"
+msgstr[1] "%d ungelesen"
+
+#. / This string represents the divider between two messages: "n messages" and "n unread",
+#. / shown in the folder list as a tooltip.  Please use your languages conventions for
+#. / combining the two, i.e. a comma (",") for English; "6 messages, 3 unread"
+#: src/client/folder-list/folder-list-folder-entry.vala:45
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: src/client/folder-list/folder-list-inboxes-branch.vala:14
+msgid "Inboxes"
+msgstr "Posteingänge"
+
+#: src/client/folder-list/folder-list-search-branch.vala:44
+#, c-format
+msgid "%d result"
+msgid_plural "%d results"
+msgstr[0] "%d Ergebnis"
+msgstr[1] "%d Ergebnisse"
+
+#: src/client/notification/libmessagingmenu.vala:75
+#, c-format
+msgid "%s — New Messages"
+msgstr "%s – Neue Nachrichten"
+
+#: src/client/notification/libnotify.vala:75
+#, c-format
+msgid "%d new message"
+msgid_plural "%d new messages"
+msgstr[0] "%d neue Nachricht"
+msgstr[1] "%d neue Nachrichten"
+
+#: src/client/notification/libnotify.vala:78
+#, c-format
+msgid "%s, %d new message total"
+msgid_plural "%s, %d new messages total"
+msgstr[0] "%s, insgesamt %d neue Nachricht"
+msgstr[1] "%s, insgesamt %d neue Nachrichten"
+
+#: src/client/notification/libnotify.vala:112
+#, c-format
+msgid ""
+"%s\n"
+"(%d other new message for %s)"
+msgid_plural ""
+"%s\n"
+"(%d other new messages for %s)"
+msgstr[0] ""
+"%s\n"
+"(%d andere neue Nachricht für %s)"
+msgstr[1] ""
+"%s\n"
+"(%d andere neue Nachrichten für %s)"
+
+#: src/client/notification/libnotify.vala:155
+msgid "Open"
+msgstr "Öffnen"
+
+#. / Datetime format for 12-hour time, i.e. 8:31 am
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#: src/client/util/util-date.vala:68
+msgid "%l:%M %P"
+msgstr "%l:%M %P"
+
+#. / Datetime format for 24-hour time, i.e. 16:35
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#: src/client/util/util-date.vala:71
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#. / Datetime format for the locale default, i.e. 8:31 am or 16:35,
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#: src/client/util/util-date.vala:74
+msgctxt "Default clock format"
+msgid "%l:%M %P"
+msgstr "%l:%M %P"
+
+#. / Date format for dates within the current year, i.e. Nov 8
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#: src/client/util/util-date.vala:78
+msgid "%b %-e"
+msgstr "%-e. %b"
+
+#. / Date format for dates within a different year, i.e. 02/04/10
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#: src/client/util/util-date.vala:83
+#, no-c-format
+msgid "%x"
+msgstr "%x"
+
+#. / Verbose datetime format for 12-hour time, i.e. November 8, 2010 8:42 am
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#: src/client/util/util-date.vala:88
+msgid "%B %-e, %Y %-l:%M %P"
+msgstr "%-e. %B, %Y um %-l:%M %P"
+
+#. / Verbose datetime format for 24-hour time, i.e. November 8, 2010 16:35
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#: src/client/util/util-date.vala:91
+msgid "%B %-e, %Y %-H:%M"
+msgstr "%-e. %B, %Y %-H:%M"
+
+#. / Verbose datetime format for the locale default (full month, day and time)
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#: src/client/util/util-date.vala:94
+msgctxt "Default full date"
+msgid "%B %-e, %Y %-l:%M %P"
+msgstr "%-e. %B, %Y %-l:%M %P"
+
+#: src/client/util/util-date.vala:164
+msgid "Now"
+msgstr "Jetzt"
+
+#: src/client/util/util-date.vala:167
+#, c-format
+msgid "%dm ago"
+msgid_plural "%dm ago"
+msgstr[0] "vor %dm"
+msgstr[1] "vor %dm"
+
+#: src/client/util/util-date.vala:171
+#, c-format
+msgid "%dh ago"
+msgid_plural "%dh ago"
+msgstr[0] "vor %dh"
+msgstr[1] "vor %dh"
+
+#: src/client/util/util-date.vala:178
+msgid "Yesterday"
+msgstr "Gestern"
+
+#. / Date format that shows the weekday (Monday, Tuesday, ...)
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#: src/client/util/util-date.vala:183
+#, c-format
+msgid "%A"
+msgstr "%A"
+
+#: src/client/util/util-email.vala:38 src/engine/rfc822/rfc822-message.vala:862
+msgid "(no subject)"
+msgstr "(kein Betreff)"
+
+#. Translators: This is shown for displaying a list of
+#. email recipients that happens to be empty,
+#. i.e. contains no email addresses.
+#: src/client/util/util-email.vala:116
+msgid "(No recipients)"
+msgstr "(Keine Empfänger)"
+
+#. Translators: This is used for displaying a short list of
+#. email recipients lists with two or more addresses. The
+#. first (string) substitution is address of the first, the
+#. second substitution is the number of n - 1 remaining
+#. recipients.
+#: src/client/util/util-email.vala:130
+#, c-format
+msgid "%s and %d other"
+msgid_plural "%s and %d others"
+msgstr[0] "%s und %d weiterer"
+msgstr[1] "%s und %d weitere"
+
+#: src/client/util/util-files.vala:16
+msgid "bytes"
+msgstr "Bytes"
+
+#: src/client/util/util-files.vala:19
+msgctxt "Abbreviation for terabyte"
+msgid "TB"
+msgstr "TB"
+
+#: src/client/util/util-files.vala:22
+msgctxt "Abbreviation for gigabyte"
+msgid "GB"
+msgstr "GB"
+
+#: src/client/util/util-files.vala:25
+msgctxt "Abbreviation for megabyte"
+msgid "MB"
+msgstr "MB"
+
+#: src/client/util/util-files.vala:28
+msgctxt "Abbreviation for kilobyte"
+msgid "KB"
+msgstr "kB"
+
+#: src/engine/api/geary-special-folder-type.vala:24
+msgid "Inbox"
+msgstr "Posteingang"
+
+#: src/engine/api/geary-special-folder-type.vala:27
+msgid "Drafts"
+msgstr "Entwürfe"
+
+#: src/engine/api/geary-special-folder-type.vala:30
+msgid "Sent Mail"
+msgstr "Gesendete E-Mails"
+
+#: src/engine/api/geary-special-folder-type.vala:33
+msgid "Starred"
+msgstr "Markiert"
+
+#: src/engine/api/geary-special-folder-type.vala:36
+msgid "Important"
+msgstr "Wichtig"
+
+#: src/engine/api/geary-special-folder-type.vala:39
+msgid "All Mail"
+msgstr "Alle E-Mails"
+
+#: src/engine/api/geary-special-folder-type.vala:42
+msgid "Spam"
+msgstr "Spam"
+
+#: src/engine/api/geary-special-folder-type.vala:45
+msgid "Trash"
+msgstr "Papierkorb"
+
+#: src/engine/api/geary-special-folder-type.vala:48
+msgid "Outbox"
+msgstr "Postausgang"
+
+#: src/engine/api/geary-special-folder-type.vala:54
+msgid "Archive"
+msgstr "Archivieren"
+
+#. Map of possibly translated search operator names and values
+#. to English/internal names and values. We include the
+#. English version anyway so that when translations provide a
+#. localised version of the operator names but have not also
+#. translated the user manual, the English version in the
+#. manual still works.
+#. Can be typed in the search box like "attachment:file.txt"
+#. to find messages with attachments with a particular name.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+#: src/engine/imap-db/imap-db-account.vala:125
+msgctxt "Search operator"
+msgid "attachment"
+msgstr "Anhang"
+
+#. Can be typed in the search box like
+#. "bcc:johndoe@example.com" to find messages bcc'd to a
+#. particular person.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+#: src/engine/imap-db/imap-db-account.vala:134
+msgctxt "Search operator"
+msgid "bcc"
+msgstr "Blindkopie"
+
+#. Can be typed in the search box like "body:word" to find
+#. "word" only if it occurs in the body of a message.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+#: src/engine/imap-db/imap-db-account.vala:142
+msgctxt "Search operator"
+msgid "body"
+msgstr "Nachricht"
+
+#. Can be typed in the search box like
+#. "cc:johndoe@example.com" to find messages cc'd to a
+#. particular person.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+#: src/engine/imap-db/imap-db-account.vala:151
+msgctxt "Search operator"
+msgid "cc"
+msgstr "Kopie"
+
+#. Can be typed in the search box like
+#. "from:johndoe@example.com" to find messages from a
+#. particular sender.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+#: src/engine/imap-db/imap-db-account.vala:160
+msgctxt "Search operator"
+msgid "from"
+msgstr "von"
+
+#. Can be typed in the search box like "is:unread" to find
+#. messages that are read, unread, or starred.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+#: src/engine/imap-db/imap-db-account.vala:168
+msgctxt "Search operator"
+msgid "is"
+msgstr "ist"
+
+#. Can be typed in the search box like "subject:word" to find
+#. "word" only if it occurs in the subject of a message.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary
+#. User Guide.
+#: src/engine/imap-db/imap-db-account.vala:176
+msgctxt "Search operator"
+msgid "subject"
+msgstr "Betreff"
+
+#. Can be typed in the search box like
+#. "to:johndoe@example.com" to find messages received by a
+#. particular person.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+#: src/engine/imap-db/imap-db-account.vala:185
+msgctxt "Search operator"
+msgid "to"
+msgstr "an"
+
+# an mich
+#. Can be typed in the search box after "to:", "cc:" and
+#. "bcc:" e.g.: "to:me". Matches conversations that are
+#. addressed to the user.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+#: src/engine/imap-db/imap-db-account.vala:206
+msgctxt "Search operator value - mail addressed to the user"
+msgid "me"
+msgstr "mich"
+
+# von mir
+#. Can be typed in the search box after "from:" i.e.:
+#. "from:me". Matches conversations were sent by the user.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+#: src/engine/imap-db/imap-db-account.vala:218
+msgctxt "Search operator value - mail sent by the user"
+msgid "me"
+msgstr "mir"
+
+#. Can be typed in the search box after "is:" i.e.:
+#. "is:read". Matches conversations that are flagged as read.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+#: src/engine/imap-db/imap-db-account.vala:230
+msgctxt "'is:' search operator value"
+msgid "read"
+msgstr "gelesen"
+
+#. Can be typed in the search box after "is:" i.e.:
+#. "is:starred". Matches conversations that are flagged as
+#. starred.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+#: src/engine/imap-db/imap-db-account.vala:241
+msgctxt "'is:' search operator value"
+msgid "starred"
+msgstr "markiert"
+
+#. Can be typed in the search box after "is:" i.e.:
+#. "is:unread". Matches conversations that are flagged unread.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+#: src/engine/imap-db/imap-db-account.vala:251
+msgctxt "'is:' search operator value"
+msgid "unread"
+msgstr "ungelesen"
+
+#. List of general possible folder names to match for the
+#. Draft mailbox. Separate names using a vertical bar and
+#. put the most common localized name to the front for the
+#. default. English names do not need to be included.
+#: src/engine/imap-engine/imap-engine-generic-account.vala:935
+msgid "Drafts | Draft"
+msgstr "Entwürfe | Entwurf"
+
+#. List of general possible folder names to match for the
+#. Sent mailbox. Separate names using a vertical bar and
+#. put the most common localized name to the front for the
+#. default. English names do not need to be included.
+#: src/engine/imap-engine/imap-engine-generic-account.vala:944
+msgid "Sent | Sent Mail | Sent Email | Sent E-Mail"
+msgstr ""
+"Gesendet | Gesendete E-Mail | Gesendete E-Mails | Sent | Sent Mail | Sent "
+"Email | Sent E-Mail"
+
+#. The localised name(s) of the Sent folder name as used
+#. by MS Outlook/Exchange.
+#: src/engine/imap-engine/imap-engine-generic-account.vala:949
+msgctxt "Outlook localised name"
+msgid "Sent Items"
+msgstr "Gesendete Objekte"
+
+#. List of general possible folder names to match for the
+#. Spam mailbox. Separate names using a vertical bar and
+#. put the most common localized name to the front for the
+#. default. English names do not need to be included.
+#: src/engine/imap-engine/imap-engine-generic-account.vala:959
+msgid ""
+"Junk | Spam | Junk Mail | Junk Email | Junk E-Mail | Bulk Mail | Bulk Email "
+"| Bulk E-Mail"
+msgstr ""
+"Ungewünscht | Junk | Spam | Junk Mail | Junk Email | Junk E-Mail | Bulk Mail "
+"| Bulk Email | Bulk E-Mail"
+
+#. List of general possible folder names to match for the
+#. Trash mailbox. Separate names using a vertical bar and
+#. put the most common localized name to the front for the
+#. default. English names do not need to be included.
+#: src/engine/imap-engine/imap-engine-generic-account.vala:969
+msgid "Trash | Rubbish | Rubbish Bin"
+msgstr "Papierkorb | Müll | Trash | Rubbish | Rubbish Bin"
+
+#. The localised name(s) of the Trash folder name as used
+#. by MS Outlook/Exchange.
+#: src/engine/imap-engine/imap-engine-generic-account.vala:974
+msgctxt "Outlook localised name"
+msgid "Deleted Items"
+msgstr "Gelöschte Objekte"
+
+#. List of general possible folder names to match for the
+#. Archive mailbox. Separate names using a vertical bar
+#. and put the most common localized name to the front for
+#. the default. English names do not need to be included.
+#: src/engine/imap-engine/imap-engine-generic-account.vala:984
+msgid "Archive | Archives"
+msgstr "Archiv | Archive | Archive | Archives"
+
+#. / Format for the datetime that a message being replied to was received
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#: src/engine/rfc822/rfc822-utils.vala:236
+msgid "%a, %b %-e, %Y at %-l:%M %p"
+msgstr "%a, %-e. %b, %Y um %-l:%M %p"
+
+#. / The quoted header for a message being replied to.
+#. / %1$s will be substituted for the date, and %2$s will be substituted for
+#. / the original sender.
+#: src/engine/rfc822/rfc822-utils.vala:242
+#, c-format
+msgid "On %1$s, %2$s wrote:"
+msgstr "Am %1$s schrieb %2$s:"
+
+#. / The quoted header for a message being replied to (in case the date is not known).
+#. / %s will be replaced by the original sender.
+#: src/engine/rfc822/rfc822-utils.vala:249
+#, c-format
+msgid "%s wrote:"
+msgstr "%s schrieb:"
+
+#. / The quoted header for a message being replied to (in case the sender is not known).
+#. / %s will be replaced by the original date
+#: src/engine/rfc822/rfc822-utils.vala:255
+#, c-format
+msgid "On %s:"
+msgstr "Am %s:"
+
+#: src/engine/rfc822/rfc822-utils.vala:284
+msgid "---------- Forwarded message ----------"
+msgstr "---------- Weitergeleitete Nachricht ----------"
+
+#: ui/accounts_editor_add_pane.ui:8 ui/accounts_editor_list_pane.ui:127
+msgid "Add an account"
+msgstr "Ein Konto hinzufügen"
+
+#: ui/accounts_editor_add_pane.ui:53
+msgid "Create"
+msgstr "Erstellen"
+
+#: ui/accounts_editor_add_pane.ui:130 ui/accounts_editor_servers_pane.ui:125
+msgid "Receiving"
+msgstr "Wird empfangen"
+
+#: ui/accounts_editor_add_pane.ui:178 ui/accounts_editor_servers_pane.ui:165
+msgid "Sending"
+msgstr "Wird gesendet"
+
+#: ui/accounts_editor_edit_pane.ui:8
+msgid "Edit Account"
+msgstr "Konto bearbeiten"
+
+#: ui/accounts_editor_edit_pane.ui:9 ui/accounts_editor_servers_pane.ui:9
+msgid "Account Name"
+msgstr "Kontoname"
+
+#: ui/accounts_editor_edit_pane.ui:124
+msgid "Email addresses"
+msgstr "E-Mail-Adressen"
+
+#: ui/accounts_editor_edit_pane.ui:164
+msgid "Signature"
+msgstr "Signatur"
+
+#: ui/accounts_editor_edit_pane.ui:201
+msgid "Settings"
+msgstr "Einstellungen"
+
+#. This is a button in the account settings to show server settings.
+#: ui/accounts_editor_edit_pane.ui:243 ui/accounts_editor_servers_pane.ui:8
+msgid "Server Settings"
+msgstr "Server-Einstellungen"
+
+#. This is the remove account button in the account settings.
+#: ui/accounts_editor_edit_pane.ui:258 ui/accounts_editor_remove_pane.ui:23
+msgid "Remove Account"
+msgstr "Konto entfernen"
+
+#: ui/accounts_editor_edit_pane.ui:262 ui/accounts_editor_remove_pane.ui:27
+msgid "Remove this account from Geary"
+msgstr "Konto aus Geary entfernen"
+
+#: ui/accounts_editor_list_pane.ui:8
+msgid "Accounts"
+msgstr "Konten"
+
+#: ui/accounts_editor_list_pane.ui:63
+msgid "To get started, select an email provider below."
+msgstr "Wählen Sie unten einen E-Mail-Anbieter aus, um zu beginnen."
+
+#: ui/accounts_editor_list_pane.ui:76
+msgid "Welcome to Geary"
+msgstr "Willkommen bei Geary"
+
+#. This title is shown to users when confirming if they want to remove an account. The string substitution is replaced with the account's name.
+#: ui/accounts_editor_remove_pane.ui:73
+#, c-format
+msgid "Confirm removing: %s"
+msgstr "Entfernen bestätigen: %s"
+
+#: ui/accounts_editor_remove_pane.ui:91
+msgid ""
+"Removing an account will remove it from Geary and delete locally cached "
+"email data from your computer, but not from your service provider."
+msgstr ""
+"Wenn Sie ein Konto entfernen, wird es aus Geary entfernt und lokal "
+"zwischengespeicherte E-Mail-Daten werden von Ihrem Computer gelöscht. Sie "
+"bleiben jedoch bei Ihrem Dienstleister gespeichert."
+
+#: ui/accounts_editor_remove_pane.ui:122
+msgid "Remove account"
+msgstr "Konto entfernen"
+
+#: ui/accounts_editor_servers_pane.ui:17
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ui/accounts_editor_servers_pane.ui:47
+msgid "Apply"
+msgstr "Anwenden"
+
+#: ui/certificate_warning_dialog.glade:7
+msgid "Untrusted Connection"
+msgstr "Nicht vertrauenswürdige Verbindung"
+
+#: ui/certificate_warning_dialog.glade:29
+msgid "_Always Trust This Server"
+msgstr "Diesem Server _immer vertrauen"
+
+#: ui/certificate_warning_dialog.glade:43
+msgid "_Trust This Server"
+msgstr "Diesem Server _vertrauen"
+
+#: ui/certificate_warning_dialog.glade:57
+msgid "_Don’t Trust This Server"
+msgstr "Diesem Server _nicht vertrauen"
+
+#: ui/composer-headerbar.ui:17 ui/composer-headerbar.ui:174
+msgid "Detach (Ctrl+D)"
+msgstr "Loslösen (Strg+D)"
+
+#: ui/composer-headerbar.ui:57 ui/composer-headerbar.ui:83
+msgid "Attach File (Ctrl+T)"
+msgstr "Datei anhängen (Strg+T)"
+
+#: ui/composer-headerbar.ui:107
+msgid "Include Original Attachments"
+msgstr "Ursprüngliche Anhänge übernehmen"
+
+#: ui/composer-headerbar.ui:202
+msgid "_Send"
+msgstr "_Senden"
+
+#: ui/composer-headerbar.ui:207
+msgid "Send (Ctrl+Enter)"
+msgstr "Senden (Strg+Eingabetaste)"
+
+#: ui/composer-headerbar.ui:230
+msgid "Discard and Close"
+msgstr "Verwerfen und schließen"
+
+#: ui/composer-headerbar.ui:254
+msgid "Save and Close"
+msgstr "Speichern und schließen"
+
+#. Note that this button and the Update button will never be shown at the same time to the user.
+#: ui/composer-link-popover.ui:41
+msgid "Insert the new link with this URL"
+msgstr "Den neuen Verweis mit dieser Adresse einfügen"
+
+#: ui/composer-link-popover.ui:52
+msgid "Link URL"
+msgstr "Verweisadresse"
+
+#. Note that this button and the Insert button will never be shown at the same time to the user.
+#: ui/composer-link-popover.ui:66
+msgid "Update this link’s URL"
+msgstr "Die Adresse dieses Verweises aktualisieren"
+
+#: ui/composer-link-popover.ui:86
+msgid "Delete this link"
+msgstr "Diesen Verweis löschen"
+
+#: ui/composer-link-popover.ui:106
+msgid "Open this link"
+msgstr "Diesen Verweis öffnen"
+
+#: ui/composer-menus.ui:7
+msgid "S_ans Serif"
+msgstr "S_ans Serif"
+
+#: ui/composer-menus.ui:12
+msgid "S_erif"
+msgstr "S_erif"
+
+#: ui/composer-menus.ui:17
+msgid "_Fixed Width"
+msgstr "_Feste Breite"
+
+#: ui/composer-menus.ui:24
+msgid "_Small"
+msgstr "_Klein"
+
+#: ui/composer-menus.ui:29
+msgid "_Medium"
+msgstr "_Normal"
+
+#: ui/composer-menus.ui:34
+msgid "Lar_ge"
+msgstr "Gr_oß"
+
+#: ui/composer-menus.ui:41
+msgid "C_olor"
+msgstr "F_arbe"
+
+#: ui/composer-menus.ui:47 ui/composer-menus.ui:62
+msgid "_Rich Text"
+msgstr "_Formatierter Text"
+
+#: ui/composer-menus.ui:53 ui/composer-menus.ui:68
+msgid "Show Extended Fields"
+msgstr "Erweiterte Felder anzeigen"
+
+#: ui/composer-menus.ui:78
+msgid "_Undo"
+msgstr "_Rückgängig machen"
+
+#: ui/composer-menus.ui:82
+msgid "_Redo"
+msgstr "_Wiederholen"
+
+#: ui/composer-menus.ui:88 ui/composer-menus.ui:106
+msgid "Cu_t"
+msgstr "Aus_schneiden"
+
+#: ui/composer-menus.ui:92 ui/composer-menus.ui:110
+#: ui/conversation-message-menus.ui:37
+msgid "_Copy"
+msgstr "_Kopieren"
+
+#: ui/composer-menus.ui:96 ui/composer-menus.ui:114
+msgid "_Paste"
+msgstr "_Einfügen"
+
+#: ui/composer-menus.ui:100
+msgctxt "Clipboard paste as plain text"
+msgid "Paste _Without Formatting"
+msgstr "_Ohne Formatierung einfügen"
+
+#: ui/composer-menus.ui:120
+msgid "Select _All"
+msgstr "Alles _auswählen"
+
+#: ui/composer-menus.ui:127 ui/conversation-message-menus.ui:49
+msgid "_Inspect…"
+msgstr "_Untersuchen …"
+
+#. Address(es) e-mail is to be sent to
+#: ui/composer-widget.ui:56
+msgid "_To"
+msgstr "_An"
+
+#: ui/composer-widget.ui:75
+msgid "_Cc"
+msgstr "_Kopie"
+
+#: ui/composer-widget.ui:130
+msgid "_Subject"
+msgstr "_Betreff"
+
+#: ui/composer-widget.ui:149
+msgid "_Bcc"
+msgstr "_Blindkopie"
+
+#: ui/composer-widget.ui:179
+msgid "_Reply-To"
+msgstr "_Antwort an"
+
+#. Geary account mail will be sent from
+#: ui/composer-widget.ui:208
+msgid "From"
+msgstr "Von"
+
+#: ui/composer-widget.ui:293
+msgid "Drop files here"
+msgstr "Dateien hier ablegen"
+
+#: ui/composer-widget.ui:309
+msgid "To add them as attachments"
+msgstr "Als Anhang einfügen"
+
+#: ui/composer-widget.ui:353
+msgid "Undo last edit (Ctrl+Z)"
+msgstr "Letzte Bearbeitung rückgängig (Strg+Z)"
+
+#: ui/composer-widget.ui:377
+msgid "Redo last edit  (Ctrl+Shift+Z)"
+msgstr "Letzte Bearbeitung wiederholen (Umschalt+Strg+Z)"
+
+#: ui/composer-widget.ui:415
+msgid "Bold (Ctrl+B)"
+msgstr "Fett (Strg+B)"
+
+#: ui/composer-widget.ui:439
+msgid "Italic (Ctrl+I)"
+msgstr "Kursiv (Strg+I)"
+
+#: ui/composer-widget.ui:463
+msgid "Underline (Ctrl+U)"
+msgstr "Unterstrichen (Strg+U)"
+
+#: ui/composer-widget.ui:487
+msgid "Strikethrough (Ctrl+K)"
+msgstr "Durchgestrichen (Strg+K)"
+
+#: ui/composer-widget.ui:525
+msgid "Insert unordered list"
+msgstr "Ungeordnete Liste einfügen"
+
+#: ui/composer-widget.ui:549
+msgid "Insert ordered list"
+msgstr "Geordnete Liste einfügen"
+
+#: ui/composer-widget.ui:587
+msgid "Quote text  (Ctrl+])"
+msgstr "Text einrücken (Strg+])"
+
+#: ui/composer-widget.ui:611
+msgid "Unquote text  (Ctrl+[)"
+msgstr "Einrückung aufheben (Strg+[)"
+
+#: ui/composer-widget.ui:649
+msgid "Insert or update selection link (Ctrl+L)"
+msgstr "Verweis in Auswahl einfügen oder aktualisieren (Strg+L)"
+
+#: ui/composer-widget.ui:673
+msgid "Insert an image (Ctrl+G)"
+msgstr "Bild einfügen (Strg+G)"
+
+#: ui/composer-widget.ui:707
+msgid "Remove selection formatting (Ctrl+Space)"
+msgstr "Formatierung der Auswahl löschen (Strg+Leertaste)"
+
+#: ui/composer-widget.ui:731
+msgid "Select spell checking languages"
+msgstr "Sprachen für Rechtschreibprüfung auswählen"
+
+#: ui/conversation-email.ui:27
+msgid "Save all attachments"
+msgstr "Alle Anhänge speichern"
+
+#. Note: The application will never show this button at the same time as unstar_button, one will always be hidden.
+#: ui/conversation-email.ui:50
+msgid "Mark this message as starred"
+msgstr "Diese Nachricht mit einem Stern markieren"
+
+#. Note: The application will never show this button at the same time as star_button, one will always be hidden.
+#: ui/conversation-email.ui:72
+msgid "Mark this message as not starred"
+msgstr "Sternmarkierung von dieser Nachricht entfernen"
+
+#: ui/conversation-email.ui:95
+msgid "Display the message menu"
+msgstr "Das Nachrichtenmenü anzeigen"
+
+#: ui/conversation-email.ui:161
+msgid "Open selected attachments"
+msgstr "Ausgewählte Anhänge öffnen"
+
+#: ui/conversation-email.ui:178
+msgid "Save selected attachments"
+msgstr "Ausgewählte Anhänge speichern"
+
+#: ui/conversation-email.ui:195
+msgid "Select all attachments"
+msgstr "Alle Anhänge auswählen"
+
+#: ui/conversation-email.ui:240
+msgid "Edit Draft"
+msgstr "Entwurf bearbeiten"
+
+#: ui/conversation-email.ui:267
+msgid "Draft message"
+msgstr "Nachrichtenentwurf"
+
+#: ui/conversation-email.ui:283
+msgid "This message has not yet been sent."
+msgstr "Diese Nachricht wurde noch nicht versendet."
+
+#: ui/conversation-email.ui:329
+msgid "Message not saved"
+msgstr "Nachricht nicht gespeichert"
+
+#: ui/conversation-email.ui:345
+msgid "This message was sent, but has not been saved to your account."
+msgstr ""
+"Diese Nachricht wurde gesendet, wurde aber nicht in Ihrem Konto gespeichert."
+
+#. Translators: Menu item to reply to a specific message.
+#: ui/conversation-email-menus.ui:15
+msgid "Reply to _All"
+msgstr "_Allen antworten"
+
+#. Translators: Menu item to mark a specific message as
+#. read.
+#: ui/conversation-email-menus.ui:30
+msgid "_Mark Read"
+msgstr "Als _gelesen markieren"
+
+#: ui/conversation-email-menus.ui:36
+msgid "_Mark Unread"
+msgstr "Als _ungelesen markieren"
+
+#. Translators: Menu item to mark all messages in a
+#. conversation from this one as unread.
+#: ui/conversation-email-menus.ui:42
+msgid "Mark Unread From _Here"
+msgstr "Von _hier ab als ungelesen markieren"
+
+#. Translators: Menu item to move a single, specific message
+#. to the trash
+#: ui/conversation-email-menus.ui:50
+msgid "_Trash"
+msgstr "In den _Papierkorb"
+
+#. Translators: Menu item to delete a single, specific message
+#: ui/conversation-email-menus.ui:57
+msgid "_Delete…"
+msgstr "_Löschen …"
+
+#. Translators: Menu item to view the source for a message
+#: ui/conversation-email-menus.ui:69
+msgid "_View Source"
+msgstr "_Quelltext anzeigen"
+
+#: ui/conversation-email-menus.ui:87
+msgid "_Save All"
+msgstr "A_lle speichern"
+
+#: ui/conversation-message-menus.ui:7
+msgid "_Open Link"
+msgstr "_Verweis öffnen"
+
+#: ui/conversation-message-menus.ui:11
+msgid "Copy Link _Address"
+msgstr "Verweis_adresse kopieren"
+
+#: ui/conversation-message-menus.ui:17
+msgid "Send New _Message…"
+msgstr "Neue _Nachricht senden …"
+
+#: ui/conversation-message-menus.ui:21
+msgid "Copy Email _Address"
+msgstr "_E-Mail-Adresse kopieren"
+
+#: ui/conversation-message-menus.ui:27
+msgid "Save _Image As…"
+msgstr "_Bild speichern unter …"
+
+#: ui/conversation-message-menus.ui:33
+msgid "_Select All"
+msgstr "Alles _auswählen"
+
+#: ui/conversation-message-menus.ui:43
+msgid "Search for messages from"
+msgstr "Nach Nachrichten suchen von"
+
+#: ui/conversation-message.ui:63
+msgid "From <email>"
+msgstr "Von <email>"
+
+#: ui/conversation-message.ui:79 ui/conversation-message.ui:178
+msgid "1/1/1970\t"
+msgstr "1.1.1970\t"
+
+#: ui/conversation-message.ui:102
+msgid "Preview body text."
+msgstr "Nachrichtenvorschau anzeigen."
+
+#: ui/conversation-message.ui:202
+msgid "Sent by:"
+msgstr "Gesendet von:"
+
+#: ui/conversation-message.ui:247
+msgid "Reply to:"
+msgstr "Antwort an:"
+
+#: ui/conversation-message.ui:291
+msgid "Subject"
+msgstr "Betreff"
+
+#: ui/conversation-message.ui:501
+msgid "Show Images"
+msgstr "Bilder anzeigen"
+
+#: ui/conversation-message.ui:514
+msgid "Always Show From Sender"
+msgstr "Von diesem Absender immer anzeigen"
+
+# habe aus fuer remote aus "entfernt" "extern gemacht, da entfernt auch ein Synonym fuer geloescht, also von der Nachricht entfernte Bilder sein kann.
+#: ui/conversation-message.ui:542
+msgid "Remote images not shown"
+msgstr "Externe Bilder werden nicht angezeigt"
+
+#: ui/conversation-message.ui:559
+msgid "Only show remote images from senders you trust."
+msgstr "Externe Bilder nur von Absendern anzeigen, denen Sie vertrauen."
+
+#: ui/conversation-message.ui:692
+msgid "But actually goes to:"
+msgstr "Aber führt tatsächlich zu:"
+
+#: ui/conversation-message.ui:723
+msgid "The link appears to go to:"
+msgstr "Dieser Verweis scheint zu folgender Seite zu führen:"
+
+#: ui/conversation-message.ui:735
+msgid "Deceptive link found"
+msgstr "Trügerischer Verweis gefunden"
+
+#: ui/conversation-message.ui:750
+msgid "The email sender may be leading you to the wrong web site."
+msgstr "Der Absender der E-Mail könnte Sie zur falschen Webseite leiten."
+
+#: ui/conversation-message.ui:763
+msgid "If unsure, contact the sender and ask before continuing."
+msgstr ""
+"Falls Sie unsicher sind, kontaktieren Sie den Absender und fragen Sie, bevor "
+"Sie fortfahren."
+
+#: ui/conversation-viewer.ui:60
+msgid "Find in conversation"
+msgstr "In Konversation suchen"
+
+#: ui/conversation-viewer.ui:74
+msgid "Find the previous occurrence of the search string."
+msgstr "Vorhergehende Übereinstimmungen mit dem Suchtext finden."
+
+#: ui/conversation-viewer.ui:95
+msgid "Find the next occurrence of the search string."
+msgstr "Nächste Übereinstimmung mit dem Suchtext finden."
+
+#: ui/find_bar.glade:66
+msgid "Find:"
+msgstr "Suchen:"
+
+#: ui/find_bar.glade:89
+msgid "_Previous"
+msgstr "_Vorige"
+
+#: ui/find_bar.glade:107
+msgid "_Next"
+msgstr "_Nächste"
+
+#: ui/find_bar.glade:125
+msgid "_Case sensitive"
+msgstr "_Groß-/ Kleinschreibung"
+
+#: ui/find_bar.glade:145
+msgid "label"
+msgstr "Beschriftung"
+
+#: ui/gtk/help-overlay.ui:9
+msgid "Conversation Shortcuts"
+msgstr "Tastenkombinationen für Konversationen"
+
+#: ui/gtk/help-overlay.ui:13 ui/gtk/help-overlay.ui:254
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Allgemein"
+
+#: ui/gtk/help-overlay.ui:17
+msgctxt "shortcut window"
+msgid "Move focus to the next/previous pane"
+msgstr "Fokus auf die nächste/vorherige Leiste verlegen"
+
+#: ui/gtk/help-overlay.ui:24
+msgctxt "shortcut window"
+msgid "Move focus to conversation list"
+msgstr "Fokus auf die Konversationsliste verschieben"
+
+#: ui/gtk/help-overlay.ui:31
+msgctxt "shortcut window"
+msgid "Detach composer window"
+msgstr "»Verfassen«-Fenster abkoppeln"
+
+#: ui/gtk/help-overlay.ui:38
+msgctxt "shortcut window"
+msgid "Close composer window"
+msgstr "»Verfassen«-Fenster schließen"
+
+#: ui/gtk/help-overlay.ui:45
+msgctxt "shortcut window"
+msgid "Show keyboard shortcuts"
+msgstr "Tastenkombinationen anzeigen"
+
+#: ui/gtk/help-overlay.ui:52
+msgctxt "shortcut window"
+msgid "Show help"
+msgstr "Hilfe anzeigen"
+
+#: ui/gtk/help-overlay.ui:59
+msgctxt "shortcut window"
+msgid "Quit the application"
+msgstr "Die Anwendung beenden"
+
+#: ui/gtk/help-overlay.ui:68
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Suchen"
+
+#: ui/gtk/help-overlay.ui:72
+msgctxt "shortcut window"
+msgid "Jump to search box"
+msgstr "Zum Suchfeld springen"
+
+#: ui/gtk/help-overlay.ui:79
+msgctxt "shortcut window"
+msgid "Find in current conversation"
+msgstr "In aktueller Konversation suchen"
+
+#: ui/gtk/help-overlay.ui:86
+msgctxt "shortcut window"
+msgid "Find next/previous in current conversation"
+msgstr "Das nächste/vorherige Vorkommen in dieser Konversation finden"
+
+#: ui/gtk/help-overlay.ui:95 ui/gtk/help-overlay.ui:274
+msgctxt "shortcut window"
+msgid "Actions"
+msgstr "Aktionen"
+
+#: ui/gtk/help-overlay.ui:99
+msgctxt "shortcut window"
+msgid "Compose a new message"
+msgstr "Eine neue Nachricht verfassen"
+
+#: ui/gtk/help-overlay.ui:106
+msgctxt "shortcut window"
+msgid "Reply to sender "
+msgstr "Absender antworten "
+
+#: ui/gtk/help-overlay.ui:113
+msgctxt "shortcut window"
+msgid "Reply to all"
+msgstr "Allen antworten"
+
+#: ui/gtk/help-overlay.ui:120
+msgctxt "shortcut window"
+msgid "Forward"
+msgstr "Weiterleiten"
+
+#: ui/gtk/help-overlay.ui:127
+msgctxt "shortcut window"
+msgid "Archive"
+msgstr "Archivieren"
+
+#: ui/gtk/help-overlay.ui:134
+msgctxt "shortcut window"
+msgid "Move to trash"
+msgstr "In den Papierkorb verschieben"
+
+#: ui/gtk/help-overlay.ui:141
+msgctxt "shortcut window"
+msgid "Toggle spam"
+msgstr "Unerwünscht-Markierung umschalten"
+
+#: ui/gtk/help-overlay.ui:148
+msgctxt "shortcut window"
+msgid "Move the conversation"
+msgstr "Konversation verschieben"
+
+#: ui/gtk/help-overlay.ui:155
+msgctxt "shortcut window"
+msgid "Label the conversation"
+msgstr "Konversation eine Beschriftung zuweisen"
+
+#: ui/gtk/help-overlay.ui:163
+msgctxt "shortcut window"
+msgid "Mark read"
+msgstr "Als gelesen markieren"
+
+#: ui/gtk/help-overlay.ui:170
+msgctxt "shortcut window"
+msgid "Mark unread"
+msgstr "Als ungelesen markieren"
+
+#: ui/gtk/help-overlay.ui:179
+msgctxt "shortcut window"
+msgid "View"
+msgstr "Betrachten"
+
+#: ui/gtk/help-overlay.ui:183
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr "Ansicht vergrößern"
+
+#: ui/gtk/help-overlay.ui:190
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr "Ansicht verkleinern"
+
+#: ui/gtk/help-overlay.ui:197
+msgctxt "shortcut window"
+msgid "Reset zoom"
+msgstr "Vergrößerung zurücksetzen"
+
+#: ui/gtk/help-overlay.ui:206
+msgctxt "shortcut window"
+msgid "Additional Shortcuts"
+msgstr "Weitere Tastenkombinationen"
+
+#: ui/gtk/help-overlay.ui:210
+msgctxt "shortcut window"
+msgid "Star"
+msgstr "Stern"
+
+#: ui/gtk/help-overlay.ui:217
+msgctxt "shortcut window"
+msgid "Unstar"
+msgstr "Stern entfernen"
+
+#: ui/gtk/help-overlay.ui:224
+msgctxt "shortcut window"
+msgid "Delete"
+msgstr "Löschen"
+
+#: ui/gtk/help-overlay.ui:231
+msgctxt "shortcut window"
+msgid "Jump to next (older) conversation"
+msgstr "Zur nächsten (älteren) Konversation springen"
+
+#: ui/gtk/help-overlay.ui:238
+msgctxt "shortcut window"
+msgid "Jump to previous (newer) conversation"
+msgstr "Zur letzten (neueren) Konversation springen"
+
+#: ui/gtk/help-overlay.ui:250
+msgid "Composer Shortcuts"
+msgstr "Tastenkombinationen beim Verfassen"
+
+#: ui/gtk/help-overlay.ui:258
+msgctxt "shortcut window"
+msgid "Quote text"
+msgstr "Text einrücken"
+
+#: ui/gtk/help-overlay.ui:265
+msgctxt "shortcut window"
+msgid "Unquote text"
+msgstr "Einrückung aufheben"
+
+#: ui/gtk/help-overlay.ui:278
+msgctxt "shortcut window"
+msgid "Send"
+msgstr "Senden"
+
+#: ui/gtk/help-overlay.ui:285
+msgctxt "shortcut window"
+msgid "Add attachment"
+msgstr "Anhang hinzufügen"
+
+#: ui/gtk/help-overlay.ui:294
+msgctxt "shortcut window"
+msgid "Rich text mode"
+msgstr "Formatierter Text"
+
+#: ui/gtk/help-overlay.ui:298
+msgctxt "shortcut window"
+msgid "Bold text"
+msgstr "Fetter Text"
+
+#: ui/gtk/help-overlay.ui:305
+msgctxt "shortcut window"
+msgid "Italicize text"
+msgstr "Kursiver Text"
+
+#: ui/gtk/help-overlay.ui:312
+msgctxt "shortcut window"
+msgid "Underline text"
+msgstr "Unterstrichener Text"
+
+#: ui/gtk/help-overlay.ui:319
+msgctxt "shortcut window"
+msgid "Strike text"
+msgstr "Durchgestrichener Text"
+
+#: ui/gtk/help-overlay.ui:326
+msgctxt "shortcut window"
+msgid "Insert a link"
+msgstr "Einen Verweis einfügen"
+
+#: ui/gtk/help-overlay.ui:333
+msgctxt "shortcut window"
+msgid "Remove formatting"
+msgstr "Formatierung löschen"
+
+#: ui/main-toolbar.ui:23
+msgctxt "tooltip"
+msgid "Compose Message"
+msgstr "Nachricht verfassen"
+
+#: ui/main-toolbar.ui:52
+msgid "Toggle search bar"
+msgstr "Suchleiste anzeigen/verbergen"
+
+#: ui/main-toolbar.ui:112
+msgid "Reply"
+msgstr "Antworten"
+
+#: ui/main-toolbar.ui:135
+msgid "Reply All"
+msgstr "Allen antworten"
+
+#: ui/main-toolbar.ui:158
+msgid "Forward"
+msgstr "Weiterleiten"
+
+#: ui/main-toolbar.ui:264
+msgid "Toggle find bar"
+msgstr "Suchleiste anzeigen/verbergen"
+
+#: ui/main-toolbar.ui:306
+msgid "_Archive"
+msgstr "_Archivieren"
+
+#: ui/main-toolbar-menus.ui:21
+msgid "Mark as S_pam"
+msgstr "Als S_pam markieren"
+
+#: ui/main-toolbar-menus.ui:25
+msgid "Mark as not S_pam"
+msgstr "S_pam-Markierung entfernen"
+
+#: ui/main-toolbar-menus.ui:32
+msgid "Empty _Spam…"
+msgstr "_Spam leeren …"
+
+#: ui/main-toolbar-menus.ui:36
+msgid "Empty _Trash…"
+msgstr "_Papierkorb leeren …"
+
+#: ui/main-toolbar-menus.ui:42
+msgid "_Accounts"
+msgstr "_Konten"
+
+#: ui/main-toolbar-menus.ui:50
+msgid "_Keyboard Shortcuts"
+msgstr "_Tastenkombinationen"
+
+#: ui/main-toolbar-menus.ui:61
+msgid "_About Geary"
+msgstr "_Info zu Geary"
+
+#. Infobar title when one or more accounts are offline
+#: ui/main-window.ui:183
+msgid "Working offline"
+msgstr "Abgemeldet arbeiten"
+
+#. Label and tooltip for offline infobar
+#: ui/main-window.ui:197
+msgid ""
+"Your computer does not appear to be connected to the Internet.\n"
+"You will not be able to send or receive email until it is re-connected."
+msgstr ""
+"Ihr Rechner scheint nicht mit dem Internet verbunden zu sein.\n"
+"Sie können keine E-Mails senden oder empfangen, bis er wieder verbunden ist."
+
+#. Label and tooltip for offline infobar
+#: ui/main-window.ui:200
+msgid "You will not be able to send or receive email until re-connected."
+msgstr ""
+"Sie können keine E-Mails senden oder empfangen, bis wieder eine Verbindung "
+"besteht."
+
+#. Button label for displaying technical details about an account problem
+#. Dialog title for displaying technical details of a problem. Same as the button that invokes it.
+#: ui/main-window.ui:247 ui/problem-details-dialog.ui:13
+msgid "Details"
+msgstr "Details"
+
+#. Button label for retrying an account problem
+#: ui/main-window.ui:261
+msgid "Retry"
+msgstr "Wiederholen"
+
+#. Infobar title when one or more accounts have encounted an error
+#: ui/main-window.ui:294
+msgid "Account problem"
+msgstr "Kontoproblem"
+
+#. Label and tooltip for account service problem infobar
+#: ui/main-window.ui:308
+msgid ""
+"Geary encountered a problem connecting to an account.\n"
+"Please check your Internet connection, the server configuration and try "
+"again."
+msgstr ""
+"Geary ist beim Verbinden zu einem Konto auf ein Problem gestoßen.\n"
+"Bitte überprüfen Sie Ihre Internetverbindung und die Servereinstellungen, "
+"und versuchen Sie es erneut."
+
+#. Label and tooltip for account service problem infobar
+#: ui/main-window.ui:311
+msgid "Geary encountered a problem connecting to an account."
+msgstr "Geary ist beim Verbinden zu einem Konto auf ein Problem gestoßen."
+
+#. Button label for retrying TLS cert validation
+#: ui/main-window.ui:358
+msgid "Check"
+msgstr "Prüfen"
+
+#. Button tooltip for retrying TLS cert validation
+#: ui/main-window.ui:362
+msgid "Check the security details for the connection"
+msgstr "Sicherheitsdetails für die Verbindung prüfen"
+
+#. Infobar title when one or more accounts have a TLS cert validation error
+#: ui/main-window.ui:391
+msgid "Security problem"
+msgstr "Sicherheitsproblem"
+
+#. Label and tooltip for TLS cert validation error infobar
+#: ui/main-window.ui:405
+msgid ""
+"An account has reported an untrusted server.\n"
+"Please check the server configuration and try again."
+msgstr ""
+"Ein Konto hat einen nicht vertrauenswürdigen Server gemeldet.\n"
+"Bitte prüfen Sie die Servereinstellungen und versuchen Sie es erneut."
+
+#. Label and tooltip for TLS cert validation error infobar
+#: ui/main-window.ui:408
+msgid "An account has reported an untrusted server."
+msgstr "Ein Konto hat einen nicht-vertrauten Server gemeldet."
+
+#. Button tooltip for retrying when a login error has occurred
+#: ui/main-window.ui:459
+msgid "Retry login, you will be prompted for your password"
+msgstr "Anmeldung erneut versuchen, Sie werden nach einem Passwort gefragt"
+
+#. Infobar title when one or more accounts have a login error
+#: ui/main-window.ui:488
+msgid "Login problem"
+msgstr "Anmeldeproblem"
+
+# Das ist im Original schon irreführend: Es reicht nicht, den  Benutzernamen
+# zu prüfen, auch das Passwort könnte falsch sein.
+#. Label and tooltip for authentication problem infobar
+#: ui/main-window.ui:502
+msgid ""
+"An account has reported an incorrect login or password.\n"
+"Please check your login name and try again."
+msgstr ""
+"Ein Konto hat einen falschen Benutzernamen oder Passwort gemeldet.\n"
+"Bitte prüfen Sie Ihre Anmeldedaten und versuchen Sie es erneut."
+
+#. Label and tooltip for authentication problem infobar
+#: ui/main-window.ui:505
+msgid "An account has reported an incorrect login or password."
+msgstr "Ein Konto hat einen falschen Benutzernamen oder Passwort gemeldet."
+
+#: ui/password-dialog.glade:74
+msgid "SMTP Credentials"
+msgstr "SMTP-Einstellungen"
+
+#: ui/password-dialog.glade:91
+msgid "Username"
+msgstr "Benutzername"
+
+#: ui/password-dialog.glade:152
+msgid "_Remember password"
+msgstr "_Passwort speichern"
+
+#: ui/password-dialog.glade:210
+msgid "_Authenticate"
+msgstr "_Legitimieren"
+
+#: ui/preferences-dialog.ui:38
+msgid "Reading"
+msgstr "Lesen"
+
+#: ui/preferences-dialog.ui:51
+msgid "_Automatically select next message"
+msgstr "Automatisch die nächste Nachricht _wählen"
+
+#: ui/preferences-dialog.ui:70
+msgid "_Display conversation preview"
+msgstr "Konversations_vorschau anzeigen"
+
+#: ui/preferences-dialog.ui:89
+msgid "Use _three pane view"
+msgstr "_Dreispaltige Ansicht verwenden"
+
+#: ui/preferences-dialog.ui:113
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: ui/preferences-dialog.ui:126
+msgid "_Play notification sounds"
+msgstr "_Benachrichtigungstöne abspielen"
+
+#: ui/preferences-dialog.ui:145
+msgid "Show _notifications for new mail"
+msgstr "Benachrichtigung bei _neuen E-Mails anzeigen"
+
+#: ui/preferences-dialog.ui:164
+msgid "_Watch for new mail when closed"
+msgstr "_Ständig nach neuen E-Mails prüfen"
+
+#: ui/preferences-dialog.ui:168
+msgid "Geary will keep running after all windows are closed"
+msgstr "Geary wird weiter ausgeführt, nachdem alle Fenster geschlossen wurden"
+
+#: ui/preferences-dialog.ui:195
+msgid "Preferences"
+msgstr "Einstellungen"
+
+#. Button label for copying technical information to the clipboard
+#: ui/problem-details-dialog.ui:17
+msgid "Copy to Clipboard"
+msgstr "In die Zwischenablage kopieren"
+
+#. Button tooltip for copying technical information to the clipboard
+#: ui/problem-details-dialog.ui:21
+msgid ""
+"Copy technical details to clipboard for pasting into an email or bug report"
+msgstr ""
+"Technische Details zum Einfügen in eine E-Mail oder einen Fehlerbericht in "
+"die Zwischenablage einfügen"
+
+#: ui/problem-details-dialog.ui:73
+msgid ""
+"If the problem is serious or persists, please copy and send these details to "
+"the <a href=\"https://wiki.gnome.org/Apps/Geary/Contact\">mailing list</a> "
+"or file a <a href=\"https://wiki.gnome.org/Apps/Geary/ReportingABug\">new "
+"bug report</a>."
+msgstr ""
+"Falls das Problem schwerwiegend ist oder weiterhin besteht, kopieren Sie "
+"diese Details und senden Sie sie an die <a href=\"https://wiki.gnome.org/"
+"Apps/Geary/Contact\">Mailingliste</a> oder erstellen Sie einen <a href="
+"\"https://wiki.gnome.org/Apps/Geary/ReportingABug\">neuen Fehlerbericht</a>."
+
+#: ui/problem-details-dialog.ui:89
+msgid "Details:"
+msgstr "Details:"
+
+#: ui/upgrade_dialog.glade:60
+msgid "Geary update in progress…"
+msgstr "Aktualisierung von Geary wird durchgeführt …"
+
+#~ msgid "Base URL to look up contact avatars"
+#~ msgstr "Basis-Adresse zum Abruf von Kontakt-Benutzerbildern"
+
+#~ msgid ""
+#~ "A Gravatar or Libravatar compatible URL, set to the empty string to "
+#~ "disable."
+#~ msgstr ""
+#~ "Eine mit Gravatar oder Libravatar kompatible Adresse (zum Deaktivieren "
+#~ "auf leere Zeichenkette einstellen)."
+
+#~ msgid "Delete conversations (Shift+Delete)"
+#~ msgstr "Konversationen löschen (Umschalt+Entf)"
+
+#~ msgid "Move conversations to Trash (Delete, Backspace)"
+#~ msgstr "Konversationen in den Papierkorb verschieben (Entf, Rücktaste)"
+
+#~ msgid "Archive conversations (A)"
+#~ msgstr "Konversationen archivieren (A)"
+
+#~ msgid "Mark conversations"
+#~ msgstr "Konversationen markieren"
+
+#~ msgid "Add label to conversations"
+#~ msgstr "Konversationen eine Beschriftung zuweisen"
+
+#~ msgid "Move conversations"
+#~ msgstr "Konversationen verschieben"
+
+#~ msgid "A_ccounts"
+#~ msgstr "_Konten"
+
+#~ msgid "Empty Spam or Trash folders"
+#~ msgstr "Spam oder Papierkorb leeren"
+
+#~ msgid "Retry connecting now"
+#~ msgstr "Jetzt neu verbinden"
+
+#~ msgid "Try reconnecting now"
+#~ msgstr "Jetzt neu verbinden"
+
+#~ msgid "Problem with connection to incoming server for %s"
+#~ msgstr "Fehler bei der Verbindung mit dem Eingangsserver für %s"
+
+#~ msgid "Problem with connection to outgoing server for %s"
+#~ msgstr "Fehler bei der Verbindung mit dem Eingangsserver für %s"
+
+#~ msgid "To: "
+#~ msgstr "An: "
+
+#~ msgid "Cc: "
+#~ msgstr "Kopie: "
+
+#~ msgid "Bcc: "
+#~ msgstr "Blindkopie: "
+
+#~ msgid "From: %s\n"
+#~ msgstr "Von: %s\n"
+
+#~ msgid "Subject: %s\n"
+#~ msgstr "Betreff: %s\n"
+
+#~ msgid "Date: %s\n"
+#~ msgstr "Datum: %s\n"
+
+#~ msgid "To: %s\n"
+#~ msgstr "An: %s\n"
+
+#~ msgid "Cc: %s\n"
+#~ msgstr "Kopie: %s\n"

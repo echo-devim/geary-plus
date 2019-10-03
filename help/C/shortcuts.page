@@ -1,0 +1,34 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="shortcuts">
+
+  <info>
+    <link type="guide" xref="index#overview"/>
+    <link type="next" xref="label" />
+  </info>
+
+  <title>Keyboard shortcuts</title>
+
+  <p>Geary has keyboard shortcuts for most common operations. Use the
+  built-in keyboard shortcuts help in Geary to discover the full list.
+  This can be accessed via the application menu:
+  <guiseq><gui>Geary</gui><gui>Keyboard Shortcuts</gui></guiseq> or
+  using the keyboard shortcuts listed below.</p>
+
+  <p>The following keyboard shortcuts can be used to access on-line
+  help from Geary:</p>
+  <table frame="all" rules="rows">
+    <tr>
+      <td><p>Display this User Manual</p></td>
+      <td><p><keyseq><key>F1</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Display all keyboard shortcuts</p></td>
+      <td><p>
+        <keyseq><key>Ctrl</key><key>?</key></keyseq> or
+        <keyseq><key>Ctrl</key><key>F1</key></keyseq>
+      </p></td>
+    </tr>
+  </table>
+
+</page>

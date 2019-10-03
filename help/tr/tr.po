@@ -1,0 +1,1815 @@
+# Turkish translation for geary.
+# Copyright (C) 2017 geary's COPYRIGHT HOLDER
+# This file is distributed under the same license as the geary package.
+# Muhammet Kara <muhammetk@gmail.com>, 2018.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2017-2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: geary master\n"
+"POT-Creation-Date: 2019-06-19 10:27+0000\n"
+"PO-Revision-Date: 2019-07-21 00:34+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 3.32.1\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Emin Tufan Çetin <etcetin@gmail.com>, 2017, 2018, 2019"
+
+#. (itstool) path: page/title
+#: C/accounts.page:10
+msgid "Accounts"
+msgstr "Hesaplar"
+
+#. (itstool) path: section/title
+#: C/accounts.page:13
+#| msgid "Accounts"
+msgid "Accounts Editor"
+msgstr "Hesap Düzenleyici"
+
+#. (itstool) path: section/p
+#: C/accounts.page:15
+msgid ""
+"Your email accounts can be added, updated, and removed using the "
+"<em>accounts editor</em>. To open it, click Geary’s application menu button "
+"in the main window above the folder list, then click <gui>Accounts</gui> in "
+"the pop-up menu."
+msgstr ""
+"E-posta hesaplarınız <em>hesap düzenleyici</em> kullanılarak eklenebilir, "
+"güncellenebilir ve kaldırılabilir. Açmak için ana pencerede klasör "
+"listesinin üstündeki Geary’nin uygulama menüsü düğmesine tıklayın, ardından "
+"açılır menüdeki <gui>Hesaplar</gui>ʼa tıklayın."
+
+#. (itstool) path: section/p
+#: C/accounts.page:20
+msgid ""
+"To change the order that accounts are displayed in the folder list, click "
+"and drag the handle for an account in the accounts editor, or focus an "
+"account with <key>Tab</key>, then use <keyseq><key>Ctrl</key><key>↑</key></"
+"keyseq> and <keyseq><key>Ctrl</key><key>↓</key></keyseq> to re-position the "
+"currently selected account."
+msgstr ""
+"Klasör listesinde gösterilen hesapların sırasını değiştirmek için hesap "
+"düzenleyicideki hesabın tutamacına tıklayıp sürükleyin, ya da <key>Tab</key> "
+"ile hesaba odaklanın ve ardından seçili hesabı yeniden konumlandırmak için "
+"<keyseq><key>Ctrl</key><key>↑</key></keyseq> veya <keyseq><key>Ctrl</"
+"key><key>↓</key></keyseq> tuşlarını kullanın."
+
+#. (itstool) path: section/title
+#: C/accounts.page:29
+msgid "Adding accounts"
+msgstr "Hesap ekleme"
+
+#. (itstool) path: section/p
+#: C/accounts.page:31
+msgid ""
+"Geary will automatically use any email accounts you have added via the "
+"<app>Online Accounts</app> panel of <app>GNOME Settings</app>. If you do not "
+"have any accounts added to <app>Online Accounts</app>, you will be prompted "
+"to add an account the first time you run Geary."
+msgstr ""
+"Geary, <app>GNOME Ayarlar</app>ʼın <app>Çevrim İçi Hesaplar</app> paneliyle "
+"eklediğiniz e-posta hesaplarını kendiliğinden kullanacaktır. Eğer "
+"<app>Çevrim İçi Hesaplar</app>ʼa hesap eklemediyseniz Gearyʼyi ilk "
+"çalıştırmanızda hesap eklemeniz istenecektir."
+
+#. (itstool) path: section/p
+#: C/accounts.page:37
+msgid ""
+"To add additional accounts, open the accounts editor, then choose the "
+"appropriate email provider from the list at the bottom of the window. For "
+"providers supported by <app>Online Accounts</app>, <app>GNOME Settings</app> "
+"will be opened and you will be asked for your account information there. For "
+"other email providers, you will be asked for your account information by "
+"Geary. Once entered, click <gui>Create</gui> and the account information "
+"will be checked and then added."
+msgstr ""
+"Ek hesaplar eklemek için hesap düzenleyiciyi açın ve pencerenin altındaki "
+"listeden uygun e-posta sağlayıcısını seçin. <app>Çevrim İçi Hesaplar</app> "
+"tarafından desteklenen hesaplar için <app>GNOME Ayarlar</app> açılacak ve "
+"hesap bilgileriniz burada sorulacaktır. Diğer e-posta sağlayıcılar için "
+"hesap bilginiz Geary tarafından sorulacaktır. Girdiğinizde <gui>Oluştur</"
+"gui>a tıklayın ve hesap bilgileriniz denetlenip eklenecektir."
+
+#. (itstool) path: section/title
+#: C/accounts.page:48
+#| msgid "Editing existing accounts"
+msgid "Updating existing accounts"
+msgstr "Var olan hesapları güncelleme"
+
+#. (itstool) path: section/p
+#: C/accounts.page:50
+msgid ""
+"To update existing accounts, open the accounts editor and choose the account "
+"you wish to update. Geary will display settings for the account. From there, "
+"you can add and remove additional sender email addresses, edit your email "
+"signature, and various other settings."
+msgstr ""
+"Var olan hesabı güncellemek için hesap düzenleyiciyi açın ve güncellemeyi "
+"istediğiniz hesabı seçin. Geary, hesap için ayarları gösterecektir. Buradan "
+"ek gönderici e-posta adresleri ekleyebilir veya kaldırabilir, e-posta "
+"imzanızı ve bazı diğer seçenekleri düzenleyebilirsiniz."
+
+#. (itstool) path: section/p
+#: C/accounts.page:56
+#| msgid ""
+#| "The <gui>Download mail</gui> drop-down allows you to configure how much "
+#| "mail Geary will keep locally. Geary can only use locally available mail "
+#| "when searching and forming conversations."
+msgid ""
+"The <gui>Download mail</gui> setting allows you to configure how much mail "
+"Geary will download and store locally. Geary can only use locally available "
+"mail when displaying and searching for conversations."
+msgstr ""
+"<gui>Posta indir</gui> ayarı, Gearyʼnin ne kadar postayı indirip yerel "
+"olarak tutacağını yapılandırmanızı sağlar. Geary, konuşmaları görüntülerken "
+"veya ararken yalnızca yereldeki postaları kullanabilir."
+
+#. (itstool) path: section/p
+#: C/accounts.page:61
+msgid ""
+"To edit the server settings for the account, scroll to the bottom of the "
+"window and click <gui>Server Settings</gui>. The server settings will be "
+"displayed and you can click to edit them. Once done, click <gui>Apply</gui> "
+"and Geary will check the settings, then update the account. Note that "
+"accounts added via the <app>Online Accounts</app> panel of <app>GNOME "
+"Settings</app> cannot have their server name, security, login, or password "
+"settings changed."
+msgstr ""
+"Hesabın sunucu ayarlarını düzenlemek için pencerenin altına kaydırın ve "
+"<gui>Sunucu Ayarları</gui>ʼna tıklayın. Sunucu ayarları gösterilecek ve "
+"tıklayarak düzeltebilirsiniz. Bitince  <gui>Uygula</gui>ya tıklayın ve Geary "
+"ayarları denetleyecek ardından hesabı güncelleyecek. Unutmayın ki <app>GNOME "
+"Ayarlar</app>ʼın <app>Çevrim İçi Hesaplar</app> panelinden eklenen "
+"hesapların adı, güvenliği, giriş ve parola ayarları değiştirilemez."
+
+#. (itstool) path: section/p
+#: C/accounts.page:70
+msgid ""
+"The <gui>Save draft email on server</gui> checkbox controls whether the "
+"composer will save copies of email messages being written in the "
+"<gui>Drafts</gui> folder. If de-selected, you will not be able to save draft "
+"messages when closing the composer."
+msgstr ""
+"<gui>Taslak e-postayı sunucuya kaydet</gui> kutucuğu, oluşturucunun "
+"yazılmaya başlanan e-posta iletilerinin kopyalarını <gui>Taslaklar</gui> "
+"klasörüne kaydedip kaydedilmeyeceğini denetler. Eğer seçilmezse, "
+"oluşturucuyu kapatırken taslak iletileri kaydedemeyeceksiniz."
+
+#. (itstool) path: section/p
+#: C/accounts.page:75
+msgid ""
+"The <gui>Save sent email on server</gui> checkbox controls whether Geary "
+"will save copies of email that have been sent to the <gui>Sent</gui> folder. "
+"If de-selected, you will no be able to see any email messages you have sent, "
+"unless your server automatically saves them for you."
+msgstr ""
+"<gui>Gönderilmiş postayı sunucuya kaydet</gui> kutucuğu, Gearyʼnin "
+"gönderilecek e-posta iletilerinin kopyalarını <gui>Gönderilmiş</gui> "
+"klasörüne kaydedip kaydedilmeyeceğini denetler. Eğer seçilmezse; sunucunuz "
+"sizin için kendiliğinden kaydetmiyorsa, gönderdiğiniz e-posta iletilerini "
+"göremeyeceksiniz."
+
+#. (itstool) path: section/title
+#: C/accounts.page:83
+msgid "Removing accounts"
+msgstr "Hesapları kaldırma"
+
+#. (itstool) path: section/p
+#: C/accounts.page:85
+msgid ""
+"Accounts added via the <app>Online Accounts</app> panel of <app>GNOME "
+"Settings</app> must also be removed from there. To do so, open <app>Online "
+"Accounts</app>, select the account, and click <gui>Remove</gui>."
+msgstr ""
+"<app>GNOME Ayarlar</app>ʼın <app>Çevrim İçi Hesaplar</app> paneliyle eklenen "
+"hesaplar oradan kaldırılmalıdır. Bunu yapmak için <app>Çevrim İçi Hesaplar</"
+"app>ʼı açın, hesabı seçin ve <gui>Kaldır</gui>ʼa tıklayın."
+
+#. (itstool) path: section/p
+#: C/accounts.page:90
+msgid ""
+"To remove an account added via Geary, open the accounts editor and choose "
+"the account you wish to remove. Geary will display settings for the account. "
+"Scroll to the bottom of the window and click <gui>Remove Account</gui>. You "
+"will be prompted to confirm removing the account. Once confirmed, if you "
+"change your mind you can still undo removing the account by clicking "
+"<gui>Undo</gui> in the popup notification, or by typing <keyseq><key>Ctrl</"
+"key><key>U</key></keyseq>."
+msgstr ""
+"Geary aracılığıyla eklenen hesabı kaldırmak için hesap düzenleyiciyi açın ve "
+"kaldırmak istediğiniz hesabı seçin. Geary, hesap için ayarları gösterecek. "
+"Pencerenin altına kaydırın ve <gui>Hesabı Kaldır</gui>ʼa tıklayın. Hesabı "
+"kaldırma isteminiz sorulacak. Onaylayınca, eğer fikrinizi değiştirirseniz "
+"açılır pencere bildirimindeki <gui>Geri Al</gui>ʼa tıklayarak veya "
+"<keyseq><key>Ctrl</key><key>U</key></keyseq> yazarak hesap kaldırmayı geri "
+"alabilirsiniz."
+
+#. (itstool) path: page/title
+#: C/archive.page:10
+msgid "Delete or archive a message"
+msgstr "İletiyi sil veya arşivle"
+
+#. (itstool) path: page/p
+#: C/archive.page:12
+msgid ""
+"When you use Geary with a Gmail account, Geary lets you <em>archive</em> "
+"messages. The <gui>Archive</gui> toolbar button archives the selected "
+"conversation(s). Archived messages appear in the <gui>All Mail</gui> folder."
+msgstr ""
+"Gearyʼyi Gmail hesabıyla kullandığınızda, Geary iletileri <em>arşiv</"
+"em>lemenizi sağlar. <gui>Arşivle</gui> araç çubuğu düğmesi seçilen "
+"konuşmaları arşivler. <gui>Tüm Postalar</gui> klasöründe gözükür."
+
+#. (itstool) path: page/p
+#: C/archive.page:16
+msgid ""
+"With other mail servers, you can trash or delete, but not archive, messages. "
+"To move one or more conversations to the <gui>Trash</gui> folder, select "
+"them and press the <gui>Trash</gui> button on the toolbar. To permanently "
+"delete the conversations, hold down <key>Shift</key> and press the "
+"<gui>Delete</gui> button that appears in place of the <gui>Trash</gui> "
+"button."
+msgstr ""
+"Diğer posta sunucularıyla, iletleri çöpe atabilir veya silebilir ama "
+"arşivleyemezsiniz. Bir veya daha çok konuşmayı <gui>Çöp</gui> klasörüne "
+"taşımak için, konuşmaları seçin ve araç çubuğundaki <gui>Çöp</gui> düğmesine "
+"tıklayın. Konuşmaları kalıcı olarak silmek için, <key>Shift</key> tuşuna "
+"basılı tutun ve <gui>Çöp</gui> düğmesinin olduğu yerde beliren <gui>Sil</"
+"gui> düğmesine basın."
+
+#. (itstool) path: page/p
+#: C/archive.page:21
+msgid ""
+"Delete is not available from every folder, such as Search. Delete is also "
+"unavailable for Gmail. For Gmail, <gui>Trash</gui> will move messages to the "
+"Trash folder on the server, where the user can then manually delete them. "
+"The server will automatically remove trashed messages after 30 days."
+msgstr ""
+"Arama klasörü gibi her klasörden silme işlemi yapılamaz. Gmail için silme "
+"işlemi kullanılabilir değildir. Gmail için, <gui>Çöp</gui> iletileri "
+"sunucudaki Çöp klasörüne taşıyacaktır, buradan kullanıcılar iletileri elle "
+"silebilir. Sunucu çöpe atılmış iletileri 30 gün sonra kendiliğinden "
+"kaldıracaktır."
+
+#. (itstool) path: page/title
+#: C/bugs.page:10
+msgid "Found a bug?"
+msgstr "Hata mı buldunuz?"
+
+#. (itstool) path: page/p
+#: C/bugs.page:12
+msgid ""
+"If you suspect you've found a bug in Geary, please <link href=\"https://wiki."
+"gnome.org/Apps/Geary/Contact\">get in touch</link> about it so it can be "
+"fixed."
+msgstr ""
+"Gearyʼde hata bulduğunuzu düşünüyorsanı lütfen bununla ilgili <link href="
+"\"https://wiki.gnome.org/Apps/Geary/Contact\">iletişime geçin</link> ki "
+"giderilebilsin."
+
+#. (itstool) path: page/p
+#: C/bugs.page:16
+msgid ""
+"To help diagnose the problem as fast as possible, please include the "
+"following information:"
+msgstr ""
+"Sorunun hızlıca saptanmasına yardım etmek için lütfen şu bilgileri ekleyin:"
+
+#. (itstool) path: item/p
+#: C/bugs.page:20
+msgid "Geary version and installation method (Package? Flathub? Source code?)"
+msgstr "Geary sürümü ve kurulum yöntemi (Paket? Flathub? Kaynak kod?)"
+
+#. (itstool) path: item/p
+#: C/bugs.page:22
+msgid "Your desktop (GNOME? KDE? Something else?)"
+msgstr "Masaüstünüz (GNOME? KDE? Başka bir şey?)"
+
+#. (itstool) path: item/p
+#: C/bugs.page:23
+msgid ""
+"Your operating system and version (Ubuntu 16.04? Fedora 28? Rolled your own?)"
+msgstr ""
+"İşletim sisteminiz ve sürümü (Ubuntu 16.04? Fedora 28? Kendi yaptığınız?)"
+
+#. (itstool) path: item/p
+#: C/bugs.page:25
+msgid "Email provider (Gmail, Yahoo!, Outlook.com, or someone else?)"
+msgstr "E-posta sağlayıcı (Gmail, Yahoo!, Outlook.com veya daha başkası?)"
+
+#. (itstool) path: item/p
+#: C/bugs.page:27
+msgid "Steps to reproduce the bug"
+msgstr "Hatayı yeniden üretmek için adımlar"
+
+#. (itstool) path: item/p
+#: C/bugs.page:28
+msgid "What happened?"
+msgstr "Ne oldu?"
+
+#. (itstool) path: item/p
+#: C/bugs.page:29
+msgid "What did you expect to happen?"
+msgstr "Ne olmasını beklediniz?"
+
+#. (itstool) path: page/p
+#: C/bugs.page:32
+msgid "Thanks for your help!"
+msgstr "Yardımınız için teşekkürler!"
+
+#. (itstool) path: page/title
+#: C/contributing.page:10
+msgid "Contribute to Geary"
+msgstr "Gearyʼye katkıda bulun"
+
+#. (itstool) path: page/p
+#: C/contributing.page:12
+msgid ""
+"Want to help improve Geary? There are a number of ways you can contribute:"
+msgstr ""
+"Gearyʼyi iyileştirmek ister misiniz? Katkıda bulunabileceğiniz birkaç yol "
+"vardır:"
+
+#. (itstool) path: item/p
+#: C/contributing.page:16
+msgid ""
+"<link href=\"https://wiki.gnome.org/Apps/Geary/ReportingABug\">Bug "
+"reporting</link>—report new bugs or request new features"
+msgstr ""
+"<link href=\"https://wiki.gnome.org/Apps/Geary/ReportingABug\">Hata "
+"bildirimi</link>—yeni hataları bildirin veya yeni özellikler isteyin"
+
+#. (itstool) path: item/p
+#: C/contributing.page:19
+msgid ""
+"<link href=\"https://wiki.gnome.org/Apps/Geary/Design\">User Experience "
+"Design</link>—research and develop Geary’s user experience"
+msgstr ""
+"<link href=\"https://wiki.gnome.org/Apps/Geary/Design\">Kullanıcı Deneyimi "
+"Tasarımı</link>—Geary’nin kullanıcı deneyimini araştırın ve geliştirin"
+
+#. (itstool) path: item/p
+#: C/contributing.page:20
+msgid ""
+"<link href=\"https://wiki.gnome.org/Apps/Geary/Development\">Development</"
+"link>—fix bugs and add new features"
+msgstr ""
+"<link href=\"https://wiki.gnome.org/Apps/Geary/Development\">Geliştirme</"
+"link>—hataları gider ve yeni özellikler ekle"
+
+#. (itstool) path: item/p
+#: C/contributing.page:21
+msgid ""
+"<link href=\"https://wiki.gnome.org/Apps/Geary/Translating\">Translating</"
+"link>—translate Geary’s user interface and user manual into new languages"
+msgstr ""
+"<link href=\"https://wiki.gnome.org/Apps/Geary/Translating\">Çeviri</link>—"
+"Geary’nin kullanıcı arayüzünü ve kullanım kılavuzunu yeni dillere çevirin"
+
+#. (itstool) path: item/p
+#: C/contributing.page:22
+msgid ""
+"<link href=\"https://wiki.gnome.org/Apps/Geary/Contact\">Join the "
+"discussion</link>—on the mailing list or IRC channel"
+msgstr ""
+"<link href=\"https://wiki.gnome.org/Apps/Geary/Contact\">Tartışmaya katıl</"
+"link>—posta listesinde veya IRC kanalında"
+
+#. (itstool) path: page/p
+#: C/contributing.page:25
+msgid "Thanks for your help making Geary better!"
+msgstr "Gearyʼyi daha iyi yapmaya yardım ettiğiniz için teşekkürler!"
+
+#. (itstool) path: title/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:6
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/geary.svg' md5='18b50c9e10fe5256ae1cb12aaa3a7600'"
+msgctxt "_"
+msgid "external ref='figures/geary.svg' md5='1c66fe237d546362fda9f209840da4a8'"
+msgstr ""
+"external ref='figures/geary.svg' md5='1c66fe237d546362fda9f209840da4a8'"
+
+#. (itstool) path: page/title
+#: C/index.page:5
+#| msgid "<media type=\"image\" src=\"figures/geary.svg\"/> Geary"
+msgid ""
+"<media type=\"image\" src=\"figures/geary.svg\" width=\"64\" height=\"64\"/> "
+"<span>Geary</span>"
+msgstr ""
+"<media type=\"image\" src=\"figures/geary.svg\" width=\"64\" height=\"64\"/> "
+"<span>Geary</span>"
+
+#. (itstool) path: section/title
+#: C/index.page:11
+msgid "Introduction"
+msgstr "Tanıtım"
+
+#. (itstool) path: section/title
+#: C/index.page:15
+msgid "Using Geary"
+msgstr "Gearyʼyi Kullanmak"
+
+#. (itstool) path: section/title
+#: C/index.page:19
+msgid "Contributing and bug reporting"
+msgstr "Katkıda bulunma ve hata bildirimi"
+
+#. (itstool) path: page/title
+#: C/label.page:10
+msgid "Label or move a conversation"
+msgstr "Konuşmayı etiketle veya taşı"
+
+#. (itstool) path: section/title
+#: C/label.page:12
+msgid "Label a conversation"
+msgstr "Konuşmayı etiketle"
+
+#. (itstool) path: section/p
+#: C/label.page:13
+msgid ""
+"Geary lets you apply one or more <em>labels</em> to each conversation. Geary "
+"labels correspond to labels in Gmail, or ordinary folders in other mail "
+"services."
+msgstr ""
+"Geary, her konuşmaya bir veya daha çok <em>etiket</em> uygulamanızı sağlar. "
+"Geary etiketleri Gmailʼdeki etiketlerle veya diğer posta hizmetlerindeki "
+"olağan klasörlerle uyuşmaktadır."
+
+#. (itstool) path: section/p
+#: C/label.page:15
+msgid ""
+"To label one or more conversations, first select the conversation(s), then "
+"do either of the following:"
+msgstr ""
+"Bir veya daha çok konuşmayı etiketlemek için, ilk önce konuşmaları seçin, "
+"ardından şunlardan birini yapın:"
+
+#. (itstool) path: item/p
+#: C/label.page:18
+msgid ""
+"Click the <gui>Label</gui> button on the toolbar and select a label from the "
+"resulting drop-down menu."
+msgstr ""
+"Araç çubuğundaki <gui>Etiket</gui> düğmesine tıklayın ve oluşan açılır "
+"menüden etiket seçin."
+
+#. (itstool) path: item/p
+#: C/label.page:20
+msgid ""
+"Hold down the <key>Ctrl</key> key and drag the conversation(s) from the "
+"conversation list to the label in the sidebar."
+msgstr ""
+"<key>Ctrl</key> tuşuna basılı tutun ve konuşmaları konuşma listesinden kenar "
+"çubuğundaki etikete sürükleyin."
+
+#. (itstool) path: section/title
+#: C/label.page:25
+msgid "Move a conversation to a folder or label"
+msgstr "Konuşmayı klasöre veya etikete taşı"
+
+#. (itstool) path: section/p
+#: C/label.page:26
+msgid ""
+"To move one or more conversations to a folder or label, first select the "
+"conversation(s), then do either of the following:"
+msgstr ""
+"Bir veya daha çok konuşmayı klasöre veya etikete taşımak için, ilk önce "
+"konuşmaları seçin, ardından şunlardan birini yapın:"
+
+#. (itstool) path: item/p
+#: C/label.page:29
+msgid ""
+"Click the <gui>Move</gui> button on the toolbar and select a folder or label "
+"from the resulting drop-down menu."
+msgstr ""
+"Araç çubuğundaki <gui>Taşı</gui> düğmesine tıklayın ve oluşan açılır menüden "
+"klasör veya etiket seçin."
+
+#. (itstool) path: item/p
+#: C/label.page:31
+msgid ""
+"Drag the conversation(s) from the conversation list to the folder or label "
+"in the sidebar."
+msgstr ""
+"Konuşmaları konuşma listesinden kenar çubuğundaki klasöre veya etikete "
+"sürükleyin."
+
+#. (itstool) path: page/title
+#: C/limits.page:9
+msgid "Limitations"
+msgstr "Kısıtlamalar"
+
+#. (itstool) path: page/p
+#: C/limits.page:11
+msgid ""
+"Geary is still in early development. Geary supports IMAP and has been tested "
+"with Gmail, Yahoo, and the free Dovecot mail server. Experimental support "
+"for Outlook.com is provided. Geary may not yet work well with some IMAP "
+"servers. At this time Geary is still missing numerous features including "
+"offline mode."
+msgstr ""
+"Geary hala erken gelişimdedir. Geary, IMAPʼı destekler. Gmail, Yahoo ve "
+"özgür Dovecot posta sunucusuyla sınanmıştır. Outlook.com için deneysel "
+"destek sağlanmıştır. Geary bazı IMAP sunucularıyla çok iyi çalışmayabilir. "
+"Geary, şu anda çevrim dışı kipi de içeren birçok özellikten hala eksiktir."
+
+#. (itstool) path: page/p
+#: C/limits.page:17
+msgid ""
+"To learn more about the features we're working on and the future of Geary, "
+"please visit Geary's <link href=\"https://wiki.gnome.org/Apps/Geary\">wiki "
+"page</link>."
+msgstr ""
+"Gearyʼnin geleceğini ve üzerinde çalıştığımız özellikler hakkında daha "
+"çoğunu öğrenmek için lütfen Gearyʼnin <link href=\"https://wiki.gnome.org/"
+"Apps/Geary\">wiki sayfası</link>nı ziyaret edin."
+
+#. (itstool) path: page/title
+#: C/overview.page:9
+msgid "Overview"
+msgstr "Genel bakış"
+
+#. (itstool) path: page/p
+#: C/overview.page:11
+msgid ""
+"Geary is an email application built around conversations, for the GNOME 3 "
+"desktop. It allows you to read, find and send email with a straightforward, "
+"modern interface."
+msgstr ""
+"Geary, GNOME 3 masaüstü için konuşmalar etrafında inşa edilmiş bir e-posta "
+"uygulamasıdır. Dolambaçsız çağdaş bir arayüzle e-posta okumanızı, bulmanızı "
+"ve göndermenizi sağlar."
+
+#. (itstool) path: page/p
+#: C/overview.page:15
+msgid ""
+"Conversations allow you to read a complete discussion without having to find "
+"and click from message to message."
+msgstr ""
+"Konuşmalar, arayıp bulmanızı ve iletiden iletiye tıklamanızı gerektirmeden "
+"tüm tartışmayı okumanızı sağlar."
+
+#. (itstool) path: page/p
+#: C/overview.page:18
+#| msgid "The main Geary window is divided into several areas:"
+msgid ""
+"The main Geary window is divided into several areas: The folder list, the "
+"conversation list, and the conversation viewer."
+msgstr ""
+"Ana Geary penceresi birkaç alana bölünmüştür: Klasör listesi, konuşma "
+"listesi ve konuşma görüntüleyici."
+
+#. (itstool) path: section/title
+#: C/overview.page:22
+msgid "Folder list"
+msgstr "Klasör listesi"
+
+#. (itstool) path: section/p
+#: C/overview.page:24
+#| msgid ""
+#| "The <em>folder list</em> at the left displays all <em>folders</em> and "
+#| "<em>labels</em> in your mail account. Geary uses the term <em>label</em> "
+#| "for any folder that you have created to help organize your messages. (The "
+#| "Gmail web interface also uses this term; most other mail services do not.)"
+msgid ""
+"The <em>folder list</em> displays all <em>folders</em> and <em>labels</em> "
+"for your email accounts. Geary uses the term <em>label</em> for any folder "
+"that you have created to organize your email messages."
+msgstr ""
+"<em>Klasör listesi</em>, e-posta hesaplarınızdaki tüm <em>klasörler</em>i ve "
+"<em>etiketler</em>i gösterir. Geary, iletilerinizi toparlamak için "
+"oluşturduğunuz herhangi bir klasör için <em>etiket</em> adlandırmasını "
+"kullanır."
+
+#. (itstool) path: section/p
+#: C/overview.page:29
+msgid ""
+"Select a folder or label to display the conversations it contains in the "
+"conversation list."
+msgstr ""
+"İçerdikleri konuşmaları konuşma listesinde görüntülemek için klasör veya "
+"etiket seçin."
+
+#. (itstool) path: section/title
+#: C/overview.page:34
+msgid "Conversation list"
+msgstr "Konuşma listesi"
+
+#. (itstool) path: section/p
+#: C/overview.page:36
+msgid ""
+"The <em>conversation list</em> displays a list of conversations in the "
+"selected folder. Newer conversations appear at the top."
+msgstr ""
+"<em>Konuşma listesi</em>, seçilen klasördeki konuşmaların listesini "
+"gösterir. Yeni konuşmalar üstte gözükür."
+
+#. (itstool) path: section/p
+#: C/overview.page:40
+#| msgid ""
+#| "Each sender's name appears bold if there are unread messages from that "
+#| "sender. If a conversation has more than one message, Geary displays a "
+#| "count of messages in the conversation."
+msgid ""
+"Each sender’s name appears bold if there are unread messages from that "
+"sender. If a conversation has more than one message, Geary displays a count "
+"of messages in the conversation."
+msgstr ""
+"Her göndericinin adı, eğer bu göndericiden okunmamış iletiler varsa kalın "
+"gözükür. Eğer konuşmanın birden çok iletisi varsa, Geary konuşmadaki "
+"iletilerin sayısını gösterir."
+
+#. (itstool) path: section/p
+#: C/overview.page:44
+#| msgid ""
+#| "Geary does not automatically download all messages in all of your mail "
+#| "folders. When you first visit your Inbox or any other folder, Geary "
+#| "downloads the 50 most recent messages in that folder. To see more "
+#| "messages, simply scroll down the conversation list and Geary will fetch "
+#| "more messages automatically."
+msgid ""
+"Geary does not automatically download all messages in all of your mail "
+"folders. When you first visit your Inbox or any other folder, Geary "
+"downloads the most recent messages in that folder. To see more messages, "
+"simply scroll down the conversation list and Geary will fetch more messages "
+"automatically."
+msgstr ""
+"Geary, tüm posta klasörlerinizdeki tüm iletileri kendiliğinden indirmez. "
+"Gelen Kutunuzu veya başka herhangi klasörü ilk kez ziyaret ettiğinizde, "
+"Geary bu klasördeki en son iletileri indirir. Daha çok ileti görmek için "
+"konuşma listesini basitçe aşağı kaydırın ve Geary daha çok iletiyi "
+"kendiliğinden getirecektir."
+
+#. (itstool) path: section/p
+#: C/overview.page:50
+msgid ""
+"Some commands in Geary can act on a group of conversations. To select "
+"multiple conversations, hold down the <key>Ctrl</key> key and click each "
+"conversation in turn in the conversation list. Alternatively, click the "
+"first conversation in a range, then hold down <key>Shift</key> and click the "
+"last conversation."
+msgstr ""
+"Gearyʼdeki bazı komutlar konuşmalar kümesi üzerinde etki eder. Birden çok "
+"konuşma seçmek için, <key>Ctrl</key> tuşuna basılı tutun ve konuşma "
+"listesinde sırasıyla her konuşmaya tıklayın. Diğer seçenek olarak, bir "
+"aralıktaki ilk konuşmaya tıklayın, ardından <key>Shift</key>ʼe basılı tutun "
+"ve son konuşmaya tıklayın."
+
+#. (itstool) path: section/title
+#: C/overview.page:58
+#| msgid "Conversation list"
+msgid "Conversation viewer"
+msgstr "Konuşma görüntüleyici"
+
+#. (itstool) path: section/p
+#: C/overview.page:60
+#| msgid ""
+#| "The <em>message area</em> displays all messages in the selected "
+#| "conversation, with the oldest message at the top."
+msgid ""
+"The <em>conversation viewer</em> displays all email messages in the selected "
+"conversation, with the oldest message at the top."
+msgstr ""
+"<em>Konuşma görüntüleyici</em>, seçilen konuşmadaki tüm e-posta iletilerini "
+"gösterir, en eski ileti üsttedir."
+
+#. (itstool) path: section/p
+#: C/overview.page:63
+#| msgid ""
+#| "When you view a conversation, Geary collapses messages that you've "
+#| "already read. Click collapsed messages to expand them. Click an expanded "
+#| "message's header to collapse it."
+msgid ""
+"When you view a conversation, Geary collapses messages that you’ve already "
+"read. Click collapsed messages to expand them. Click an expanded message’s "
+"header to collapse it."
+msgstr ""
+"Konuşmaya bakarken, Geary zaten okuduğunuz iletileri kapatır. Kapalı "
+"iletileri genişletmek için üzerine tıklayın. Kapatmak için genişletilmiş "
+"iletinin başlığına tıklayın."
+
+#. (itstool) path: section/p
+#: C/overview.page:67
+msgid ""
+"Click on any of the sender’s or receiver’s names or email address for a "
+"message to open the <em>contact menu</em>, which displays additional "
+"information and options for the email address. You can to start a new "
+"conversation, copy the email address to the clipboard, and search for "
+"related conversations. If the email address is present in your desktop "
+"address book, it will show the contact’s photo, preferred name, and whether "
+"they are a favourite contact. You can also open the contact in the address "
+"book. If the email address is not already present, you can choose to add "
+"them to the address book, and update the remote image loading preference for "
+"that address."
+msgstr ""
+"E-posta adresi için ek bilgi ve seçenek gösteren <em>Kişi menüsü</em>nü "
+"açmak için iletinin gönderici/alıcı adlarının veya e-posta adreslerinin "
+"birine tıklayın. Yeni konuşa başlatabilir, e-posta adresini panoya "
+"kopyalayabilir ve ilişkili konuşmaları arayabilirsiniz. Eğer e-posta adresi "
+"masaüstü adres defterinizde bulunuyorsa kişinin fotoğrafı, yeğlenen adı ve "
+"gözde kişi olup olmadığı gösterilir. Ayrıca kişiyi adres defterinde de "
+"açabilirsiniz. Eğer e-posta adresi defterde yoksa eklemeyi seçebilir ve uzak "
+"resim yükleme tercihini güncelleyebilirsiniz."
+
+#. (itstool) path: section/p
+#: C/overview.page:79
+msgid ""
+"Click the star button present on each message to mark or un-mark a message "
+"as being starred. Staring a message will mark the whole conversation as "
+"starred, and Geary will display the first starred message in a conversation "
+"when returning to it."
+msgstr ""
+"İletiyi yıldızlamak veya yıldız imini kaldırmak için her iletide bulunan "
+"yıldız düğmesine tıklayın. Bir iletiyi yıldızlamak tüm konuşmayı "
+"yıldızlayacaktır ve Geary konuşmaya dönüldüğünde yıldızlanan ilk iletiyi "
+"gösterecektir."
+
+#. (itstool) path: section/p
+#: C/overview.page:84
+msgid ""
+"Click the menu button present on each message to open the <em>message menu</"
+"em>, which allows you to reply and forward to a specific message, update "
+"which messages have been marked as read or unread, print a message, and so "
+"on."
+msgstr ""
+"<em>İleti menüsü</em>nü açmak için her iletide bulunan menü düğmesine "
+"tıklayın. Bu düğme, belirli iletiyi yanıtlamanızı veya yönlendirmenizi, "
+"hangi iletinin okunup okunmadığını imlemenizi, iletiyi yazdırmanızı ve "
+"diğerlerini sağlar."
+
+#. (itstool) path: section/p
+#: C/overview.page:89
+#| msgid ""
+#| "Any attachments in a message appear at the bottom of the message. You can "
+#| "click an attachment to open it or right-click to save it."
+msgid ""
+"Any attachments in a message appear at the bottom of the message. Double "
+"click an attachment to open it, or use the Open and Save buttons to open and "
+"save selected attachments."
+msgstr ""
+"İletideki herhangi bir ek iletinin altında gözükür. Açmak için eke çift "
+"tıklayın, ya da seçili ekleri açmak veya kaydetmek için Aç ya da Kaydet "
+"düğmelerini kullanın."
+
+#. (itstool) path: page/title
+#: C/preferences.page:10
+msgid "Preferences"
+msgstr "Tercihler"
+
+#. (itstool) path: page/p
+#: C/preferences.page:11
+msgid ""
+"The <gui>Preferences</gui> option is available in either Geary's application "
+"menu or the gear menu in the upper-right of the toolbar. (The location "
+"depends on the install desktop shell. For GNOME Shell and Unity, the "
+"application menu is available near the top-left corner of the screen.)"
+msgstr ""
+"<gui>Tercihler</gui> seçeneği, Gearyʼnin uygulama menüsünde veya araç "
+"çubuğunun sağ üst köşesindeki dişli menüde bulunabilir. (Konum, kurulu "
+"masaüstü kabuğuna bağlıdır. GNOME Shell ve Unity için uygulama menüsü "
+"ekranın sol üst köşesine yakın bulunur.)"
+
+#. (itstool) path: section/title
+#: C/preferences.page:17
+msgid "Reading"
+msgstr "Okuma"
+
+#. (itstool) path: item/title
+#: C/preferences.page:20
+msgid "<gui>Automatically select next message</gui>"
+msgstr "<gui>Bir sonraki iletiyi kendiliğinden seç</gui>"
+
+#. (itstool) path: item/p
+#: C/preferences.page:21
+msgid ""
+"When this option is enabled, Geary automatically selects the latest message "
+"in a folder when you enter the folder. In addition, after archiving a "
+"message, Geary automatically selects an adjacent message."
+msgstr ""
+"Bu seçenek etkinken, Geary, klasöre girdiğinizde klasör içindeki son iletiyi "
+"kendiliğinden seçer. Ek olarak, iletiyi arşivledikten sonra Geary bitişik "
+"iletiyi seçer."
+
+#. (itstool) path: item/title
+#: C/preferences.page:26
+msgid "<gui>Display conversation preview</gui>"
+msgstr "<gui>Konuşma ön izlemesini göster</gui>"
+
+#. (itstool) path: item/p
+#: C/preferences.page:27
+msgid ""
+"Enables message previews in the conversation list. Previews show the first "
+"few lines of each message."
+msgstr ""
+"Konuşma listesinde ileti ön izlemelerini etkinleştirir. Ön izlemeler her "
+"iletinin ilk birkaç satırını gösterir."
+
+#. (itstool) path: item/title
+#: C/preferences.page:31
+msgid "<gui>Use three pane view</gui>"
+msgstr "<gui>Üç bölmeli görünümü kullan</gui>"
+
+#. (itstool) path: item/p
+#: C/preferences.page:32
+msgid ""
+"Show the folder list, the conversation list, and the messages side-by-side-"
+"by-side in three panes. If not selected, the folder list and conversation "
+"list will be stacked vertically in a single pane."
+msgstr ""
+"Klasör listesini, konuşma listesini ve iletileri üç bölme içinde yanyana "
+"göster. Eğer seçilmediyse, klasör listesi ve konuşma listesi tek bölmeye "
+"dikey olarak yığılacaktır."
+
+#. (itstool) path: section/title
+#: C/preferences.page:40
+msgid "Notifications"
+msgstr "Bildirimler"
+
+#. (itstool) path: item/title
+#: C/preferences.page:43
+msgid "<gui>Play notification sounds</gui>"
+msgstr "<gui>Bildirim seslerini oynat</gui>"
+
+#. (itstool) path: item/p
+#: C/preferences.page:44
+msgid "When set, Geary plays a sound whenever a new message arrives."
+msgstr "Ayarlandığında; Geary, yeni ileti geldiğinde ses oynatır."
+
+#. (itstool) path: item/title
+#: C/preferences.page:47
+msgid "<gui>Show notifications for new mail</gui>"
+msgstr "<gui>Yeni postalar için bildirim göster</gui>"
+
+#. (itstool) path: item/p
+#: C/preferences.page:48
+msgid ""
+"When set, Geary displays a <em>notification</em> each time a new message "
+"arrives. Notifications are displayed in a system-dependent manner. On GNOME "
+"Shell, notifications appear at the bottom of the display (older versions) or "
+"centered just below the top bar (newer versions). In Ubuntu Unity, "
+"notifications appear at the upper right of the display."
+msgstr ""
+"Ayarlandığında; Geary, yeni ileti geldiğinde her defasında <em>bildirim</em> "
+"gösterir. Bildirimler, sisteme bağlı biçimde gösterilir. GNOME Shellʼde, "
+"(eski sürümlerde) bildirimler ekranın altında veya (yeni sürümlerde) üst "
+"çubuğun azıcık altında ortalanmış gözükür. Ubuntu Unityʼde, bildirimler "
+"ekranın sağ üst köşesinde gözükür."
+
+#. (itstool) path: item/title
+#: C/preferences.page:54
+msgid "<gui>Watch for new mail when closed</gui>"
+msgstr "<gui>Kapatıldığında yeni postayı gözetle</gui>"
+
+#. (itstool) path: item/p
+#: C/preferences.page:55
+msgid ""
+"Geary will watch your accounts for new mail even when the main window is not "
+"open. To do this, it will silently start when you log in to your computer, "
+"and it will continue to run after you close all windows."
+msgstr ""
+"Geary, ana pencere açık olmadığında bile hesaplarınızı yeni posta için "
+"gözetler. Bunu yapmak için, bilgisayarınıza giriş yaptığınızda sessizce "
+"başlar ve tüm pencereleri kapattığınızda çalışmayı sürdürür."
+
+#. (itstool) path: page/title
+#: C/search.page:10
+msgid "Search"
+msgstr "Ara"
+
+#. (itstool) path: page/p
+#: C/search.page:12
+msgid ""
+"Geary supports a per-account full text search. To start a search, select a "
+"folder associated with the account you'd like to search against. Then click "
+"the search box in the toolbar (or press <keyseq><key>Ctrl</key><key>S</key></"
+"keyseq>) and start typing. Results will appear after a brief delay."
+msgstr ""
+"Geary, hesap başına tam metin aramayı destekler. Arama başlatmak için aramak "
+"istediğiniz hesapla ilişkili klasör seçin. Ardından araç çubuğundaki arama "
+"kutusuna tıklayın (veya <keyseq><key>Ctrl</key><key>S</key></keyseq> "
+"tuşlarına basın) ve yazmaya başlayın. Sonuçlar kısacık gecikmenin ardından "
+"gözükecektir."
+
+#. (itstool) path: page/p
+#: C/search.page:16
+msgid ""
+"The full text search includes email text, email addresses (to, from, and "
+"cc), subject lines and attachment filenames."
+msgstr ""
+"Tam metin arama e-posta metnini, e-posta adreslerini (kime, kimden ve cc), "
+"konu satırlarını ve eklerin dosya adını içerir."
+
+#. (itstool) path: page/p
+#: C/search.page:19
+msgid ""
+"Keywords that match your search are highlighted in the message view. Geary "
+"will match different forms of the same word, for example searching for \"walk"
+"\" will also match \"walking\" and \"walked.\""
+msgstr ""
+"Aramanızla eşleşen sözcükler ileti görünümünde vurgulanmıştır. Geary, aynı "
+"sözcüğün başka biçimlerini eşleyecektir, örneğin \"yürü\" için aramak ayrıca "
+"\"yürüyorum\" ve \"yürüdüm\"ü de eşleyecektir."
+
+#. (itstool) path: section/title
+#: C/search.page:23
+msgid "Search operators"
+msgstr "Arama işleticileri"
+
+#. (itstool) path: section/p
+#: C/search.page:24
+msgid "Geary supports the following operators to limit the scope of searches:"
+msgstr "Geary, aramaların kapsamını sınırlamak için şu işleticileri kullanır:"
+
+#. (itstool) path: td/p
+#: C/search.page:27
+msgid "<input>attachment:<var>filename</var></input>"
+msgstr "<input>ek:<var>dosyaadı</var></input>"
+
+#. (itstool) path: td/p
+#: C/search.page:28
+msgid "Finds messages with attachments whose name matches <var>filename</var>."
+msgstr "Adı <var>dosyaadı</var> ile eşleşen ekleri içeren iletileri bulur."
+
+#. (itstool) path: td/p
+#: C/search.page:31
+msgid "<input>bcc:<var>recipient</var></input>"
+msgstr "<input>bcc:<var>alıcı</var></input>"
+
+#. (itstool) path: td/p
+#: C/search.page:32
+#| msgid "Finds messages where <var>recipient</var> matches the BCC header."
+msgid "Finds messages where <var>recipient</var> matches email BCC fields."
+msgstr "E-posta BCC alanları <var>alıcı</var> ile eşleşen iletileri bulur."
+
+#. (itstool) path: td/p
+#: C/search.page:35
+msgid "<input>body:<var>text</var></input>"
+msgstr "<input>gövde:<var>metin</var></input>"
+
+#. (itstool) path: td/p
+#: C/search.page:36
+msgid "Finds messages whose body contains <var>text</var>."
+msgstr "Gövdesi <var>metin</var> içeren iletileri bulur."
+
+#. (itstool) path: td/p
+#: C/search.page:39
+msgid "<input>cc:<var>recipient</var></input>"
+msgstr "<input>cc:<var>alıcı</var></input>"
+
+#. (itstool) path: td/p
+#: C/search.page:40
+#| msgid "Finds messages where <var>recipient</var> matches the CC header."
+msgid "Finds messages where <var>recipient</var> matches email CC fields."
+msgstr "E-posta CC alanları <var>alıcı</var> ile eşleşen iletileri bulur."
+
+#. (itstool) path: td/p
+#: C/search.page:43
+msgid "<input>from:<var>sender</var></input>"
+msgstr "<input>kimden:<var>gönderici</var></input>"
+
+#. (itstool) path: td/p
+#: C/search.page:44
+#| msgid "Finds messages where <var>sender</var> matches the From header."
+msgid "Finds messages where <var>sender</var> matches email From fields."
+msgstr ""
+"E-posta Kimden alanları <var>gönderici</var> ile eşleşen iletileri bulur."
+
+#. (itstool) path: td/p
+#: C/search.page:47
+msgid "<input>is:read</input>"
+msgstr "<input>im:okundu</input>"
+
+#. (itstool) path: td/p
+#: C/search.page:48
+msgid "Finds messages that have been marked as read."
+msgstr "Okundu olarak imlenen iletileri bulur."
+
+#. (itstool) path: td/p
+#: C/search.page:51
+msgid "<input>is:starred</input>"
+msgstr "<input>im:yıldızlı</input>"
+
+#. (itstool) path: td/p
+#: C/search.page:52
+msgid "Finds messages that have been marked as starred."
+msgstr "Yıldızlı olarak imlenen iletileri bulur."
+
+#. (itstool) path: td/p
+#: C/search.page:55
+msgid "<input>is:unread</input>"
+msgstr "<input>im:okunmadı</input>"
+
+#. (itstool) path: td/p
+#: C/search.page:56
+msgid "Finds messages that have been marked as not read."
+msgstr "Okunmadı olarak imlenen iletileri bulur."
+
+#. (itstool) path: td/p
+#: C/search.page:59
+msgid "<input>subject:<var>text</var></input>"
+msgstr "<input>konu:<var>metin</var></input>"
+
+#. (itstool) path: td/p
+#: C/search.page:60
+msgid "Finds messages whose subject contains <var>text</var>."
+msgstr "Konusu <var>metin</var> içeren iletileri bulur."
+
+#. (itstool) path: td/p
+#: C/search.page:63
+msgid "<input>to:<var>recipient</var></input>"
+msgstr "<input>kime:<var>alıcı</var></input>"
+
+#. (itstool) path: td/p
+#: C/search.page:64
+#| msgid ""
+#| "Finds messages where <var>recipient</var> matches the To, CC, or BCC "
+#| "header."
+msgid ""
+"Finds messages where <var>recipient</var> matches email To, CC, or BCC "
+"fields."
+msgstr ""
+"E-posta Kime, CC veya BCC alanları <var>alıcı</var> ile eşleşen iletileri "
+"bulur."
+
+#. (itstool) path: section/p
+#: C/search.page:68
+msgid ""
+"As a special case, the <input>bcc</input>, <input>cc</input>, <input>from</"
+"input>, and <input>to</input> operators support <input>me</input> as their "
+"argument, which searches for the account's email address in the appropriate "
+"context."
+msgstr ""
+"Özel durum olarak, <input>bcc</input>, <input>cc</input>, <input>kimden</"
+"input> ve <input>kime</input> işleticileri değişken olarak <input>ben</"
+"input> değişkenini destekler; bu değişken, uygun bağlam içinde hesabın "
+"eposta adresi için arar."
+
+#. (itstool) path: page/title
+#: C/shortcuts.page:10
+msgid "Keyboard shortcuts"
+msgstr "Klavye kısayolları"
+
+#. (itstool) path: page/p
+#: C/shortcuts.page:12
+msgid ""
+"Geary has keyboard shortcuts for most common operations. Use the built-in "
+"keyboard shortcuts help in Geary to discover the full list. This can be "
+"accessed via the application menu: <guiseq><gui>Geary</gui><gui>Keyboard "
+"Shortcuts</gui></guiseq> or using the keyboard shortcuts listed below."
+msgstr ""
+"Geary, çoğu ortak işlem için klavye kısayollarına sahiptir. Tam listeyi "
+"keşfetmek için Gearyʼdeki gömülü klavye kısayolları yardımını kullanın. Bu, "
+"uygulama menüsüyle erişilebilirdir: <guiseq><gui>Geary</gui><gui>Klavye "
+"Kısayolları</gui></guiseq> veya aşağıda listelenmiş klavye kısayolları "
+"kullanılabilir."
+
+#. (itstool) path: page/p
+#: C/shortcuts.page:18
+msgid ""
+"The following keyboard shortcuts can be used to access on-line help from "
+"Geary:"
+msgstr ""
+"Şu klavye kısayolları Gearyʼden çevrim içi yardıma erişimde kullanılabilir:"
+
+#. (itstool) path: td/p
+#: C/shortcuts.page:22
+msgid "Display this User Manual"
+msgstr "Bu Kullanım Kılavuzunu Göster"
+
+#. (itstool) path: td/p
+#: C/shortcuts.page:23
+msgid "<keyseq><key>F1</key></keyseq>"
+msgstr "<keyseq><key>F1</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/shortcuts.page:26
+msgid "Display all keyboard shortcuts"
+msgstr "Tüm klavye kısayollarını göster"
+
+#. (itstool) path: td/p
+#: C/shortcuts.page:27
+msgid ""
+"<keyseq><key>Ctrl</key><key>?</key></keyseq> or <keyseq><key>Ctrl</"
+"key><key>F1</key></keyseq>"
+msgstr ""
+"<keyseq><key>Ctrl</key><key>?</key></keyseq> ya da <keyseq><key>Ctrl</"
+"key><key>F1</key></keyseq>"
+
+#. (itstool) path: page/title
+#: C/star.page:10
+msgid "Star a message or mark it as read/unread"
+msgstr "İletiyi yıldızla veya okundu/okunmadı olarak imle"
+
+#. (itstool) path: section/title
+#: C/star.page:12
+msgid "Star messages"
+msgstr "İletileri yıldızla"
+
+#. (itstool) path: section/p
+#: C/star.page:13
+msgid ""
+"You can star messages to indicate that they're important to you. To mark a "
+"conversation with a star, click its star icon in the conversation list. You "
+"can star an individual message by clicking the star at the upper right of "
+"the message itself."
+msgstr ""
+"Sizin için önemli olduğunu belirtmek için iletileri yıldızlayabilirsiniz. "
+"Konuşmayı yıldızla imlemek için, konuşma listesinde yıldız simgesine "
+"dokunun. İletinin sağ üst tarafındaki yıldıza tıklayarak tekil iletiyi "
+"yıldızlayabilirsiniz."
+
+#. (itstool) path: section/p
+#: C/star.page:15
+msgid ""
+"With Gmail accounts, starred messages appear in the Starred folder in the "
+"folder list."
+msgstr ""
+"Gmail hesaplarıyla; yıldızlı iletiler, klasör listesindeki Yıldızlı "
+"klasöründe gözükür."
+
+#. (itstool) path: section/title
+#: C/star.page:18
+msgid "Mark messages as read or unread"
+msgstr "İletileri okundu veya okunmamış olarak imle"
+
+#. (itstool) path: section/p
+#: C/star.page:19
+msgid ""
+"Geary marks messages as read automatically as you read them. To manually "
+"toggle a conversation as read or unread, click the circle icon in the "
+"conversation list."
+msgstr ""
+"Geary, iletileri siz onları okuduğunuz gibi kendiliğinden okundu olarak "
+"imler. Konuşmayı elle okundu veya okunmamış olarak imlemek için konuşma "
+"listesindeki daire simgeye tıklayın."
+
+#. (itstool) path: section/p
+#: C/star.page:22
+msgid ""
+"Alternately, the <gui>Mark as Unread</gui> in the <gui>Mark</gui> menu on "
+"the toolbar can be used to toggle the read status of the selected "
+"conversation(s)."
+msgstr ""
+"Diğer seçenek olarak; araç çubuğundaki <gui>İmle</gui> menüsünde bulunan "
+"<gui>Okunmamış Olarak İmle</gui>, seçili konuşmaların okundu durumunu "
+"değiştirmek için kullanılabilir."
+
+#. (itstool) path: section/p
+#: C/star.page:25
+msgid ""
+"To mark an individual message as read, select <gui>Mark as Read</gui> from "
+"the dropdown menu."
+msgstr ""
+"Tekil iletiyi okundu olarak imlemek için açılır menüden <gui>Okundu Olarak "
+"İmle</gui>ʼyi seçin."
+
+#. (itstool) path: page/title
+#: C/write.page:9
+msgid "Write a message"
+msgstr "İleti yaz"
+
+#. (itstool) path: section/title
+#: C/write.page:12
+msgid "Composing and replying"
+msgstr "Yazma ve yanıtlama"
+
+#. (itstool) path: section/p
+#: C/write.page:13
+msgid ""
+"To compose a new message in Geary, press the <gui>New Message</gui> button "
+"on the toolbar."
+msgstr ""
+"Gearyʼde yeni ileti yazmak için, araç çubuğundaki <gui>Yeni İleti</gui> "
+"düğmesine basın."
+
+#. (itstool) path: section/p
+#: C/write.page:16
+msgid ""
+"To reply to a message, open the message menu in the upper right corner of "
+"the message and choose <gui>Reply</gui>, <gui>Reply All</gui> or "
+"<gui>Forward</gui>. You can also reply to the last message in a conversation "
+"via the <gui>Reply</gui>, <gui>Reply All</gui> or <gui>Forward</gui> buttons "
+"on the toolbar."
+msgstr ""
+"İletiyi yanıtlamak için, iletinin sağ üst köşesindeki ileti menüsünü açın ve "
+"<gui>Yanıtla</gui>, <gui>Tümünü Yanıtla</gui> veya <gui>Yönlendir</gui>ʼi "
+"seçin. Ayrıca, konuşmadaki son iletiyi araç çubuğundaki <gui>Yanıtla</gui>, "
+"<gui>Tümünü Yanıtla</gui> veya <gui>Yönlendir</gui> aracılığıyla "
+"yanıtlayabilirsiniz."
+
+#. (itstool) path: section/title
+#: C/write.page:21
+msgid "Features"
+msgstr "Özellikler"
+
+#. (itstool) path: section/p
+#: C/write.page:23
+msgid ""
+"Geary's email composer lets you adjust the font, size and color of text. You "
+"can also insert hyperlinks into messages."
+msgstr ""
+"Gearyʼnin e-posta oluşturucusu metnin yazı tipini, boyutunu ve rengini "
+"ayarlamanızı sağlar. Ayrıca iletilerin içine köprüler ekleyebilirsiniz."
+
+#. (itstool) path: section/p
+#: C/write.page:25
+msgid ""
+"Geary can also send plain text messages. In the drop-down menu, check or "
+"uncheck \"Rich Text\" to toggle between plain text and rich text mode."
+msgstr ""
+"Geary ayrıca düz metin iletileri gönderebilir. Açılır menüde, \"Zengin Metin"
+"\"i seçerek ya da seçimi kaldırarak düz metin ve zengin metin kipleri "
+"arasında geçiş yapılabilir."
+
+#. (itstool) path: section/p
+#: C/write.page:28
+msgid ""
+"You can attach a file to a message you're writing in either of these ways:"
+msgstr "Yazarken iletiye şu yollarla dosya ekleyebilirsiniz:"
+
+#. (itstool) path: item/p
+#: C/write.page:30
+msgid ""
+"Press the <gui>Attach File</gui> button at the lower left of the composer "
+"window, then select a file to attach."
+msgstr ""
+"Oluşturucu penceresinin sol alt köşesindeki <gui>Dosya Ekle</gui> düğmesine "
+"basın, sonrasında eklenecek dosyayı seçin."
+
+#. (itstool) path: item/p
+#: C/write.page:32
+msgid ""
+"Drag the file from the Nautilus file manager to the composer window, and "
+"drop it either on the text fields at the top of the window or on the toolbar "
+"at the bottom."
+msgstr ""
+"Dosyayı Nautilus dosya yöneticisinden oluşturucu penceresine sürükleyin, "
+"pencerenin üstündeki metin alanlarının veya alttaki araç çubuğunun üzerine "
+"bırakın."
+
+#. (itstool) path: section/p
+#: C/write.page:36
+msgid ""
+"A number of keyboard shortcuts are available in the composer; see <link xref="
+"\"shortcuts\"/> for details."
+msgstr ""
+"Oluşturucuda birkaç klavye kısayolu bulunur; ayrıntılar için <link xref="
+"\"shortcuts\"/>"
+
+#. (itstool) path: section/p
+#: C/write.page:38
+msgid ""
+"You may specify a signature to be inserted into the composer in the <link "
+"xref=\"accounts\"/> dialog."
+msgstr ""
+"<link xref=\"accounts\"/> iletişim penceresinde oluşturucuya eklenecek imza "
+"belirleyebilirsiniz."
+
+#. (itstool) path: section/title
+#: C/write.page:43
+msgid "Drafts"
+msgstr "Taslaklar"
+
+#. (itstool) path: section/p
+#: C/write.page:45
+msgid ""
+"For mail servers that support drafts, Geary will automatically save the "
+"message as you type. If you close the composer without sending, Geary will "
+"prompt you to keep the draft or to discard it."
+msgstr ""
+"Taslakları destekleyenn posta sunucuları için, Geary siz yazdıkça iletiyi "
+"kendiliğinden kaydedecektir. Eğer göndermeden oluşturucuyu kapatırsanız, "
+"Geary size taslağı tutmayı veya atmayı soracaktır."
+
+#. (itstool) path: section/p
+#: C/write.page:48
+msgid ""
+"To edit an existing draft, select the Drafts folder in the folder list, "
+"select the message, and click \"Edit Draft\" in the message viewer."
+msgstr ""
+"Var olan taslağı düzenlemek için, klasör listesinde Taslaklar klasörünü "
+"seçin, iletiyi seçin ve ileti göstericide \"Taslağı Düzenle\"ye tıklayın."
+
+#. (itstool) path: section/p
+#: C/write.page:51
+msgid "Geary deletes the draft when you send the message."
+msgstr "Geary, iletiyi gönderdiğinizde taslağı siler."
+
+#~ msgid ""
+#~ "The first time you start Geary, you will be prompted to add an email "
+#~ "account. On this screen, select if your account is Gmail, Yahoo, Outlook."
+#~ "com, or other. For other account types, you will need to enter your IMAP "
+#~ "and SMTP login settings manually."
+#~ msgstr ""
+#~ "Gearyʼyi ilk kez başlattığınızda e-posta hesabı eklemeniz istenecek. Bu "
+#~ "ekranda hesabınızın Gmail, Yahoo, Outlook.com veya diğer olduğunu "
+#~ "seçeceksiniz. Diğer hesap türleri için IMAP ve SMTP giriş ayarlarını elle "
+#~ "girmeniz gerekecektir."
+
+#~ msgid ""
+#~ "Additional accounts can be added from the Accounts dialog. The "
+#~ "<gui>Accounts</gui> option is available in either Geary's application "
+#~ "menu or the gear menu in the upper-right of the toolbar. (The location "
+#~ "depends on the install desktop shell. For GNOME Shell and Unity, the "
+#~ "application menu is available near the top-left corner of the screen.) To "
+#~ "add an account, click the + button."
+#~ msgstr ""
+#~ "Ek hesaplar, Hesaplar iletişim penceresinden eklenebilir. <gui>Hesaplar</"
+#~ "gui> seçeneği, Gearyʼnin uygulama menüsünde veya araç çubuğunun sağ üst "
+#~ "köşesindeki dişli menüde bulunabilir. (Konum, kurulu masaüstü kabuğuna "
+#~ "bağlıdır. GNOME Shell ve Unity için uygulama menüsü ekranın sol üst "
+#~ "köşesine yakın yerde bulunur.) Hesap eklemek için + düğmesine tıklayın."
+
+#~ msgid ""
+#~ "From the Accounts dialog, select an account and click the pencil icon to "
+#~ "change various settings. Please note that Geary cannot change server "
+#~ "settings on an existing account. If you need to change your IMAP or SMTP "
+#~ "server, you will need to delete the account and re-add it."
+#~ msgstr ""
+#~ "Hesaplar iletişim penceresinden hesap seçin ve çeşitli ayarları "
+#~ "değiştirmek için kalem simgesine tıklayın. Unutmayın ki Geary var olan "
+#~ "hesabın sunucu ayarlarını değiştiremez. Eğer IMAP veya SMTP sunucunuzu "
+#~ "değiştirmek istiyorsanız, hesabı silmeniz ve yeniden eklemeniz "
+#~ "gerekecektir."
+
+#~ msgid ""
+#~ "To change the order that accounts are displayed in the folder list, drag "
+#~ "the accounts in the Accounts dialog to the desired order."
+#~ msgstr ""
+#~ "Klasör listesinde gösterilen hesapların sırasını değiştirmek için, "
+#~ "Hesaplar iletişim penceresindeki hesapları istenen sıraya sürükleyin."
+
+#~ msgid "There are some advanced options available when editing accounts:"
+#~ msgstr ""
+#~ "Hesapları düzenlerken kullanılabilicek bazı gelişmiş özellikler vardır:"
+
+#~ msgid ""
+#~ "The <gui>Save sent mail</gui> checkbox controls whether Geary will push "
+#~ "successfully sent messages up to the account's <gui>Sent Mail</gui> "
+#~ "folder. For Gmail accounts, this happens automatically. Yahoo and some "
+#~ "other accounts can be configured to do this automatically as well. For "
+#~ "other accounts, if you disable this setting, you may be unable to view "
+#~ "messages you've sent."
+#~ msgstr ""
+#~ "<gui>Gönderilmiş postayı kaydet</gui> seçim kutusu, Gearyʼnin başarıyla "
+#~ "gönderilen iletileri hesabın <gui>Gönderilmiş Postalar</gui> klasörüne "
+#~ "itilip itilemeyeceğini denetler. Gmail hesapları için, bu kendiliğinden "
+#~ "gerçekleşir. Yahoo ve diğer bazı hesaplar da bunu kendiliğinden yapması "
+#~ "için yapılandırılabilir. Diğer hesaplar için, eğer bu ayarı devre dışı "
+#~ "bırakırsanız, gönderdiğiniz iletileri göremeyebilirsiniz."
+
+#~ msgid ""
+#~ "The <gui>Sign emails</gui> checkbox indicates whether a signature will be "
+#~ "automatically inserted when a composer is opened. You may enter the "
+#~ "signature into the box immediately below. You may use HTML tags to style "
+#~ "the text. Switch to a preview of the signature using the buttons to the "
+#~ "right."
+#~ msgstr ""
+#~ "<gui>E-postaları İmzala</gui> seçim kutusu, oluşturucu açıldığında "
+#~ "imzanın kendiliğinden eklenip eklenmeyeceğini denetler. İmzayı hemen "
+#~ "aşağıda bulunan kutunun içine girebilirsiniz. Metni biçimlendirmek için "
+#~ "HTML etiketleri kullanabilirsiniz. Sağdaki düğmeleri kullanarak imzanın "
+#~ "ön izlemesine geçebilirsiniz."
+
+#~ msgid ""
+#~ "If you leave the signature in the Accounts dialog blank, Geary will use "
+#~ "the <file>.signature</file> file in your home directory, if it exists. "
+#~ "This file may contain either plain text or HTML markup. In the latter "
+#~ "case, the markup will be inserted directly into the composer, without any "
+#~ "escaping."
+#~ msgstr ""
+#~ "Eğer Hesaplar iletişim penceresindeki imzayı boş bırakırsanız, eğer "
+#~ "varsa, Geary ev dizininizdeki <file>.signature</file> dosyasını "
+#~ "kullanacaktır. Bu dosya düz metin de HTML biçimlendirmesi de içerebilir. "
+#~ "İkinci durumda, biçimlendirme doğrudan oluşturucunun içine herhangi bir "
+#~ "boşluk olmadan eklenecektir."
+
+#~ msgid ""
+#~ "To delete an account, open the Accounts dialog, select the account, and "
+#~ "press the - button. Geary will delete all information associated with the "
+#~ "account."
+#~ msgstr ""
+#~ "Hesabı silmek için, Hesaplar iletişim penceresini açın, hesabı seçin ve - "
+#~ "düğmesine basın. Geary, bu hesapla ilişkili tüm bilgiyi silecektir."
+
+#~ msgid ""
+#~ "Geary is a lightweight email reader for the <link href=\"http://gnome.org"
+#~ "\">GNOME</link> desktop. It works with mail servers that support the IMAP "
+#~ "protocol, including popular services such as Gmail, Yahoo Mail, and "
+#~ "Outlook.com."
+#~ msgstr ""
+#~ "Geary, <link href=\"http://gnome.org\">GNOME</link> masaüstü için hafif "
+#~ "bir e-posta okuyucusudur. Gmail, Yahoo Mail ve Outlook.com gibi gözde "
+#~ "hizmetleri içeren, IMAP iletişim kuralını destekleyen posta sunucularıyla "
+#~ "çalışır."
+
+#~ msgid ""
+#~ "Geary groups mail messages into <em>conversations</em>. A conversation "
+#~ "contains all messages in a single thread of discussion."
+#~ msgstr ""
+#~ "Geary, posta iletlerini <em>konuşmalar</em>a kümeler. Konuşma, tüm "
+#~ "iletileri tek tartışma dizisi içinde tutar."
+
+#~ msgid "Message area"
+#~ msgstr "İleti alanı"
+
+#~ msgid ""
+#~ "At the upper right of each message, Geary displays a dropdown arrow that "
+#~ "lets you open the <em>message menu</em> with commands that operate on the "
+#~ "message."
+#~ msgstr ""
+#~ "Her iletinin sağ üst köşesinde, Geary, ileti üzerinde işlem yapan "
+#~ "komutları içeren <em>ileti menüsü</em>nü açmanızı sağlayan bir açılır ok "
+#~ "gösterir."
+
+#~ msgid ""
+#~ "Geary uses <link href=\"https://secure.gravatar.com/\">Gravatar</link> to "
+#~ "display an avatar for each message's sender in its header."
+#~ msgstr ""
+#~ "Geary, her iletinin kendi başlığındaki göndericinin küçük resmini "
+#~ "göstermek için <link href=\"https://secure.gravatar.com/\">Gravatar</"
+#~ "link> kullanır."
+
+#~| msgid "F"
+#~ msgid "F1"
+#~ msgstr "F1"
+
+#~ msgid "filename"
+#~ msgstr "dosyaadı"
+
+#~ msgid "attachment:<placeholder-1/>"
+#~ msgstr "ek:<placeholder-1/>"
+
+#~ msgid "recipient"
+#~ msgstr "alıcı"
+
+#~ msgid "bcc:<placeholder-1/>"
+#~ msgstr "bcc:<placeholder-1/>"
+
+#~ msgid "text"
+#~ msgstr "metin"
+
+#~ msgid "body:<placeholder-1/>"
+#~ msgstr "gövde:<placeholder-1/>"
+
+#~ msgid "cc:<placeholder-1/>"
+#~ msgstr "cc:<placeholder-1/>"
+
+#~ msgid "sender"
+#~ msgstr "gönderici"
+
+#~ msgid "from:<placeholder-1/>"
+#~ msgstr "kimden:<placeholder-1/>"
+
+#~ msgid "is:read"
+#~ msgstr "is:okundu"
+
+#~ msgid "is:starred"
+#~ msgstr "is:yıldızlı"
+
+#~ msgid "is:unread"
+#~ msgstr "is:okunmadı"
+
+#~ msgid "subject:<placeholder-1/>"
+#~ msgstr "konu:<placeholder-1/>"
+
+#~ msgid "to:<placeholder-1/>"
+#~ msgstr "kime:<placeholder-1/>"
+
+#~ msgid "Bugs"
+#~ msgstr "Hatalar"
+
+#~ msgid "Think you've found a bug?"
+#~ msgstr "Bir hata bulduğunuzu mu düşünüyorsunuz?"
+
+#~ msgid ""
+#~ "If you suspect you've found a bug in Geary, follow these steps to report "
+#~ "it:"
+#~ msgstr ""
+#~ "Eğer Geary'de bir hata bulduğunuzdan şüpheleniyorsanız, bildirmek için şu "
+#~ "adımları takip edin:"
+
+#~ msgid ""
+#~ "Search Geary's <link href=\"https://bugzilla.gnome.org/browse.cgi?"
+#~ "product=geary\">bug database</link> to see if someone else has reported "
+#~ "the bug."
+#~ msgstr ""
+#~ "Başkasının hatayı gönderip göndermediğine bakmak için Geary'nin <link "
+#~ "href=\"https://bugzilla.gnome.org/browse.cgi?product=geary\">hata veri "
+#~ "tabanı</link>nı arayın."
+
+#~ msgid ""
+#~ "Don't see your bug listed? Congratulations! You've found a new bug. To "
+#~ "create an bug report, create an account on GNOME's Bugzilla and <link "
+#~ "href=\"https://bugzilla.gnome.org/enter_bug.cgi?product=geary\">file a "
+#~ "new bug</link>. Be as specific as you can and describe the steps to "
+#~ "reproduce it. Don't forget to include details about your operating system "
+#~ "and what version of Geary you're running."
+#~ msgstr ""
+#~ "Hatanız listelenmemiş mi? Tebrikler! Yeni bir hata buldunuz. Bir hata "
+#~ "bildirimi oluşturmak için, GNOME'un Bugzilla'sında yeni bir hesap "
+#~ "oluşturun ve <link href=\"https://bugzilla.gnome.org/enter_bug.cgi?"
+#~ "product=geary\">yeni bir hata bildir</link>in. Olabildiğinizce açık olun "
+#~ "ve hatayı yeniden üretecek adımları açıklayın. İşletim sisteminizle "
+#~ "ilgili ayrıntıları ve çalıştırdığınız Geary'nin sürümünü eklemeyi "
+#~ "unutmayın."
+
+#~ msgid ""
+#~ "For general inquiries, please join the <link href=\"https://mail.gnome."
+#~ "org/mailman/listinfo/geary-list\"> Geary mailing list</link>."
+#~ msgstr ""
+#~ "Genel sorular için lütfen <link href=\"https://mail.gnome.org/mailman/"
+#~ "listinfo/geary-list\">Geary postalaşma listesi</link>ne katılın."
+
+#~ msgid "Geary has keyboard shortcuts for most common operations."
+#~ msgstr "Geary, çoğu ortak işlem için klavye kısayollarına sahiptir."
+
+#~ msgid "Compose a new message"
+#~ msgstr "Yeni bir ileti yaz"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq> or <key>N</key>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq> veya <key>N</key>"
+
+#~ msgid "Reply to sender"
+#~ msgstr "Gönderene yanıtla"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq> or <key>R</key>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq> veya <key>R</key>"
+
+#~ msgid "Reply to all"
+#~ msgstr "Tümüne yanıtla"
+
+#~ msgid ""
+#~ "<keyseq><key>Ctrl</key><key>Shift</key><key>R</key></keyseq> or "
+#~ "<keyseq><key>Shift</key><key>R</key></keyseq>"
+#~ msgstr ""
+#~ "<keyseq><key>Ctrl</key><key>Shift</key><key>R</key></keyseq> veya "
+#~ "<keyseq><key>Shift</key><key>R</key></keyseq>"
+
+#~ msgid "Forward"
+#~ msgstr "Yönlendir"
+
+#~ msgid "Archive"
+#~ msgstr "Arşivle"
+
+#~ msgid "A"
+#~ msgstr "A"
+
+#~ msgid "Trash"
+#~ msgstr "Çöp"
+
+#~ msgid "<key>Delete</key> or <key>Backspace</key>"
+#~ msgstr "<key>Delete</key> veya <key>Backspace</key>"
+
+#~ msgid "Delete"
+#~ msgstr "Sil"
+
+#~ msgid ""
+#~ "<keyseq><key>Shift</key><key>Delete</key></keyseq> or <keyseq><key>Shift</"
+#~ "key><key>Backspace</key></keyseq>"
+#~ msgstr ""
+#~ "<keyseq><key>Shift</key><key>Delete</key></keyseq> veya "
+#~ "<keyseq><key>Shift</key><key>Backspace</key></keyseq>"
+
+#~ msgid "Star"
+#~ msgstr "Yıldızla\t"
+
+#~ msgid "S"
+#~ msgstr "S"
+
+#~ msgid "Unstar"
+#~ msgstr "Yıldızı kaldır"
+
+#~ msgid "D"
+#~ msgstr "D"
+
+#~ msgid "Mark read"
+#~ msgstr "Okundu imle"
+
+#~ msgid ""
+#~ "<keyseq><key>Ctrl</key><key>I</key></keyseq> or <keyseq><key>Shift</"
+#~ "key><key>I</key></keyseq>"
+#~ msgstr ""
+#~ "<keyseq><key>Ctrl</key><key>I</key></keyseq> veya <keyseq><key>Shift</"
+#~ "key><key>I</key></keyseq>"
+
+#~ msgid "Mark unread"
+#~ msgstr "Okunmamış imle"
+
+#~ msgid ""
+#~ "<keyseq><key>Ctrl</key><key>U</key></keyseq> or <keyseq><key>Shift</"
+#~ "key><key>U</key></keyseq>"
+#~ msgstr ""
+#~ "<keyseq><key>Ctrl</key><key>U</key></keyseq> veya <keyseq><key>Shift</"
+#~ "key><key>U</key></keyseq>"
+
+#~ msgid "Move the conversation"
+#~ msgstr "Konuşmayı taşı"
+
+#~ msgid "M"
+#~ msgstr "M"
+
+#~ msgid "Label the conversation"
+#~ msgstr "Konuşmayı etiketle"
+
+#~ msgid "L"
+#~ msgstr "L"
+
+#~ msgid "Jump to next (older) conversation"
+#~ msgstr "Sonraki (eski) konuşmaya atla"
+
+#~ msgid "J"
+#~ msgstr "J"
+
+#~ msgid "Jump to previous (newer) conversation"
+#~ msgstr "Önceki (yeni) konuşmaya atla"
+
+#~ msgid "K"
+#~ msgstr "K"
+
+#~ msgid "Toggle spam"
+#~ msgstr "İstenmeyenliği değiştir"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>J</key></keyseq> or <key>!</key>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>J</key></keyseq> veya <key>!</key>"
+
+#~ msgid "Quit"
+#~ msgstr "Çık"
+
+#~ msgid "Ctrl"
+#~ msgstr "Ctrl"
+
+#~ msgid "Q"
+#~ msgstr "Q"
+
+#~ msgid "Zoom in"
+#~ msgstr "Yakınlaştır"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>=</key></keyseq> or <key>=</key>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>=</key></keyseq> veya <key>=</key>"
+
+#~ msgid "Zoom out"
+#~ msgstr "Uzaklaştır"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>-</key></keyseq> or <key>-</key>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>-</key></keyseq> veya <key>-</key>"
+
+#~ msgid "Reset zoom"
+#~ msgstr "Yakınlaştırmayı sıfırla"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>0</key></keyseq> or <key>0</key>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>0</key></keyseq> veya <key>0</key>"
+
+#~ msgid "Close composer window"
+#~ msgstr "Oluşturucu pencereyi kapat"
+
+#~ msgid "W"
+#~ msgstr "W"
+
+#~ msgid "Jump to search box"
+#~ msgstr "Arama kutusuna atla"
+
+#~ msgid "Find in current conversation"
+#~ msgstr "Geçerli konuşmada bul"
+
+#~ msgid "Find next in current conversation"
+#~ msgstr "Geçerli konuşmada sonrakini bul"
+
+#~ msgid "G"
+#~ msgstr "G"
+
+#~ msgid "Find previous in current conversation"
+#~ msgstr "Geçerli konuşmada öncekini bul"
+
+#~ msgid "Shift"
+#~ msgstr "Shift"
+
+#~ msgid "Composer shortcuts"
+#~ msgstr "Oluşturucu kısayolları"
+
+#~ msgid "These shortcuts are active whenever focus is in a composer."
+#~ msgstr "Bu kısayollar odak oluşturucuda olduğunda etkindir."
+
+#~ msgid "Attach file"
+#~ msgstr "Dosya ekle"
+
+#~ msgid "T"
+#~ msgstr "T"
+
+#~ msgid "Quote text"
+#~ msgstr "Metni alıntıla"
+
+#~ msgid "]"
+#~ msgstr "]"
+
+#~ msgid "Unquote text"
+#~ msgstr "Metin alıntısını kaldır"
+
+#~ msgid "["
+#~ msgstr "["
+
+#~ msgid "Close composer"
+#~ msgstr "Oluşturucuyu kapat"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq> or <key>Esc</key>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>W</key></keyseq> veya <key>Esc</key>"
+
+#~ msgid "Detach composer"
+#~ msgstr "Oluşturucuyu ayır"
+
+#~ msgid "These shortcuts are only active in composers in rich text mode."
+#~ msgstr ""
+#~ "Bu kısayollar yalnızca oluşturucu zengin metin kipindeyken etkindir."
+
+#~ msgid "Bold text"
+#~ msgstr "Metni kalınlaştır"
+
+#~ msgid "B"
+#~ msgstr "B"
+
+#~ msgid "Italicize text"
+#~ msgstr "Metni yatır"
+
+#~ msgid "I"
+#~ msgstr "I"
+
+#~ msgid "Underline text"
+#~ msgstr "Metnin altını çiz"
+
+#~ msgid "U"
+#~ msgstr "U"
+
+#~ msgid "Strike text"
+#~ msgstr "Metnin üzerini çiz"
+
+#~ msgid "Insert a link"
+#~ msgstr "Bir bağlantı yerleştir"
+
+#~ msgid "Remove formatting"
+#~ msgstr "Biçimlendirmeyi kaldır"
+
+#~ msgid "Space"
+#~ msgstr "Boşluk"
+
+#~ msgid "Keyboard navigation"
+#~ msgstr "Klavye gezinimi"
+
+#~ msgid ""
+#~ "These shortcuts can be used to move the keyboard focus in the main window."
+#~ msgstr ""
+#~ "Bu kısayollar ana penceredeki klavye odağını taşımak için kullanılabilir."
+
+#~ msgid "Move focus to the next/previous pane"
+#~ msgstr "Odağı sonraki/önceki bölmeye taşı"
+
+#~ msgid ""
+#~ "<keyseq><key>F6</key></keyseq> / <keyseq><key>Shift</key><key>F6</key></"
+#~ "keyseq>"
+#~ msgstr ""
+#~ "<keyseq><key>F6</key></keyseq> / <keyseq><key>Shift</key><key>F6</key></"
+#~ "keyseq>"
+
+#~ msgid "Move focus to conversation list"
+#~ msgstr "Odağı konuşma listesine taşı"
+
+#~ msgid "Move to the next message in a conversation"
+#~ msgstr "Bir konuşmadaki sonraki iletiye taşı"
+
+#~ msgid "Move to the next/previous message in a conversation"
+#~ msgstr "Bir konuşmadaki önceki/sonraki iletiye taşı"
+
+#~ msgid "Move to the first/last message in a conversation"
+#~ msgstr "Bir konuşmadaki ilk/son iletiye taşı"
+
+#~ msgid ""
+#~ "<keyseq><key>Ctrl</key><key>Home</key></keyseq> / <keyseq><key>Ctrl</"
+#~ "key><key>End</key></keyseq>"
+#~ msgstr ""
+#~ "<keyseq><key>Ctrl</key><key>Home</key></keyseq> / <keyseq><key>Ctrl</"
+#~ "key><key>End</key></keyseq>"
+
+#~ msgid "Composer"
+#~ msgstr "Oluşturucu"
+
+#~ msgid "Enable spell checking"
+#~ msgstr "Yazım denetimini etkinleştir"
+
+#~ msgid ""
+#~ "When set, Geary automatically spell checks a message as you write it, "
+#~ "underlying each misspelled word in red."
+#~ msgstr ""
+#~ "Ayarlandığında; Geary, siz yazdıkça ileti yazımını denetler, yanlış "
+#~ "yazılan her sözcüğün altını kırmızı ile çizer."

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2016 Software Freedom Conservancy Inc. -->
+<!-- Copyright 2016, 2019 Michael Gratton <mike@vee.net> -->
+
+<component type="desktop-application">
+  <id>@appid@.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LGPL-2.1+</project_license>
+  <update_contact>geary-list@gnome.org</update_contact>
+
+  <!-- Translators: The application name -->
+  <name>Geary</name>
+  <!-- Translators: The development team's name -->
+  <developer_name>Geary Development Team</developer_name>
+  <!-- Translators: The application's summary / tagline -->
+  <summary>Send and receive email</summary>
+  <description>
+    <p>
+      Geary is an email application built around conversations, for
+      the GNOME 3 desktop. It allows you to read, find and send email
+      with a straightforward, modern interface.
+    </p>
+    <p>
+      Conversations allow you to read a complete discussion without
+      having to find and click from message to message.
+    </p>
+    <p>Geary’s features include:</p>
+    <ul>
+      <li>Quick email account setup</li>
+      <li>Shows related messages together in conversations</li>
+      <li>Fast, full text and keyword search</li>
+      <li>Full-featured HTML and plain text message composer</li>
+      <li>Desktop notification of new mail</li>
+      <li>Compatible with GMail, Yahoo! Mail, Outlook.com and other IMAP servers</li>
+    </ul>
+  </description>
+
+  <url type="homepage">https://wiki.gnome.org/Apps/Geary</url>
+  <url type="help">https://wiki.gnome.org/Apps/Geary/Documentation</url>
+  <url type="faq">https://wiki.gnome.org/Apps/Geary/FAQ</url>
+  <url type="bugtracker">https://wiki.gnome.org/Apps/Geary/ReportingABug</url>
+  <url type="translate">https://wiki.gnome.org/Apps/Geary/Translating</url>
+  <url type="donation">https://www.gnome.org/friends/</url>
+  
+  <screenshots>
+    <screenshot>
+      <!-- Translators: A screenshot description. -->
+      <caption>Geary displaying a conversation</caption>
+      <image type="default" width="1200" height="675">https://wiki.gnome.org/Apps/Geary?action=AttachFile&amp;do=get&amp;target=geary-3-32-main-window.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source" width="642" height="361">https://wiki.gnome.org/Apps/Geary?action=AttachFile&amp;do=get&amp;target=geary-3-32-avatars.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source" width="875" height="492">https://wiki.gnome.org/Apps/Geary?action=AttachFile&amp;do=get&amp;target=geary-3-32-search.png</image>
+    </screenshot>
+    <screenshot>
+      <!-- Translators: A screenshot description. -->
+      <caption>Geary showing the rich text composer</caption>
+      <image type="source" width="913" height="513">https://wiki.gnome.org/Apps/Geary?action=AttachFile&amp;do=get&amp;target=geary-3-32-composer.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source" width="635" height="357">https://wiki.gnome.org/Apps/Geary?action=AttachFile&amp;do=get&amp;target=geary-3-32-add-account.png</image>
+    </screenshot>
+  </screenshots>
+
+  <project_group>GNOME</project_group>
+
+  <kudos>
+    <kudo>HiDpiIcon</kudo>
+    <kudo>HighContrast</kudo>
+    <kudo>ModernToolkit</kudo>
+    <kudo>Notifications</kudo>
+    <kudo>UserDocs</kudo>
+  </kudos>
+
+  <provides>
+    <!--
+        See https://gitlab.gnome.org/GNOME/geary/merge_requests/203
+        for why the appstream id uses the desktop file name as an id
+        and the proper app id is listed here here, instead of the
+        other way around.
+    -->
+    <id>@appid@</id>
+  </provides>
+
+  <launchable type="desktop-id">@appid@.desktop</launchable>
+
+  <translation type="gettext">geary</translation>
+
+  <releases>
+    <release version="3.36" date="">
+      <description>
+        <p>Enhancements included in this release:</p>
+        <ul>
+          <li>Your enhancement here</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.34" date="2019-09-21">
+      <description>
+        <p>Enhancements included in this release:</p>
+        <ul>
+          <li>Improved desktop contact integration</li>
+          <li>Added support for TNEF attachments</li>
+          <li>Added Inspector window for real-time debugging</li>
+          <li>Updated the user manual</li>
+          <li>Improved server compatibility</li>
+          <li>Numerous bug fixes and user interface improvements</li>
+          <li>Numerous user interface translation updates</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.32" date="2019-08-04">
+      <description>
+        <p>Enhancements included in this release:</p>
+        <ul>
+          <li>Application menu moved to the main window</li>
+          <li>Desktop contacts are used for sender images</li>
+          <li>Unknown contacts are given personalised initials and colour</li>
+          <li>Updated application icons</li>
+          <li>Improved server compatibility</li>
+          <li>Custom email CSS now applied to Composer view</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.13" date="2019-02-17">
+      <description>
+        <p>Enhancements included in this release:</p>
+        <ul>
+          <li>Unread email count is now updated correctly</li>
+          <li>Conversations load faster, smoother with better feedback</li>
+          <li>Support for email accounts added via GNOME Online Accounts</li>
+          <li>Improved account creation and management user interface</li>
+          <li>Email flagged as deleted but not removed by other apps now hidden</li>
+          <li>Individual messages in a conversation can be deleted</li>
+          <li>Internal links in HTML email now work</li>
+          <li>Supported ordered and unordered lists in the composer</li>
+          <li>Rich text pasting improvements in the composer</li>
+          <li>Plain text versions of rich text mail includes formatting</li>
+          <li>Detached composers now remember their last used size</li>
+          <li>Better reporting when a login, security or other problem occurs</li>
+          <li>Reduced background synchronisation CPU use</li>
+          <li>Improved handling when going online and offline</li>
+          <li>Show an in-application notification when email has been sent</li>
+          <li>Flag possibly spoofed email addresses</li>
+          <li>Improve privacy when sending email using an alias</li>
+          <li>Subject, sender and date are being shown when printed again</li>
+          <li>Server compatibility improvements</li>
+          <li>Build, testing and other infrastructure improvements</li>
+          <li>Numerous bug fixes and minor user interface improvements</li>
+          <li>Numerous user interface translation updates</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.12" date="2017-10-02">
+      <description>
+        <p>Enhancements included in this release:</p>
+        <ul>
+          <li>Insert images inline when composing rich text messages</li>
+          <li>Improved interface for inserting links in rich text messages</li>
+          <li>Choose multiple spell-checker languages when composing messages</li>
+          <li>Support message archiving for Yahoo! Mail and Outlook.com</li>
+          <li>Improved interface when displaying conversations</li>
+          <li>Improved interface when moving and labelling conversations</li>
+          <li>Improved support for right-to-left languages</li>
+          <li>Automatically unfold starred messages in a conversation</li>
+          <li>Support saving remote inline images</li>
+          <li>Improved keyboard navigation for conversations</li>
+          <li>Added in-application keyboard shortcut help (Ctrl + ?)</li>
+          <li>Support for distribution via Flatpak</li>
+          <li>Improved security when displaying messages</li>
+          <li>Numerous bug fixes and minor user interface improvements</li>
+          <li>Numerous user interface translation updates</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">none</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="violence-bloodshed">none</content_attribute>
+    <content_attribute id="violence-sexual">none</content_attribute>
+    <content_attribute id="violence-desecration">none</content_attribute>
+    <content_attribute id="violence-slavery">none</content_attribute>
+    <content_attribute id="violence-worship">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="drugs-narcotics">none</content_attribute>
+    <content_attribute id="drugs-tobacco">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="sex-homosexuality">none</content_attribute>
+    <content_attribute id="sex-prostitution">none</content_attribute>
+    <content_attribute id="sex-adultery">none</content_attribute>
+    <content_attribute id="sex-appearance">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="language-humor">none</content_attribute>
+    <content_attribute id="language-discrimination">none</content_attribute>
+    <content_attribute id="social-chat">intense</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">intense</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+  </content_rating>
+</component>
